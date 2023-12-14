@@ -1,0 +1,16 @@
+USE filmy;
+DROP TABLE zalozono_w;
+DROP TABLE krytycy_filmowi;
+DROP TABLE wyprodukowano_film_w;
+DROP TABLE obejrzane_tytuly;
+DROP TABLE oceny;
+DROP TABLE narodowosc;
+DROP TABLE funkcje_w_filmie;
+DROP TABLE posiadane_certyfikaty_wiekowe;
+DROP TABLE certyfikaty_wiekowe;
+DROP TABLE nalezace_gatunki;
+DROP TABLE gatunki;
+DROP TABLE pracownicy_filmowi;
+DROP TABLE uzytkownicy_platformy;
+DROP TABLE kraje;
+DROP TABLE filmy;
