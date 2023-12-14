@@ -34,7 +34,7 @@ INSERT INTO filmy (tytul, oryginalny_tytul, premiera, czas_trwania, okladka, zwi
 ('Seksmisja', 'Seksmisja', '1984-05-14', 6960, 'https://fwcdn.pl/fpo/11/63/1163/7737422.6.jpg', NULL),
 ('American Beauty', 'American Beauty', '1999-09-08', 7320, 'https://fwcdn.pl/fpo/08/36/836/8021892.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/American+Beauty+Zwiastun+nr+1-12094'),
 ('Dzień świra', 'Dzień świra', '2002-06-07', 5580, 'https://fwcdn.pl/fpo/14/13/31413/6900422.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Dzie%C5%84+%C5%9Bwira+Zwiastun+nr+1-11911'),
-('Lot nad kukułczym gniazdem', 'One Flew Over the Cuckoos Nest', '1925-09-21', 7980, 'https://fwcdn.pl/fpo/10/19/1019/6974780.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Lot+nad+kuku%C5%82czym+gniazdem+Zwiastun+nr+1-15694'),
+('Lot nad kukułczym gniazdem', 'One Flew Over the Cuckoos Nest', '2019-01-24', 7980, 'https://fwcdn.pl/fpo/10/19/1019/6974780.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Lot+nad+kuku%C5%82czym+gniazdem+Zwiastun+nr+1-15694'),
 ('Ciekawy przypadek Benjamina Buttona', 'The Curious Case of Benjamin Button', '2008-12-10', 9960, 'https://fwcdn.pl/fpo/33/83/123383/7232883.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Ciekawy+przypadek+Benjamina+Buttona+Zwiastun+nr+3-21017'),
 ('Efekt motyla', 'The Butterfly Effect', '2004-01-17', 6780, 'https://fwcdn.pl/fpo/02/52/40252/7535972.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Efekt+motyla+Zwiastun+nr+1-13273'),
 ('Gran Torino', 'Gran Torino', '2008-12-09', 6960, 'https://fwcdn.pl/fpo/65/80/476580/7239651.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Gran+Torino+Zwiastun+nr+1+polski-21031'),
@@ -53,3014 +53,3130 @@ INSERT INTO filmy (tytul, oryginalny_tytul, premiera, czas_trwania, okladka, zwi
 ('Jestem legendą', 'I Am Legend', '2007-12-05', 6060, 'https://fwcdn.pl/fpo/78/01/217801/7182225.6.jpg', 'https://www.filmweb.pl/video/Zwiastun/Jestem+legend%C4%85+Zwiastun+nr+3-19589');
 
 INSERT INTO uzytkownicy_platformy (email, nick, imie, nazwisko, awatar, data_urodzenia, haslo, zweryfikowano_email) VALUES
-('wolochkacper@example.com', 'wiakanastazja', 'Gaja', 'Twardosz', 'https://placekitten.com/202/202', '1975-12-02', 'efe8df74e045474ee4274433f10e43676648e617883843a7c7ffd92ac23ee362', '0'),
-('kamykolgierd@example.org', 'anitabakalarczyk', 'Dominik', 'Strzała', 'https://placekitten.com/389/218', '1942-03-03', '263b859019ce2dab2b4e9a9e1103550973dfc9c25879bfc37e07301a6ae3d25b', '0'),
-('pudelekmalwina@example.com', 'kobrynblanka', 'Kamil', 'Minkiewicz', 'https://placekitten.com/182/93', '1947-07-19', '51bd602ba3ed8b1946b508a3ea6cfc92a7196486968ddbb931b4b1a08b882468', '0'),
-('milosz08@example.com', 'marcelchuchla', 'Mieszko', 'Oleksiuk', 'https://placekitten.com/307/722', '2017-04-20', 'd9b29a63deb4999dbba9cda0caa39226def71daa46d406d86a690c231a50f8ce', '1'),
-('kkrokosz@example.org', 'filip80', 'Aurelia', 'Świerszcz', 'https://placekitten.com/838/448', '1979-04-30', '8c68d9830c122d96d4471e885f5538f2ea0ce44a33e78b6e3fe1a8f39c438852', '0'),
-('kamilakomperda@example.org', 'chwedorukartur', 'Adrianna', 'Zaranek', 'https://dummyimage.com/354x967', '1936-11-14', '6086949d4251fa39beb6ac53555c3f401c38a82a615dbf557a892b03aeb5389b', '1'),
-('paweljuras@example.com', 'mkobza', 'Marek', 'Lempart', 'https://placekitten.com/188/729', '2016-04-08', '00644e7f6796103f446cd73e704761344c49f35f0949bd8cdb5e217a1d3446a1', '0'),
-('julita50@example.com', 'foltamonika', 'Artur', 'Prokopczyk', 'https://placekitten.com/385/399', '2009-01-20', '7d7cf90c4a1f30efaf309bda218e25faac663278f6a62111b8eab261f44c12a6', '1'),
-('durczoktola@example.org', 'idrwiega', 'Ewelina', 'Kościuszko', 'https://dummyimage.com/421x448', '1916-06-22', 'd46af2658861348abeed02b4f2d724c3a09a775eea154b91c5ba437c91723098', '1'),
-('nieradzikmikolaj@example.com', 'robert33', 'Kajetan', 'Wawszczyk', 'https://placekitten.com/4/314', '2000-02-17', '7ed98f99c2198ae17f736d0966f7bf992bfda537c7ec7f87df9558cda8d9c2ef', '0'),
-('ggaudyn@example.org', 'epabis', 'Oskar', 'Ziarno', 'https://placekitten.com/696/976', '1934-10-03', 'c62bfe1acd49525df7435995f94b81444af20ad7e672e85d186b1c7d489856a4', '1'),
-('dirzyk@example.com', 'patryk89', 'Krystyna', 'Malcher', 'https://picsum.photos/484/853', '1968-11-15', 'ef9ce7a8402c2472b487f4dbfc0f7e486309e997229050c529317dc410148fc8', '0'),
-('dominiknoculak@example.org', 'wojciech86', 'Filip', 'Ślebioda', 'https://dummyimage.com/40x441', '1959-04-03', '97f042fa68d273326ad3175afa02c8f29524e506011f8568298280bd5effd367', '0'),
-('tobiasz41@example.org', 'kotlarekstefan', 'Gustaw', 'Lewicz', 'https://placekitten.com/562/170', '1940-05-17', '38a7d0d7336d251cb68a0a02c0fd7632daadf2a71cffe5e01947e55cc6272c7a', '1'),
-('fbanek@example.net', 'freitagmariusz', 'Krystian', 'Maciejewicz', 'https://dummyimage.com/893x858', '1952-06-14', '00293082bc536a5c2d4c13e781c071a86fd2050b0d3c4d34b1f4346994277cf2', '0'),
-('lrogula@example.org', 'fidleralbert', 'Ida', 'Kulon', 'https://picsum.photos/123/236', '2009-12-18', '9cb2df2bb35685bbf73c55fcc5ee6c03bc5bbe34fa9ab71b1f8f446dd0398d6f', '1'),
-('aleks51@example.net', 'oandrys', 'Agnieszka', 'Sado', 'https://placekitten.com/634/153', '2015-12-06', '82dcacf4a5e8fe3e480f15ee0e2ab8cbdd3c18299899672f46d4f7728df8cc0c', '0'),
-('gszumny@example.com', 'kamilabytner', 'Gaja', 'Hornik', 'https://dummyimage.com/505x948', '2005-10-21', 'a81de7e9779cc16d0bbf1d8d33aee8a7ef3daca9fc73205145695542e3a7c039', '0'),
-('dorobamelania@example.net', 'gmelcer', 'Wojciech', 'Helman', 'https://picsum.photos/892/713', '1911-08-26', '0d8b12f3ddbe4f962dc6f6396ac0d35d429a222cd29800de0ba13b72dba03025', '1'),
-('suszkoanita@example.com', 'qmucka', 'Grzegorz', 'Czupryn', 'https://dummyimage.com/546x344', '1963-09-15', 'eea1569ddab04247db43ae2184cff564d93f5ac7971d88773949438b4aacb8ff', '1'),
-('hajderaleks@example.net', 'dsadlocha', 'Mariusz', 'Tomaszkiewicz', 'https://picsum.photos/323/384', '1944-11-26', '12c4cc31aa92e7a939cec95aa08e4a50c65c8799e09cea0910de71ac06dc9c99', '1'),
-('bartek62@example.net', 'konrad41', 'Kacper', 'Słoka', 'https://picsum.photos/43/643', '2003-01-17', 'a0eb54c9b6068708239109532850eb56c585c0e503f00897fd2ea2f9d4841081', '0'),
-('hrebis@example.org', 'kusykgaja', 'Iwo', 'Trybała', 'https://placekitten.com/266/962', '1987-05-01', '373b6f66b4695fdbaf25e7cd00d5ca6ebf277dd66a9f44ef7d114ab443dc7a46', '0'),
-('xmecik@example.org', 'chlebekapolonia', 'Nataniel', 'Borysiak', 'https://picsum.photos/358/698', '1959-05-05', '33f8b09aa20b148242a8f4a9bac65197632d93d95bfd2025b541f3334fe89c08', '0'),
-('juliannapuc@example.org', 'andrzej07', 'Angelika', 'Nabiałek', 'https://dummyimage.com/688x455', '1960-02-05', 'cad747ff5c5393bb99a50b8d7f7897a495e2a820a6e35a896a1fc36501d537df', '0'),
-('alandaniec@example.org', 'nicole73', 'Tymoteusz', 'Puc', 'https://dummyimage.com/614x194', '1954-11-22', '596cb03ccd0891416abf9f3c3edfab67ea0f8e892e11c5b14e91fc701199adf9', '0'),
-('sebastiankups@example.org', 'wojciechfutyma', 'Patryk', 'Karol', 'https://placekitten.com/137/602', '1985-03-25', 'e966c089008d68628b2b8afd6311b3dc092f35c347000e8d63f8fe1b24f0eaa6', '1'),
-('palegaantoni@example.org', 'mielochszymon', 'Maksymilian', 'Kajdas', 'https://placekitten.com/398/251', '1996-07-25', 'c5d25a0eeceac2518d530ceed8d74d66e8d6c5fef4a1897757c23c58fd2594d8', '1'),
-('ssterna@example.net', 'ksaweryderek', 'Mateusz', 'Nowotny', 'https://placekitten.com/810/1021', '1960-05-13', 'bde0139bab48ae1698ecc9b77371091c56ab703c17a9b65e1985881919e2e730', '1');
+('kornel89@example.net', 'robertmajnusz', 'Krystyna', 'Łukasz', 'https://placekitten.com/373/392', '1976-10-05', 'a0628dd93a2f4104da23e53f6ec36c0ff11d2474c87a31decde33d1b9c7582f0', '1'),
+('idziduch@example.net', 'khanas', 'Wojciech', 'Matejczuk', 'https://dummyimage.com/365x527', '1989-07-09', 'f055fa58f6db3f0452c3520f93e8516fe1e3b663446e5758bb2fc988282db588', '1'),
+('jpreuss@example.net', 'hdurys', 'Adam', 'Elwart', 'https://dummyimage.com/335x119', '1920-12-05', 'cf62d6b94e575d9223a34d2344a849d10e8dd7691fd3722098aae6d2c6a5fe25', '1'),
+('prokurateryk@example.org', 'ulrychjanina', 'Ernest', 'Rudolf', 'https://picsum.photos/379/1012', '1927-11-26', '8ba44a178131b30ea6b90247de093536e3568fccc3010b872f970c1200d0bd1f', '1'),
+('isibiga@example.org', 'sandraszramka', 'Daniel', 'Roszkiewicz', 'https://placekitten.com/589/431', '1979-02-09', 'e1e298ff9af2e4951659173cdc22d86d2962195fee3cb188c07e40be558486c5', '0'),
+('alex16@example.net', 'ryszarddrobny', 'Mieszko', 'Cybul', 'https://dummyimage.com/962x189', '1928-09-29', '8b1ad4dba5064baf307a7f08b35c6b0966e0192e8e33aa6c65e24cc01d0e45f8', '0'),
+('zbogusiewicz@example.org', 'krystynastrama', 'Oskar', 'Hawrylak', 'https://placekitten.com/300/520', '1941-09-02', '7b492b7a68a6005cae8d30e6cc95112545631d196c5ef4f3a77fcc9e59e33705', '0'),
+('ckapinos@example.com', 'jachimczykaniela', 'Jędrzej', 'Guściora', 'https://dummyimage.com/340x782', '2015-02-23', '3e421c6a5d240f19432adc31574101ec66715cb1b691adf450588f0c76bef28e', '1'),
+('oliwierborak@example.com', 'anielabregula', 'Radosław', 'Muskała', 'https://picsum.photos/788/441', '1976-08-10', '620753d91623f0b5c5bafa040dc28e930f2f6a2e9e40c5cb74c4dcb46ca29ac8', '0'),
+('kostorzangelika@example.net', 'sosnowkaada', 'Inga', 'Wac', 'https://picsum.photos/49/317', '1958-04-12', '6b792f599c13010937f275359b89a7fc650cbd54915b61189cad310b6233e7f1', '0'),
+('jedrzejsporek@example.com', 'gorkiewicztobiasz', 'Lidia', 'Szumiło', 'https://placekitten.com/235/663', '1966-10-18', '9d6a65ded82606330c8ad2df3b7e35a77cfc70f6169b0ffd3d46572ce713ef18', '1'),
+('kornel12@example.org', 'kamiljanasz', 'Marek', 'Wojnicz', 'https://picsum.photos/114/971', '1973-12-27', '5c5efdc0103ca4885ca47db9b9dc36414792ae6bd4f0a72cf317f28f71644eb0', '1'),
+('buczmakornel@example.net', 'hwolanczyk', 'Krzysztof', 'Wołk', 'https://dummyimage.com/883x62', '1924-09-05', '69567b1052eeddd0b7f081a419e6a257505c29a911cb10957ba3b353e898dfbb', '0'),
+('machonaniela@example.com', 'cosipowicz', 'Oskar', 'Heba', 'https://picsum.photos/953/585', '2009-01-19', '7f66ab6c4f6bf68c4bafa2843cb0661e7ef30e41c3c4ae16a17664d1c1caf1b8', '0'),
+('ikolaczek@example.org', 'patrykmatuszyk', 'Mikołaj', 'Stelmasiak', 'https://placekitten.com/416/998', '1951-03-22', 'a4017de58a2d0a405e2f7b834c46c0038f96d2ef4e3d38ebd6f31d30235aad35', '0'),
+('dorotacalik@example.com', 'ckawiak', 'Inga', 'Wziątek', 'https://placekitten.com/692/255', '1915-10-28', '6a25efdd6c48e769857b6a87acdbcaec62965a66099b4fe963bcdce6846f736d', '0'),
+('krystiansiwczak@example.net', 'jedrzejminta', 'Bruno', 'Parafiniuk', 'https://picsum.photos/704/161', '1958-11-19', '52187e11efce36f6acefad0c044e2a4ce6589760d9019ddf57fc4f28995ba0d3', '0'),
+('engelangelika@example.net', 'klosowiczkazimierz', 'Klara', 'Kolman', 'https://picsum.photos/663/222', '1923-12-27', '0060971f4742ac58cca6604a731053dd3a1c5ce450d6971da1a202e7d9b49cb9', '0'),
+('anitaimiolczyk@example.com', 'ejonak', 'Anita', 'Ruchała', 'https://placekitten.com/774/5', '1921-03-11', '4e380d81265105ac155430e39a35d7c90361a4d2e549199ccbe1e57b06761e20', '0'),
+('egwara@example.com', 'eliza93', 'Dorota', 'Feluś', 'https://placekitten.com/950/459', '2023-04-08', '20d1cd8ca65cf633dc707c1333034a095787100e8d86a6ddc939bfd3fd5cedc5', '1'),
+('vtowarek@example.org', 'ewa27', 'Agnieszka', 'Ciapa', 'https://picsum.photos/872/331', '1921-03-30', '092fecb6317e4dcce63fcd0089e4696060f5119bd4674532871dfc7cad7eab84', '0'),
+('tomalikrozalia@example.org', 'kaja33', 'Lidia', 'Forysiak', 'https://dummyimage.com/516x596', '1941-06-29', '19f014da1032b7ad1b26ff16e6961cd386df12c463e06f44755670c722a86ea1', '0'),
+('sebastianrej@example.org', 'islowiak', 'Sonia', 'Czochara', 'https://dummyimage.com/551x841', '1986-11-28', 'de89afff272408f1272c904178ca43a344842d924ac1b7a439c06727409b8253', '0'),
+('gieronpawel@example.com', 'njewula', 'Anita', 'Kolonko', 'https://dummyimage.com/498x528', '1960-12-18', 'c70a57bbf68c4e4f05ccfd1804a0e770a4f5e05cb0478210fc7d15bc6d88978c', '1'),
+('gabriel36@example.org', 'gordonrobert', 'Inga', 'Mrotek', 'https://placekitten.com/871/651', '2019-01-17', 'ec1f4bbf0e32ea390d367c917554dc475d061b03f318a0e0488febad0f595aab', '0'),
+('konstantyfolga@example.net', 'janowiakangelika', 'Gabriel', 'Mainka', 'https://placekitten.com/712/629', '1928-10-27', '3d7c5ebfadce5d3d9a3edb1a8fd576a646317be2dcf643418fcdadb8ef94233a', '0'),
+('leonardjarmuzek@example.com', 'sandrawieja', 'Maks', 'Linka', 'https://picsum.photos/282/788', '2003-09-02', 'bde01564a58b256ea5f7d22ea3d1da3d28cc20a71426c1b591a82688f1cc963e', '1'),
+('robertduzy@example.org', 'lesiewiczadrian', 'Olgierd', 'Wołkowicz', 'https://picsum.photos/594/57', '1961-12-16', '72dee9bf881f482589babc096a54fbe6d069d38d050d7444680e8838cf595dc8', '0'),
+('marikabugla@example.org', 'tymoteuszdorynek', 'Julita', 'Roch', 'https://picsum.photos/83/124', '1995-08-08', '1d529aa1eadd54c1e459f7603994d096539180518e1966d53d6ff99d65ee76ef', '0');
 
 INSERT INTO kraje (nazwa) VALUES
 ('Nowa Zelandia'),
-('Australia'),
-('Niemcy'),
 ('USA'),
-('Wielka Brytania'),
-('Francja'),
-('Kanada'),
 ('Polska'),
+('Australia'),
+('Wielka Brytania'),
+('Kanada'),
 ('Maroko'),
+('Niemcy'),
+('Francja'),
 ('Malta');
 
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Francja' FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Australia' FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Malta' FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Maroko' FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Niemcy' FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Francja' FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Francja' FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Polska' FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Niemcy' FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Nowa Zelandia' FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Niemcy' FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Niemcy' FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Francja' FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Polska' FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Polska' FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Kanada' FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Niemcy' FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Malta' FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Francja' FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Django';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Truman Show';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Niemcy' FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Wielka Brytania' FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'Nowa Zelandia' FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, 'USA' FROM filmy WHERE tytul = 'Jestem legendą';
+INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) VALUES 
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'Francja'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'Australia'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'Malta'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'Maroko'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'Niemcy'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Francja'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Francja'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Polska'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Niemcy'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'Nowa Zelandia'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'Niemcy'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'Niemcy'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'Francja'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'Polska'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Polska'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'Kanada'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'Niemcy'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'Malta'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'Francja'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'Niemcy'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'Wielka Brytania'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'Nowa Zelandia'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'USA'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'USA');
 
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hrebis@example.org', 7, 'Sędzia paliwo znaczny rana przypominać liść igła walczyć. Twarz obowiązek kolacja.Minuskuła stopień bez organ taki kraina środek poprzez. Szukać widoczny tarcza wreszcie zamieszkiwać dolina.' FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'pudelekmalwina@example.com', 5, NULL FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 5, 'Zdanie próba podłoga wiosna. Port ziemski mało morze biały. Nóż siódmy spotkać kwestia wycieczka on dolny.' FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'lrogula@example.org', 4, 'Wysyłać bardzo rower. Jechać jesień wyścig dodatek miara blisko. Kraj niedźwiedź dno córka łódź intensywny.Kolejny kosztować kawa uciec użyć. Japonia cecha ciało republika oś.' FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'paweljuras@example.com', 9, 'Dwudziesty samochód majuskuła martwy tytoń włożyć poruszać się koncert. Szczęśliwy gorączka wyścig św. święto terytorium. Gruby obóz dziś.' FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 6, NULL FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kkrokosz@example.org', 2, NULL FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'xmecik@example.org', 4, 'Struktura zajmować zjeść organizacja daleko dolny zdolność. Styczeń religijny trudny uważać rok instytucja.' FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'durczoktola@example.org', 7, 'Odważny ludzki kolejny pies opieka.Blisko mąka także praca czas. Tu pytanie warzywo zmęczony tytuł amharski około. Zakończyć gdzieś walka dolina mleko powód.' FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'pudelekmalwina@example.com', 1, 'Połączenie liść specjalista czerwony. Kalendarz urządzenie przyjmować czwarty żaba stały 4. Krótki odcinek wiatr kara ciecz przyjemny.' FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 2, 'Las nauka gleba. Otwór napisać prawda prawda powolny zespół telefon.Chory pierwiastek poeta jako stacja. Bliski nauczycielka ruch kij temu gorączka złodziej.' FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamykolgierd@example.org', 9, 'Narkotyk rosyjski ksiądz głupota ty. Wielkość użyć żaba sportowy podnosić duży inny.Lęk ozdobny bogaty. Lekarz instytucja to powietrze wykorzystywać również.' FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 8, NULL FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 3, 'Silny tradycja międzynarodowy numer wywoływać twarz psychiczny. Wszystkie rysunek zachód zainteresowanie. Struktura obywatelka powoli owca długość ozdoba sierpień.' FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'tobiasz41@example.org', 3, NULL FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'nieradzikmikolaj@example.com', 10, NULL FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 9, 'Własny okrągły przeciwko wielkość przerwa wziąć.Metalowy wreszcie samiec początek część majuskuła ślad niszczyć.' FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'lrogula@example.org', 6, NULL FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'julita50@example.com', 2, NULL FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dirzyk@example.com', 6, 'Piętnaście komórka polityka zajmować uderzenie. Choć sobota głupota położony. Jego powinien uchodzić wyrok. Zboże oddział piłka nożna centrum dział używać także kieszeń.' FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ggaudyn@example.org', 4, 'Samica na zewnątrz śmiać się lub poruszać się częściowo. Wilk szary przy pochodzenie noga doprowadzić jedzenie. Się porządek litera czysty plaża.' FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 2, 'Zapalenie jakiś temat powolny. Zimno wytwarzać panować przeszkoda temperatura śmierć Rumunia. Sztuka położenie ale tradycyjny Kościół prawdziwy chodzić nie-.' FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 7, '90 powoli policjant. Ono spadek otrzymywać rzucić chłopiec kierować.Powszechny badać angielski małpa wąski. Rosja życie akt.Kolejny św. włoski dłoń brat rolnik pole. Broń urządzenie treść zacząć w.' FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'wolochkacper@example.com', 10, NULL FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'tobiasz41@example.org', 6, 'Zatrzymać święty dziki doprowadzić główny rosnąć. Zabawa sobie japoński prawy zwyczaj gospodarka bieg.Chwila ubogi pokonać krótki ogół. Klient skala cześć 20. Wąż ssak lata 40.' FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ssterna@example.net', 6, 'Być wy pod ten żołądek właściwy 20. Ciecz według obserwować srebro współczesny. Ramię zakres wola działalność rodzinny rada brązowy. Stracić stopień port słyszeć pióro.' FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ggaudyn@example.org', 1, 'Gdyby św. o. Nagle opowiadać tradycyjny wrogi palec 60.Jakość strata wyrok kapelusz syn spaść. Owca pragnąć piłka nożna następny igła.' FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'bartek62@example.net', 5, NULL FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'gszumny@example.com', 4, 'Lek szkolny Żyd trwały założyć. Ryba teraz bogaty gołąb handlowy wobec kolejowy. Panować lek symbol obecny.' FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'xmecik@example.org', 5, 'Wisieć dać się płakać zawartość państwowy mowa związek region. Sam być go. Odpowiedź poważny plecy 7 park szef.Uprawiać lek wspólnota udać się dlaczego pomóc. Rola grzyb znak wiara.' FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'aleks51@example.net', 5, NULL FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamykolgierd@example.org', 8, 'Kuchnia godzina aktor całkowity wspaniały zły południe. Dostać starożytny przeciwko mieszkaniec filozofia ciotka.' FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'alandaniec@example.org', 6, NULL FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'bartek62@example.net', 10, 'Rodowity ulegać piosenka produkować ludowy koszula cukier. Dziać Się Litwa trzeci pozostawać dużo tydzień.Opisać kurs orzeł morski.' FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'sebastiankups@example.org', 4, 'Wzrok przeciw rada rzecz. Ile nowy chrześcijański podczas mocny. Siła potrzeba zamiar wśród łódź wynosić arabski.Lekarz uśmiech urodzić śpiewać.' FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'fbanek@example.net', 1, NULL FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'bartek62@example.net', 5, 'Korzystać zawartość narząd jako bar zawsze więcej. Organizacja córka przyjemny ramię bank naczynie.Żeby spadek proszę podział miłość różnica.' FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'nieradzikmikolaj@example.com', 2, 'Pozycja matematyka małpa katastrofa. Rodzaj odkryć zwycięstwo np..Rosnąć rzeczywistość kłopot broda kształt.' FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'gszumny@example.com', 5, 'Kiedyś Europa pokój ciąża sto region sądowy. Kąt filozofia dotyczyć administracyjny wtorek.Królowa iść but krew smak park Afryka. Życie Morze Śródziemne wydawać się brudny społeczny obraz ból.' FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 9, 'Płeć stworzyć myśl oddech. Dodatek grupa ból dym ziemia gospodarczy. Narząd wczesny łódź dać się napój.' FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamykolgierd@example.org', 3, NULL FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'nieradzikmikolaj@example.com', 9, 'Sobą połączenie bohater stawać się złożyć. Niektóry miesiąc dać się mi.' FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 2, NULL FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ssterna@example.net', 3, 'Składnik mapa domowy kochać powstać oś wojna.Urodzić Się drzwi posiłek trzymać dziewczyna wąski. Utwór stosować polegać wioska poziom. Składnik wzrok zysk. Państwo majuskuła właściwość za.' FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'fbanek@example.net', 8, NULL FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamilakomperda@example.org', 5, NULL FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'alandaniec@example.org', 9, 'Terytorium aż ciepły znów sprawiać drewno student górny. Tamten pierwiastek chemiczny posiadać godzina wyrok. Nasienie by dzień wybrać kościół.Stosować miły narkotyk. Prostytutka robota linia.' FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 2, NULL FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'bartek62@example.net', 8, 'Brzydki pomoc zwykły umowa mąż cebula Litwa. Treść jeden większy urodzenie dalej reakcja aktywny dzięki.' FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ggaudyn@example.org', 6, NULL FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dominiknoculak@example.org', 10, NULL FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 2, 'Bogini delikatny niebezpieczeństwo język dłoń dusza dym. Podstawowy nagle moment.Drużyna czysty Rzym nazywać kuchnia pan. Żołądek krew scena kieszeń stacja.' FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 8, 'Wielki wstyd but sukienka forma gmina umieścić. Napisać strata wrócić.Dar proces sos temat koło ani zakładać. Potrzebny odzież udział słodki koniec.' FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'milosz08@example.com', 7, NULL FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 7, NULL FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 8, 'Kontrola przyrząd wczoraj miara miecz. Dać Się rzadko narodowy. Długość trzeba korzystać jedyny wśród użytkownik.' FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kkrokosz@example.org', 7, NULL FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dirzyk@example.com', 2, 'Wschód stanowisko król z powodu kartka płynąć mistrz. Odzież norma wspólnota czynność numer mebel lubić. Poza żeński jasny robić z krwi i kości rosyjski następować.' FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamykolgierd@example.org', 10, 'Pewien polityka rzeka wysoko. Zimno myśleć płynąć miód okazja dany dolina. Zatoka grecki szczęście choć powszechny jakby.Trwały byk złodziej przechodzić jechać wróg nasz. Wiek między sok łyżka.' FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ggaudyn@example.org', 7, NULL FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 8, NULL FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'lrogula@example.org', 10, 'Ser Chiny słowacki przynosić rodzina podatek składać. Deska trzymać wyjść międzynarodowy koniec. Ty lubić trwać wiatr. Mieć Na Imię bank służba pragnąć.' FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'durczoktola@example.org', 2, NULL FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'tobiasz41@example.org', 4, 'Bydło w postaci słaby następny. Szwedzki uderzać wyrób miasto klasztor może numer.Kot armia rodzaj kierowca leżeć popularny. Przepis grać nigdy Afganistan lubić ludność.' FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamilakomperda@example.org', 8, NULL FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'gszumny@example.com', 4, 'Morski organizm lód umieścić zostać. Kilka wybór słyszeć 3 pamiętać prąd. Narodowy napisać danie miękki wszystko.' FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'alandaniec@example.org', 4, 'Rzym rzadki swój - wszystko stowarzyszenie. Przedstawiciel późno świątynia palec piwo składnik.Trzeba mieszkanie niebieski przebywać sklep. But pacjent Belgia wiatr USA doświadczenie zima.' FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'juliannapuc@example.org', 2, 'Otoczenie klasztor rolnik pojedynczy zostać typowy. Wynosić bydło gorący żołnierz gmina postępowanie. Przestać zakładać samolot pojedynczy późny w celu.' FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 4, NULL FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'durczoktola@example.org', 6, 'Królestwo Turcja wszelki lotniczy osiemdziesiąt tajemnica wreszcie.Koniec student wiatr medycyna zawód poeta. Wyrok alfabet owoc własny chmura szczególny trzeci ukraiński.' FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dirzyk@example.com', 7, 'Nóż kilka dom papież. Pies pozwalać niechęć szlachetny widok oraz.' FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'bartek62@example.net', 8, 'Kult oko wąski kilka most. Postępowanie decyzja właśnie pięćdziesiąt. Papier pojazd zegar lotnisko składać się klucz październik.' FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 2, NULL FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hrebis@example.org', 10, 'Traktować świnia podać reakcja ubogi rzeka. Metalowy miły ani relacja. Nóż brać cmentarz chleb ojciec ustawa wada.Działalność srebrny element.' FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'gszumny@example.com', 7, NULL FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 4, 'Niebezpieczny odważny jeździć głośny. Pogoda liczba atomowa produkt.Dziecko 30 zupa. Uzyskać dość papier szpital zgromadzenie oddech.' FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'nieradzikmikolaj@example.com', 6, 'Trochę uniwersytet Litwa płaski herbata pani Litwa. Dać dzisiejszy minuta osiemdziesiąt wrogi prawy silnik klasztor.Cień krzesło jesień wybory. Szlachetny 70 gdzie płyn.' FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kkrokosz@example.org', 2, NULL FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'durczoktola@example.org', 2, NULL FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 9, 'Ssak prawo element interes słoń. Malować studia przypominać biedny Unia Europejska. Pięćdziesiąt okoliczność ocena i październik zły rozumieć.' FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 1, NULL FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'juliannapuc@example.org', 1, 'Wieczorem handlowy słyszeć dzieło.Który w kształcie seksualny Pan kolej sprawiać nastrój.' FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kkrokosz@example.org', 2, 'Trzydzieści jej dziwny być jajko zasada Węgry. Herbata nasienie koszula pytanie.50 gra łączyć niż zabawka czekolada. Pożar przechodzić pragnąć maj ono biuro brat.' FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'sebastiankups@example.org', 7, NULL FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 7, NULL FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 3, 'Rok jako czapka anioł zachowywać się bajka zewnętrzny. Państwo piłka ze opisać.Wzrok urodzić się nieprzyjemny chemiczny zwykły muzyka zobaczyć błoto.' FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 2, 'Poniedziałek samochodowy odcień potem władca. Wartość kilka siostra stanowić. Czasem przedstawienie ilość centrum ucho zgadzać się.' FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 5, NULL FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'sebastiankups@example.org', 9, 'Łaciński szybko opowiadać drogi. Niedźwiedź dopływ siedem często drugi cebula wisieć. Moralny smutny wiek krzyż.' FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'juliannapuc@example.org', 8, 'We wszystek wybitny w końcu stosunek umieć interes. Cmentarz igła wystawa ku strach koncert zupa. Studia surowy 30 fakt skład.Zdarzenie wydawać określenie Kościół.' FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dominiknoculak@example.org', 10, 'Maj pomarańczowy pożar dawać swój. Potrzeba uczyć film korzystać. Samiec Grecja bilet książę śmiać się burza przyczyna.' FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'sebastiankups@example.org', 6, 'Obecnie litera wieża osobisty cisza gniazdo pole. Wóz 900 port dyskusja plan tańczyć należy. Widok cisza adres poruszać się przyjmować pozbawić matka uchodzić.' FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 1, 'Wybitny według śnieg akcja odcień. Dzień miód mysz 4 dwudziesty Chiny. Hasło strefa występować lud tutaj.Kartka świat gałąź równy port wesoły. Jezioro minuta styczeń czeski nauczyciel przychodzić.' FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 7, 'Podnosić przechodzić rodzinny butelka zwykle język. Sukces impreza istotny powodować wynik włożyć wino miasto.Rysunek mięsień świecić waluta płyn parlament obcy sąd. Śmiech teraz zupełnie biały.' FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 9, NULL FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 5, NULL FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'lrogula@example.org', 10, NULL FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'julita50@example.com', 6, NULL FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'alandaniec@example.org', 8, NULL FROM filmy WHERE tytul = 'Django';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'sebastiankups@example.org', 6, 'Ptak udać się wyrok symbol ser słowacki uśmiech. Wszelki miód rak centrum trzydzieści przyrząd. Indie okno wysoki.Akcja lista para równy pacjent żywność księżyc.' FROM filmy WHERE tytul = 'Django';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 3, NULL FROM filmy WHERE tytul = 'Django';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ggaudyn@example.org', 8, NULL FROM filmy WHERE tytul = 'Truman Show';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 1, NULL FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'julita50@example.com', 10, 'Czynić internetowy jeździć ciało wiatr powszechny ten sam. Wiadomość widok wpaść słaby wieża odmiana obserwować. Wizyta pożar patrzeć zysk pojemnik płaszcz wolność.' FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'lrogula@example.org', 5, NULL FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'aleks51@example.net', 6, NULL FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kamykolgierd@example.org', 5, 'Odmiana Holandia zazwyczaj sześćdziesiąt. Obrona połączenie składnik lew zwierzę brudny obecnie. Szczególny gazeta sytuacja ośrodek przedsiębiorstwo.' FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'nieradzikmikolaj@example.com', 9, NULL FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 10, 'Technika drewno wspólnota imię międzynarodowy orzeł mieć na imię. Pełen patrzeć podróżować farba długość Grecja.Silnik nie- dzieło składać. Miejsce zapomnieć zbyt ziemniak ciemność mebel półwysep.' FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'aleks51@example.net', 1, 'Koniec wykonać że potrawa opowiadać trzeba butelka ksiądz. Temperatura tu powolny lewy oddać. Plan prasa lata robić czyjś nazywać prawy.Miły prostytutka piłka trzymać podłoga. Ciecz drużyna akcja.' FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 9, NULL FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'julita50@example.com', 9, 'Dyskusja członek okazja usta przerwa. Istotny bohater wykonywanie szef. Obszar mieć na imię otwór środowisko zaburzenie coś trwały.Grać pozbawić piłka on. Budować usuwać gra penis r. mieszkanka.' FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'aleks51@example.net', 9, 'Zarówno wybuch wreszcie ubogi. Zwłaszcza tani związek sukces. Trwały polować spór USA graniczyć Słońce mecz.' FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'suszkoanita@example.com', 8, 'Zgodnie dodatek styczeń średniowieczny przyjechać. Dokładnie chrześcijaństwo zakon pora analiza koszula liść otwierać. Posiadać naród martwy popularny.' FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'palegaantoni@example.org', 8, NULL FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'ggaudyn@example.org', 8, NULL FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'hajderaleks@example.net', 2, 'Pragnąć polski powolny szary rosnąć. Rodzinny przyjaźń przyjmować Austria znaczyć. Zajęcie cesarz ani pomidor.Widok tutaj przed dlatego sześćdziesiąt. Obrona cecha nos zakres krzew śniadanie.' FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dirzyk@example.com', 2, NULL FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'julita50@example.com', 9, NULL FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'alandaniec@example.org', 7, NULL FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'pudelekmalwina@example.com', 2, NULL FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kkrokosz@example.org', 7, 'Lipiec pokarm zabawka przerwa. Seksualny znosić chcieć zaś lina tradycyjny zawartość Australia.Czerwony twój sztuczny śmierć kot. Czytać strata pora zjeść przed.' FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'kkrokosz@example.org', 6, 'Klimat całkowicie interes kolorowy państwo temat. Poruszać prędkość piętro możliwy metoda wpaść sok. Drapieżny majuskuła nawet moneta.' FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'dorobamelania@example.net', 4, 'Lustro produkt cecha rzeczownik użyć. Milion założyć zostać polityka złożyć. Pies 100 obchodzić.' FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, 'alandaniec@example.org', 9, NULL FROM filmy WHERE tytul = 'Jestem legendą';
+INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) VALUES
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'sebastianrej@example.org', 5, 'Większy sól posługiwać się. Sygnał święto postawa zachodni potrafić Turcja pomieszczenie. Istnieć odważny choć mieć na imię słońce pająk rozwiązanie.'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'oliwierborak@example.com', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'dorotacalik@example.com', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'kostorzangelika@example.net', 8, 'Analiza akt Europa pokryć 60. Muzyczny hasło kobieta pamiętać wewnątrz. Śpiewać dziewięćdziesiąt bóg miecz produkować księga.'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'ckapinos@example.com', 8, 'Kwiecień ciemność starożytny zawierać naukowiec urządzenie krzew. Kamień mowa dodać dalej 90 łóżko strefa.'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'machonaniela@example.com', 1, 'Dół kartka cukier odwaga terytorium zasada hałas wodny. My żyć ? odpowiadać uznawać. Kultura wesoły pytać parlament.'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'zbogusiewicz@example.org', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'konstantyfolga@example.net', 10, 'Teatr kolega szyja czekolada stać się nagły teatr. Las rolnik oddać. Muzeum gdzieś łąka Słońce tłum wytwarzać turecki.Aż sieć kolej reakcja porządek. Pojawiać Się włożyć potrzebny.'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'marikabugla@example.org', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'marikabugla@example.org', 5, 'Posiadać liść policjant zamiar spadek żona. Bar znowu biskup elektryczny działanie złapać część świat. Spokojny książka towarzystwo substancja kiedy sześć.'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'alex16@example.net', 7, 'Wieczorem istnieć republika świeży mówić cienki spór ośrodek.'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'gieronpawel@example.com', 1, 'Dwadzieścia znak podczas. Księżyc tył umysł motyl grób część. Żyć pokazywać dach. Latać dziać się zadanie cześć mąka doświadczenie tyle.'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'ckapinos@example.com', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'kostorzangelika@example.net', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'kornel12@example.org', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'buczmakornel@example.net', 6, 'Ząb wartość umożliwiać możliwość. Tradycja grzyb strona obiad udać się.Kawa zewnętrzny luty. Alkoholowy budowa zdobyć uczeń narkotyk gotowy pewny.'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'oliwierborak@example.com', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'zbogusiewicz@example.org', 2, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'anitaimiolczyk@example.com', 8, 'Lustro zająć szef forma. Herbata klasztor pozwalać zakończyć.Odmiana szczęśliwy mgła dawny wspomnienie. Zdjęcie nauczyciel czasem jego.'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'konstantyfolga@example.net', 2, 'Ojczyzna specjalista wszyscy masło. Książka klasztor 60 stary ozdobny.Opisać ptak pan sala wokół kurs. Np. produkt strój czynić doświadczenie. Szyja cesarz ryba owoc kłopot stać się.'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'kornel12@example.org', 10, 'Energia Szwajcaria jego drobny kilometr. Umieszczać szczęście oczywiście rachunek kieszeń słownik. Królowa brzydki taki miasto warunek starożytny psychiczny. Autobus dopływ sobota.'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'tomalikrozalia@example.org', 8, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'gabriel36@example.org', 6, 'Korzeń kolega padać kolega oglądać dodatek. Matka pora życie na przykład wynosić. Sąd stan 100 wniosek stanowisko.? muzyka iść ukraiński transport. Wieś gdyby piosenka historyczny męski.'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'engelangelika@example.net', 2, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'jedrzejsporek@example.com', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'marikabugla@example.org', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'gieronpawel@example.com', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'tomalikrozalia@example.org', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'isibiga@example.org', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'kostorzangelika@example.net', 2, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'jpreuss@example.net', 1, 'Morze Śródziemne tytoń luty hasło walka.Każdy wodny sala przebywać światło żywy. Wiadomość czekolada – pewien narząd z krwi i kości umieć nagły. Coś proces dokładny układ dym.'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'isibiga@example.org', 3, 'Nic mistrz odczuwać Dania kierowca urodzenie. Wiadomość wilk zniszczyć kto podróżować wino.'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'prokurateryk@example.org', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'ckapinos@example.com', 8, 'Szybko plac karta mieć bok obejmować przeznaczyć.Swój bułgarski działanie uznawać polski jego matka. Ramię jako parlament wybrzeże rano. Kolor poruszać wystawa półwysep.'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'robertduzy@example.org', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'prokurateryk@example.org', 10, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'ikolaczek@example.org', 10, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'tomalikrozalia@example.org', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'egwara@example.com', 5, 'Rana zdjęcie plama lot. Głównie gęsty wybory mistrz interes zobaczyć Azja.'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'isibiga@example.org', 8, 'Wziąć kiedyś wierzyć mieszkaniec ile. Amharski samochód dziadek. O dane zawód bogaty z krwi i kości strata.'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'kostorzangelika@example.net', 3, 'Gęsty zdobyć Szwecja prasa drugi razem. Przedsiębiorstwo brat ciemny 10 gaz.Żaba zaburzenie narodowy. Pewien choć spór stawać się.'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'tomalikrozalia@example.org', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'zbogusiewicz@example.org', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'krystiansiwczak@example.net', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'buczmakornel@example.net', 6, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'idziduch@example.net', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'engelangelika@example.net', 2, 'Deska prowadzić związany spokojny.Finansowy gmina pieniądze lina zamieszkiwać parlament zwolennik prowadzić. Produkt sportowy dolina dokument.'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'leonardjarmuzek@example.com', 6, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'kornel12@example.org', 10, 'Gęś chemiczny wątpliwość za pomocą jądro tutaj użytkownik europejski. Skutek towar uderzyć królowa. Wybitny ser urodzić łąka.'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'marikabugla@example.org', 8, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'leonardjarmuzek@example.com', 10, 'Wyraz wymagać sztuka cisza usta kolejowy. Dodać zabić ręka jaki znaczenie pierwiastek chemiczny. Naród okoliczność dodatek sztuka kontakt relacja układ okresowy.'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'isibiga@example.org', 2, 'Metalowy piętro czerwony wszystko potrafić bar znajdować. Napisać lekarz uczyć model głupota. Wejść pijany 9 sprawa poczta.'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'marikabugla@example.org', 3, 'Szukać kolano kalendarz świecić waga Rumunia grudzień. Wrogi dostęp cesarz centrum.'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'jedrzejsporek@example.com', 1, 'Lubić akt umrzeć wątpliwość wobec środek sygnał. Atmosfera wódka bo prezent należeć jedynie skład prędkość.Świecić anioł amerykański rezultat spokój otrzymać ósmy.'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'kostorzangelika@example.net', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'marikabugla@example.org', 2, 'Kiedy norma czas studia dowód. Własny wejść wódka silnik. Uśmiech ono pomarańczowy cienki pisarz chłopiec. Otaczać przerwa okropny motyl efekt zimno kupować.'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'dorotacalik@example.com', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'gieronpawel@example.com', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'kornel89@example.net', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'egwara@example.com', 7, 'Uderzać powietrze powszechny stać się pisarz. Oś rola łyżka sędzia sowa.Jezus - gniazdo kupić wzrok jakby. Umieć pustynia numer trzydzieści metr zupełnie wybór czwarty.'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'robertduzy@example.org', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'gabriel36@example.org', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'jedrzejsporek@example.com', 5, 'Wodny dłoń zakres posiłek brać pokój muzyk.60 dlatego mieszkanie kierunek świeży. Stać złożyć w kształcie stosować. Znaczny wiara Ziemia orzeł wszelki wrażenie rodzinny.'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'anitaimiolczyk@example.com', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'sebastianrej@example.org', 6, 'Następować zawierać piękny literacki według telewizja budowa. Środowisko jeśli czynność obraz czerwiec nos. Kot Kościół sen.'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'sebastianrej@example.org', 3, 'Wierzyć dziś forma niż mebel szary. Olej temat czoło słowacki bóg czuć choroba pojawić się.Jeszcze stały robota grać. Przejaw sto zajmować oddech ja zajmować wiara.'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'kornel12@example.org', 7, 'Chemiczny sądzić obwód ono się wpływ moneta potrzebny. Podróż lud kontakt oddać liczba dostęp. Rzeka przed należeć informacja ogromny no.'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'isibiga@example.org', 10, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'krystiansiwczak@example.net', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'robertduzy@example.org', 1, 'Biblioteka bajka siła 900. Słowacki dziś pozostawać posługiwać się wywoływać naukowiec położony zbiornik.'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'machonaniela@example.com', 2, 'Gospodarczy wybrać sklep. Rodzic ciekawy dzisiaj okropny projekt zwolennik ziemniak. Zdrowie medycyna obrót słoneczny centrum sen szanowny.'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'idziduch@example.net', 4, 'Właściwość dokonać cierpieć strój. Oczywiście ciepło cmentarz błąd samolot sztuczny rana. Znaczyć butelka też uczyć mieszkać kwiecień kochać.'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'gabriel36@example.org', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'robertduzy@example.org', 1, 'Olej panować czterdzieści światło nieść przyjechać. Koszt pokonać Europa sądzić głowa. Projekt ? but plama telefon mały władza rejon.'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'konstantyfolga@example.net', 2, NULL),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'egwara@example.com', 10, 'Rola spotkanie twarz rana pozycja. Człowiek taniec specjalny wydawać się naturalny narodowy wszyscy.Australia wielkość planeta płyta wartość. Dziecięcy transport skład jednak.'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'engelangelika@example.net', 5, 'Babka plemię forma. Ludzki zaś zawodowy oraz członek.'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'kornel89@example.net', 2, 'Złoty poruszać się potrawa typowy stworzyć. Wreszcie wciąż wojsko tańczyć uciekać znać rozwiązanie. Bogaty siódmy ciężki uchodzić.'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'kostorzangelika@example.net', 6, 'Zachód transport kolejowy całkiem opłata panna wizyta. Film tworzyć polegać bez kilometr żołnierz statek. Białoruski wysłać Żyd tarcza.'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'prokurateryk@example.org', 8, 'Bycie wtorek urzędnik upadek wzrost przemysł 50.Sobie naj- Niemcy ciemność pomagać następować aby. Poruszać dach późno zimny. Ono a podróż zboże narodowy dziewięćdziesiąt.'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'krystiansiwczak@example.net', 5, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'zbogusiewicz@example.org', 2, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'prokurateryk@example.org', 6, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'dorotacalik@example.com', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'engelangelika@example.net', 1, 'Umowa mieszkanka wykorzystywać film przychodzić.Prostytutka aktor że. Francuski nosić psychiczny amharski Jezus.'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'robertduzy@example.org', 1, 'Pewien dzielnica ubogi z powodu ale wystawa. Poprzez chwila szkoła chwila słoneczny obywatel. Zysk mgła siostra wybitny wykorzystywać model adres.'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'alex16@example.net', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'engelangelika@example.net', 6, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'zbogusiewicz@example.org', 8, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'machonaniela@example.com', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'jpreuss@example.net', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'isibiga@example.org', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'buczmakornel@example.net', 9, 'Postawa kultura przechodzić nad pragnienie powstawać lipiec. We majuskuła jedzenie zero wysoko m.in. obiad. Sobą produkować dane uderzyć anioł Kościół.'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'oliwierborak@example.com', 8, 'Dostać brać powinien Austria oddział być wyraz zdjęcie. Przyszły czoło roślina niemiecki wydarzenie. Dziadek wyłącznie wrogość.'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'idziduch@example.net', 4, 'Wysoki powieść kierować ramię zniszczyć sobota zdarzenie. Pojawić Się zakładać bieda przykład wchodzić matematyka.'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'jpreuss@example.net', 10, 'Uderzenie adres zachowywać się on dodatek brzeg kierowca. Rachunek lekarz ze informacja. Klimat plaża matka litera poprzez godzina most.'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'kornel12@example.org', 2, 'Studiować cień główny swój związać ucho.Japonia samochód ciągnąć niewolnik lud tak. Do znajdować lustro wada wesoły oddać święto. Pół szkoła mocz dobro gospodarczy mierzyć też. Pogląd kwestia lato.'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'vtowarek@example.org', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'egwara@example.com', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'dorotacalik@example.com', 6, 'Bóg odmiana rana seks kościół padać.Oni staw zachowanie roślina wniosek. Natychmiast wiele on wywołać.'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'zbogusiewicz@example.org', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'krystiansiwczak@example.net', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'kornel89@example.net', 1, 'Kula stanowić siedzieć smutny. Letni władza prezent mąka czasem wybitny moralny.'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'anitaimiolczyk@example.com', 9, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'isibiga@example.org', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'robertduzy@example.org', 4, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'sebastianrej@example.org', 6, 'Waluta pieniądz natura. Internetowy święto wieś zegar oddział tutaj rynek.Niszczyć czysty postać rząd dolina sobie złożyć. Pająk dziób gmina działanie powiedzieć różny.'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'ikolaczek@example.org', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'sebastianrej@example.org', 2, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'gieronpawel@example.com', 2, 'Południowy ale wrócić flaga ciasto własność pozostać. Mieć wracać herbata wodny.Linia pas deszcz okazja coraz. Organ uchodzić dostać 50.'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'marikabugla@example.org', 9, 'Piękny chleb osiemdziesiąt skutek zakończyć. Spowodować między pokazywać Afryka mecz wieś.'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'robertduzy@example.org', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'gieronpawel@example.com', 10, 'Wysoko człowiek park przejaw kot styczeń. Częściowo zająć zwierzę cierpienie odwaga cienki. Aż wrogi w czasie piec który ogród. Czwarty Stany Zjednoczone klucz siedemdziesiąt Włochy.'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'dorotacalik@example.com', 3, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'engelangelika@example.net', 7, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'ikolaczek@example.org', 1, NULL),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'anitaimiolczyk@example.com', 2, 'Tablica czy gorący żaba natura. Nadmierny wczesny kierunek mąż z powodu intensywny.Pora imię państwowy obiekt ulica gra wykonanie.'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'dorotacalik@example.com', 4, 'Nos ssak opowiadać kiedyś mięso płyn norma. Gwiazdozbiór obywatelka alkoholowy.'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'krystiansiwczak@example.net', 10, 'Przyszły jaki obywatelka przecież wilk. Mleko marzec ojczyzna. Radość w. cień znajdować.Gęś uznawać wychodzić wybory zgoda. Drapieżny dokument chory lekcja pokazywać.'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'jedrzejsporek@example.com', 3, NULL);
 
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('wolochkacper@example.com', '2020-06-07', '2022-12-09');
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('kamykolgierd@example.org', '2022-07-11', NULL);
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('pudelekmalwina@example.com', '2022-07-19', NULL);
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('milosz08@example.com', '2023-03-15', NULL);
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('kkrokosz@example.org', '2022-09-09', '2023-05-07');
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('kamilakomperda@example.org', '2021-07-29', '2019-11-24');
-INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('paweljuras@example.com', '2022-06-02', NULL);
+INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES
+('kornel89@example.net', '2021-01-23', '2022-05-21'),
+('idziduch@example.net', '2019-03-25', '2022-01-01'),
+('jpreuss@example.net', '2021-08-02', NULL),
+('prokurateryk@example.org', '2020-01-12', NULL),
+('isibiga@example.org', '2022-10-02', '2022-10-19'),
+('alex16@example.net', '2023-10-19', NULL),
+('zbogusiewicz@example.org', '2021-09-07', NULL);
 
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'wolochkacper@example.com', id, 7569 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'wolochkacper@example.com', id, 9739 FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'wolochkacper@example.com', id, 5751 FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'wolochkacper@example.com', id, 1808 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'wolochkacper@example.com', id, 4388 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 4198 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 1902 FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 3330 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 2206 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 4046 FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 6529 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 6917 FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 1529 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 1916 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamykolgierd@example.org', id, 3788 FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 6618 FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 4984 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 2351 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 3284 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 5888 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 1185 FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 4273 FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 5818 FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 6266 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 627 FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'pudelekmalwina@example.com', id, 1260 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'milosz08@example.com', id, 647 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'milosz08@example.com', id, 2565 FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'milosz08@example.com', id, 5181 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'milosz08@example.com', id, 3730 FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'milosz08@example.com', id, 312 FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 6342 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 3830 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 5200 FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 1054 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 10558 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 1844 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 6016 FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 3431 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 2075 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 475 FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 2262 FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 5205 FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 8938 FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 3521 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 5040 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kkrokosz@example.org', id, 6059 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 2616 FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 3157 FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 2767 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 3879 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 3299 FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 4585 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 3172 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 2015 FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'kamilakomperda@example.org', id, 3170 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 10341 FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 6304 FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 1934 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 6328 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 9987 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 2532 FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 4092 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 118 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 1289 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 1065 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 5420 FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 7017 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 3491 FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 3475 FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 6496 FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 5003 FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'paweljuras@example.com', id, 6225 FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 4286 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 4092 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 2824 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 317 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 2032 FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 286 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 3034 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 2642 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 6103 FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 3856 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 3869 FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 3591 FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 6820 FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 5831 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 5659 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'julita50@example.com', id, 2968 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 4925 FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 6350 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 108 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 916 FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 6208 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 8040 FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 669 FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 7789 FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 4975 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 5865 FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 4862 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 1014 FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 3944 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 4162 FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'durczoktola@example.org', id, 7967 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 3002 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 2816 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 1784 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 4711 FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 287 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 6967 FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 7762 FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 6009 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 5830 FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 1824 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 4135 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'nieradzikmikolaj@example.com', id, 2472 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 77 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 4410 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 3189 FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 9580 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 2212 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 693 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 8130 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 2333 FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 3279 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 849 FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 2067 FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 5391 FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 3669 FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 3858 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 4269 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 2603 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 7313 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ggaudyn@example.org', id, 5745 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 3276 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 3563 FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 1337 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 6541 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 2298 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 383 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 1028 FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 6578 FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 5271 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dirzyk@example.com', id, 6906 FROM filmy WHERE tytul = 'Milczenie owiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dominiknoculak@example.org', id, 1102 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dominiknoculak@example.org', id, 5577 FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dominiknoculak@example.org', id, 5312 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dominiknoculak@example.org', id, 1390 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dominiknoculak@example.org', id, 3885 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 2207 FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 5130 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 2238 FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 3516 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 6902 FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 2108 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 9036 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 7659 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 5587 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 2361 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 3382 FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 4187 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 1898 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'tobiasz41@example.org', id, 2074 FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 3229 FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 9745 FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 6075 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 9633 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 7598 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 4202 FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 9082 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 2283 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 3751 FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 7518 FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 967 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 7280 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 712 FROM filmy WHERE tytul = 'Truman Show';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 1802 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 3589 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 8518 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 2309 FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 5095 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'fbanek@example.net', id, 6466 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 78 FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 3891 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 7678 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 4883 FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 9588 FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 219 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 4047 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 5617 FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 2383 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 1817 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 3945 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 4890 FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 7083 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 4668 FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 6190 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 6142 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 7017 FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'lrogula@example.org', id, 1753 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'aleks51@example.net', id, 924 FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'aleks51@example.net', id, 1367 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'aleks51@example.net', id, 1294 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'aleks51@example.net', id, 4047 FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 3209 FROM filmy WHERE tytul = 'American Beauty';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 7187 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 6927 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 1563 FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 10330 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 3557 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 8825 FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 2913 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 4239 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 1570 FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 6200 FROM filmy WHERE tytul = 'Mroczny Rycerz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'gszumny@example.com', id, 1865 FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 640 FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 2130 FROM filmy WHERE tytul = 'Lśnienie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 4944 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 3390 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 3233 FROM filmy WHERE tytul = 'Pulp Fiction';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 11526 FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 3521 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 361 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 3344 FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 10833 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 1352 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 2262 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 2180 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 205 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 2444 FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 5438 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'dorobamelania@example.net', id, 4252 FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 1276 FROM filmy WHERE tytul = 'Incepcja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 2054 FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 4450 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 4430 FROM filmy WHERE tytul = 'Jestem legendą';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 5258 FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 4645 FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 5985 FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 3102 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 439 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 3053 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 7636 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 2977 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 10864 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 2695 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 3140 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'suszkoanita@example.com', id, 6465 FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hajderaleks@example.net', id, 4069 FROM filmy WHERE tytul = 'Dzień świra';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hajderaleks@example.net', id, 534 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'bartek62@example.net', id, 1714 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 1369 FROM filmy WHERE tytul = 'Zapach kobiety';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 967 FROM filmy WHERE tytul = 'Cast Away - poza światem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 9413 FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 3920 FROM filmy WHERE tytul = 'Nietykalni';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 6911 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 2372 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 4029 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 3535 FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 1427 FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'hrebis@example.org', id, 1316 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 3058 FROM filmy WHERE tytul = 'Ojciec chrzestny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 2193 FROM filmy WHERE tytul = 'Kac Vegas';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 6343 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 4320 FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 7378 FROM filmy WHERE tytul = 'Siedem dusz';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 7482 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 1000 FROM filmy WHERE tytul = 'Szeregowiec Ryan';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 2266 FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 360 FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 2359 FROM filmy WHERE tytul = 'Adwokat diabła';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 3187 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 2043 FROM filmy WHERE tytul = 'Piękny umysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 5446 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 4250 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 1795 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 6283 FROM filmy WHERE tytul = 'Efekt motyla';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'xmecik@example.org', id, 4079 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'juliannapuc@example.org', id, 11394 FROM filmy WHERE tytul = 'Titanic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'juliannapuc@example.org', id, 7289 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'juliannapuc@example.org', id, 1333 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'juliannapuc@example.org', id, 5745 FROM filmy WHERE tytul = 'Wyspa tajemnic';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 2849 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 4261 FROM filmy WHERE tytul = 'Django';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 2977 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 5896 FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 1976 FROM filmy WHERE tytul = 'Gran Torino';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 1484 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 2201 FROM filmy WHERE tytul = 'Forrest Gump';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'alandaniec@example.org', id, 8920 FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 237 FROM filmy WHERE tytul = 'Wilk z Wall Street';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 3273 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 3872 FROM filmy WHERE tytul = 'Shrek';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 4072 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 6844 FROM filmy WHERE tytul = 'Skazani na Shawshank';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 4170 FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 8984 FROM filmy WHERE tytul = 'Gladiator';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 4744 FROM filmy WHERE tytul = 'Pianista';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 4510 FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 7527 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 5249 FROM filmy WHERE tytul = 'Król Lew';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 2664 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 3434 FROM filmy WHERE tytul = 'Kod da Vinci';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 1844 FROM filmy WHERE tytul = 'Zielona mila';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'sebastiankups@example.org', id, 3167 FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'palegaantoni@example.org', id, 6349 FROM filmy WHERE tytul = 'Siedem';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'palegaantoni@example.org', id, 5332 FROM filmy WHERE tytul = 'Lista Schindlera';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'palegaantoni@example.org', id, 3602 FROM filmy WHERE tytul = 'Bękarty wojny';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'palegaantoni@example.org', id, 2113 FROM filmy WHERE tytul = 'Avatar';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 4431 FROM filmy WHERE tytul = 'Szósty zmysł';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 7238 FROM filmy WHERE tytul = 'Prestiż';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 1548 FROM filmy WHERE tytul = 'Requiem dla snu';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 3633 FROM filmy WHERE tytul = 'Seksmisja';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 7714 FROM filmy WHERE tytul = 'Podziemny krąg';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 3338 FROM filmy WHERE tytul = 'Leon zawodowiec';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 5450 FROM filmy WHERE tytul = 'Matrix';
-INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT 'ssterna@example.net', id, 2055 FROM filmy WHERE tytul = 'Incepcja';
+INSERT INTO obejrzane_tytuly (filmy_id, uzytkownicy_platformy_email, czas) VALUES
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'kornel89@example.net', 5038),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'kornel89@example.net', 3176),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'kornel89@example.net', 7338),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'kornel89@example.net', 324),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'kornel89@example.net', 1479),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'kornel89@example.net', 8892),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'kornel89@example.net', 1990),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'kornel89@example.net', 5754),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'kornel89@example.net', 1772),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'kornel89@example.net', 7837),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'kornel89@example.net', 2923),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'kornel89@example.net', 1229),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'idziduch@example.net', 5300),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'idziduch@example.net', 1235),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'idziduch@example.net', 7317),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'idziduch@example.net', 4172),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'idziduch@example.net', 1128),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'idziduch@example.net', 2235),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'idziduch@example.net', 5029),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'idziduch@example.net', 2443),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'idziduch@example.net', 6324),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'idziduch@example.net', 11342),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'idziduch@example.net', 6801),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'idziduch@example.net', 2294),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'idziduch@example.net', 609),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'jpreuss@example.net', 5323),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'jpreuss@example.net', 1613),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'jpreuss@example.net', 8445),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'jpreuss@example.net', 8),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'jpreuss@example.net', 3442),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'jpreuss@example.net', 7),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'jpreuss@example.net', 5822),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'jpreuss@example.net', 4112),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'jpreuss@example.net', 3294),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'jpreuss@example.net', 3310),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'jpreuss@example.net', 907),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'jpreuss@example.net', 7624),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'jpreuss@example.net', 4818),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'jpreuss@example.net', 1159),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'jpreuss@example.net', 1169),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'jpreuss@example.net', 4373),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'jpreuss@example.net', 6285),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'prokurateryk@example.org', 5325),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'prokurateryk@example.org', 557),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'prokurateryk@example.org', 4489),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'prokurateryk@example.org', 7810),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'prokurateryk@example.org', 525),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'prokurateryk@example.org', 5303),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'prokurateryk@example.org', 3201),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'prokurateryk@example.org', 7439),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'prokurateryk@example.org', 3297),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'prokurateryk@example.org', 2408),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'prokurateryk@example.org', 2391),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'prokurateryk@example.org', 2433),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'prokurateryk@example.org', 261),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'prokurateryk@example.org', 3195),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'prokurateryk@example.org', 4898),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'isibiga@example.org', 1751),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'isibiga@example.org', 5590),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'isibiga@example.org', 7034),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'isibiga@example.org', 3431),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'isibiga@example.org', 1455),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'isibiga@example.org', 3380),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'isibiga@example.org', 1032),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'isibiga@example.org', 1346),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'isibiga@example.org', 1819),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'isibiga@example.org', 5508),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'isibiga@example.org', 2715),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'isibiga@example.org', 4342),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'isibiga@example.org', 2523),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'isibiga@example.org', 1063),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'isibiga@example.org', 913),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'isibiga@example.org', 9778),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'alex16@example.net', 183),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'alex16@example.net', 6753),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'alex16@example.net', 492),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'alex16@example.net', 6265),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'alex16@example.net', 4125),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'alex16@example.net', 1337),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'alex16@example.net', 7999),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'alex16@example.net', 5862),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'alex16@example.net', 6626),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'alex16@example.net', 5508),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'alex16@example.net', 436),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'alex16@example.net', 6676),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'alex16@example.net', 3292),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'alex16@example.net', 3196),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'alex16@example.net', 5657),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'alex16@example.net', 4315),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'zbogusiewicz@example.org', 5225),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'zbogusiewicz@example.org', 8816),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'zbogusiewicz@example.org', 5287),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'zbogusiewicz@example.org', 5033),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'zbogusiewicz@example.org', 2737),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'zbogusiewicz@example.org', 3183),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'zbogusiewicz@example.org', 7349),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'zbogusiewicz@example.org', 5173),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'zbogusiewicz@example.org', 9662),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'zbogusiewicz@example.org', 6510),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'ckapinos@example.com', 1957),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'ckapinos@example.com', 1773),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'oliwierborak@example.com', 2365),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'oliwierborak@example.com', 7526),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'oliwierborak@example.com', 1261),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'oliwierborak@example.com', 3248),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'oliwierborak@example.com', 2446),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'kostorzangelika@example.net', 4011),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'kostorzangelika@example.net', 1721),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'kostorzangelika@example.net', 4118),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'kostorzangelika@example.net', 1952),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'kostorzangelika@example.net', 3805),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'kostorzangelika@example.net', 1555),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'kostorzangelika@example.net', 3995),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'kostorzangelika@example.net', 2149),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'kostorzangelika@example.net', 3959),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'kostorzangelika@example.net', 942),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'kostorzangelika@example.net', 5356),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'kostorzangelika@example.net', 4971),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'kostorzangelika@example.net', 8628),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'kostorzangelika@example.net', 5335),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'kostorzangelika@example.net', 1788),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'kostorzangelika@example.net', 4784),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'kostorzangelika@example.net', 7510),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'kostorzangelika@example.net', 5496),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'jedrzejsporek@example.com', 7039),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'jedrzejsporek@example.com', 156),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'jedrzejsporek@example.com', 2198),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'jedrzejsporek@example.com', 2960),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'jedrzejsporek@example.com', 782),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'jedrzejsporek@example.com', 797),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'jedrzejsporek@example.com', 7889),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'jedrzejsporek@example.com', 4252),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'jedrzejsporek@example.com', 8618),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'jedrzejsporek@example.com', 5312),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'jedrzejsporek@example.com', 846),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'jedrzejsporek@example.com', 415),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'jedrzejsporek@example.com', 454),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'jedrzejsporek@example.com', 6374),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'jedrzejsporek@example.com', 63),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'jedrzejsporek@example.com', 3027),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'kornel12@example.org', 6058),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'kornel12@example.org', 7993),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'kornel12@example.org', 6431),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'buczmakornel@example.net', 6048),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'buczmakornel@example.net', 1016),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'buczmakornel@example.net', 4927),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'buczmakornel@example.net', 2196),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'buczmakornel@example.net', 7585),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'buczmakornel@example.net', 7053),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'buczmakornel@example.net', 6530),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'buczmakornel@example.net', 7672),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'buczmakornel@example.net', 10298),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'buczmakornel@example.net', 5503),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'buczmakornel@example.net', 762),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'machonaniela@example.com', 5039),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'machonaniela@example.com', 6514),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'machonaniela@example.com', 4537),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'machonaniela@example.com', 6778),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'machonaniela@example.com', 7960),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'machonaniela@example.com', 4012),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'machonaniela@example.com', 329),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'machonaniela@example.com', 9438),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'machonaniela@example.com', 7468),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'machonaniela@example.com', 2825),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'machonaniela@example.com', 4370),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'machonaniela@example.com', 715),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'machonaniela@example.com', 95),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'machonaniela@example.com', 2019),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'machonaniela@example.com', 6474),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'ikolaczek@example.org', 1849),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'ikolaczek@example.org', 4378),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'ikolaczek@example.org', 3073),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'ikolaczek@example.org', 4548),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'ikolaczek@example.org', 2663),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'ikolaczek@example.org', 5662),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'ikolaczek@example.org', 4245),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'ikolaczek@example.org', 3196),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'ikolaczek@example.org', 9078),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'ikolaczek@example.org', 4135),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'ikolaczek@example.org', 3646),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'ikolaczek@example.org', 3305),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'ikolaczek@example.org', 7969),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'ikolaczek@example.org', 7496),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'dorotacalik@example.com', 828),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'dorotacalik@example.com', 1301),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'dorotacalik@example.com', 1952),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'dorotacalik@example.com', 2140),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'dorotacalik@example.com', 2664),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'dorotacalik@example.com', 3865),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'dorotacalik@example.com', 3624),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'dorotacalik@example.com', 905),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'dorotacalik@example.com', 8855),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'dorotacalik@example.com', 4549),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'dorotacalik@example.com', 2764),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'dorotacalik@example.com', 3668),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'dorotacalik@example.com', 152),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'dorotacalik@example.com', 3316),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'dorotacalik@example.com', 127),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'dorotacalik@example.com', 6407),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'dorotacalik@example.com', 5069),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'krystiansiwczak@example.net', 5118),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'engelangelika@example.net', 875),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'engelangelika@example.net', 1326),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'engelangelika@example.net', 1005),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'engelangelika@example.net', 10399),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'engelangelika@example.net', 3628),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'engelangelika@example.net', 7788),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'engelangelika@example.net', 9577),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'engelangelika@example.net', 445),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'engelangelika@example.net', 3467),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'engelangelika@example.net', 382),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'anitaimiolczyk@example.com', 1272),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'anitaimiolczyk@example.com', 5675),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'anitaimiolczyk@example.com', 4988),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'anitaimiolczyk@example.com', 7387),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'anitaimiolczyk@example.com', 5082),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'anitaimiolczyk@example.com', 6791),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'anitaimiolczyk@example.com', 8733),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'anitaimiolczyk@example.com', 7827),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'anitaimiolczyk@example.com', 1226),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'anitaimiolczyk@example.com', 50),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'anitaimiolczyk@example.com', 6012),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'anitaimiolczyk@example.com', 3177),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'anitaimiolczyk@example.com', 2975),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'anitaimiolczyk@example.com', 6246),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'anitaimiolczyk@example.com', 2168),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'anitaimiolczyk@example.com', 84),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'anitaimiolczyk@example.com', 9652),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'anitaimiolczyk@example.com', 8095),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'anitaimiolczyk@example.com', 3103),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'egwara@example.com', 1381),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'egwara@example.com', 4629),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'egwara@example.com', 743),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'egwara@example.com', 816),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'egwara@example.com', 1481),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'egwara@example.com', 3497),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'egwara@example.com', 1869),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'egwara@example.com', 2216),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'egwara@example.com', 4004),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'egwara@example.com', 1436),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'egwara@example.com', 2218),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'egwara@example.com', 3507),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'egwara@example.com', 2214),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'egwara@example.com', 2372),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'egwara@example.com', 9588),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'egwara@example.com', 6308),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'egwara@example.com', 5554),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'egwara@example.com', 4162),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'vtowarek@example.org', 1388),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'vtowarek@example.org', 8855),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'vtowarek@example.org', 769),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'vtowarek@example.org', 1419),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'vtowarek@example.org', 1025),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'vtowarek@example.org', 5937),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'vtowarek@example.org', 7412),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'vtowarek@example.org', 6671),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'vtowarek@example.org', 5446),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'vtowarek@example.org', 3025),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'vtowarek@example.org', 1604),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'vtowarek@example.org', 3163),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'vtowarek@example.org', 1273),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'vtowarek@example.org', 986),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'tomalikrozalia@example.org', 1572),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'tomalikrozalia@example.org', 1817),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'tomalikrozalia@example.org', 5485),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'tomalikrozalia@example.org', 7323),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'tomalikrozalia@example.org', 7696),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'tomalikrozalia@example.org', 3394),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'tomalikrozalia@example.org', 1682),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'tomalikrozalia@example.org', 4247),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'tomalikrozalia@example.org', 785),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'tomalikrozalia@example.org', 2631),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'tomalikrozalia@example.org', 2491),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'tomalikrozalia@example.org', 2750),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'tomalikrozalia@example.org', 2820),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'tomalikrozalia@example.org', 6393),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'tomalikrozalia@example.org', 2818),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'sebastianrej@example.org', 2792),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'sebastianrej@example.org', 10400),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'sebastianrej@example.org', 8540),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'sebastianrej@example.org', 4177),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'sebastianrej@example.org', 7437),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'sebastianrej@example.org', 5224),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'sebastianrej@example.org', 464),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'sebastianrej@example.org', 8101),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'sebastianrej@example.org', 6262),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'sebastianrej@example.org', 3837),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'sebastianrej@example.org', 6591),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'gieronpawel@example.com', 791),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'gieronpawel@example.com', 3951),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'gieronpawel@example.com', 1461),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'gieronpawel@example.com', 5235),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'gieronpawel@example.com', 8608),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'gieronpawel@example.com', 576),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'gieronpawel@example.com', 280),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'gieronpawel@example.com', 12034),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'gieronpawel@example.com', 7732),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'gieronpawel@example.com', 7113),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'gieronpawel@example.com', 478),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'gieronpawel@example.com', 7857),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'gieronpawel@example.com', 598),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'gieronpawel@example.com', 8946),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'gieronpawel@example.com', 6485),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'gieronpawel@example.com', 3234),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'gabriel36@example.org', 3678),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'gabriel36@example.org', 8123),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'gabriel36@example.org', 1424),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'gabriel36@example.org', 3904),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'gabriel36@example.org', 8918),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'gabriel36@example.org', 4408),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'gabriel36@example.org', 6234),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'gabriel36@example.org', 317),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'gabriel36@example.org', 6417),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'gabriel36@example.org', 1465),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'gabriel36@example.org', 2101),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'gabriel36@example.org', 1481),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'konstantyfolga@example.net', 520),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'konstantyfolga@example.net', 1241),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'konstantyfolga@example.net', 6495),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'konstantyfolga@example.net', 436),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'konstantyfolga@example.net', 8880),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'konstantyfolga@example.net', 8383),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'konstantyfolga@example.net', 1821),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'konstantyfolga@example.net', 379),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'leonardjarmuzek@example.com', 2385),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'leonardjarmuzek@example.com', 2960),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'leonardjarmuzek@example.com', 4204),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'leonardjarmuzek@example.com', 4499),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'leonardjarmuzek@example.com', 8781),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'leonardjarmuzek@example.com', 2505),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'leonardjarmuzek@example.com', 4145),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'leonardjarmuzek@example.com', 7485),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'leonardjarmuzek@example.com', 5918),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'leonardjarmuzek@example.com', 5006),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'leonardjarmuzek@example.com', 2807),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'leonardjarmuzek@example.com', 5414),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'leonardjarmuzek@example.com', 8906),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'leonardjarmuzek@example.com', 4015),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'leonardjarmuzek@example.com', 4489),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'leonardjarmuzek@example.com', 430),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'leonardjarmuzek@example.com', 4775),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'robertduzy@example.org', 1273),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'robertduzy@example.org', 5539),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'robertduzy@example.org', 2400),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'robertduzy@example.org', 2456),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'marikabugla@example.org', 1700),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'marikabugla@example.org', 3898),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'marikabugla@example.org', 155),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'marikabugla@example.org', 2334),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'marikabugla@example.org', 2381),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'marikabugla@example.org', 8114),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'marikabugla@example.org', 5434),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'marikabugla@example.org', 3031),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'marikabugla@example.org', 1441),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'marikabugla@example.org', 4111),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'marikabugla@example.org', 7239),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'marikabugla@example.org', 5494),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'marikabugla@example.org', 1640);
 
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('wytwarzać', 15, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('przeciwnik', 12, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('ubogi', 7, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dyrektor', 12, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('blisko', 18, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('suma', 12, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('warstwa', 12, 'Nowa Zelandia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('zwierzę', 15, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('Niemcy', 15, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('bieg', 15, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('kościół', 18, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dyskusja', 12, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('stworzyć', 18, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('zabawa', 7, 'Australia');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('stary', 12, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('naprawdę', 7, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('statek', 18, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('królewski', 15, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('gwiazdozbiór', 7, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('obywatelka', 7, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('znosić', 15, 'Niemcy');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('ludowy', 12, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('płynąć', 7, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('przedstawiciel', 12, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('Ziemia', 18, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('zwycięstwo', 7, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('przyprawa', 7, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('współczesny', 15, 'USA');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('szklanka', 12, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('obowiązek', 15, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('wrócić', 18, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('minister', 18, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('gdyby', 12, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('obchodzić', 12, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('strach', 18, 'Wielka Brytania');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dziób', 18, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('cierpienie', 7, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('materiał', 18, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('zabić', 15, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('centrum', 18, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('praca', 12, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('słoń', 18, 'Francja');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('brak', 15, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('jedyny', 15, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('wymagać', 7, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('szef', 18, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('częściowo', 7, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('kupić', 18, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('wywołać', 12, 'Kanada');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('wewnętrzny', 15, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('ziemniak', 15, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('śmiać się', 15, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dziecięcy', 15, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('bycie', 7, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('posiadać', 18, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('ani', 18, 'Polska');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('możliwy', 18, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('płeć', 12, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('szklanka', 12, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('stawiać', 18, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('ubranie', 18, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dźwięk', 12, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dach', 12, 'Maroko');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('bieda', 7, 'Malta');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('dziecko', 18, 'Malta');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('sześć', 12, 'Malta');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('trzeba', 12, 'Malta');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('łatwo', 15, 'Malta');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('zdolny', 12, 'Malta');
-INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('postępować', 12, 'Malta');
+INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES
+('lis', 7, 'Nowa Zelandia'),
+('karta', 12, 'Nowa Zelandia'),
+('zajęcie', 15, 'Nowa Zelandia'),
+('zima', 12, 'Nowa Zelandia'),
+('odważny', 15, 'Nowa Zelandia'),
+('słoń', 15, 'Nowa Zelandia'),
+('nieprzyjemny', 7, 'Nowa Zelandia'),
+('rodzina', 7, 'USA'),
+('dar', 18, 'USA'),
+('jego', 15, 'USA'),
+('panować', 12, 'USA'),
+('dźwięk', 7, 'USA'),
+('zakończenie', 12, 'USA'),
+('kościelny', 15, 'USA'),
+('dwudziesty', 12, 'Polska'),
+('operacja', 7, 'Polska'),
+('próbować', 18, 'Polska'),
+('widoczny', 12, 'Polska'),
+('gazeta', 12, 'Polska'),
+('dom', 12, 'Polska'),
+('dziwny', 18, 'Polska'),
+('tysiąc', 7, 'Australia'),
+('drzwi', 18, 'Australia'),
+('odczuwać', 7, 'Australia'),
+('bydło', 7, 'Australia'),
+('wrogość', 18, 'Australia'),
+('wywodzić się', 18, 'Australia'),
+('silnik', 7, 'Australia'),
+('zły', 15, 'Wielka Brytania'),
+('zabawa', 15, 'Wielka Brytania'),
+('przyjść', 12, 'Wielka Brytania'),
+('wielkość', 7, 'Wielka Brytania'),
+('pisanie', 7, 'Wielka Brytania'),
+('dach', 7, 'Wielka Brytania'),
+('władca', 15, 'Wielka Brytania'),
+('lata', 7, 'Kanada'),
+('czapka', 15, 'Kanada'),
+('cmentarz', 7, 'Kanada'),
+('nad', 15, 'Kanada'),
+('szpital', 7, 'Kanada'),
+('60', 7, 'Kanada'),
+('zgadzać się', 15, 'Kanada'),
+('chrześcijański', 7, 'Maroko'),
+('intensywny', 7, 'Maroko'),
+('zgoda', 18, 'Maroko'),
+('wiatr', 7, 'Maroko'),
+('cichy', 18, 'Maroko'),
+('struktura', 12, 'Maroko'),
+('wytwarzać', 15, 'Maroko'),
+('punkt', 18, 'Niemcy'),
+('cel', 7, 'Niemcy'),
+('obchodzić', 12, 'Niemcy'),
+('praktyka', 18, 'Niemcy'),
+('gra', 15, 'Niemcy'),
+('czwartek', 7, 'Niemcy'),
+('działalność', 7, 'Niemcy'),
+('kiedy', 18, 'Francja'),
+('czas', 15, 'Francja'),
+('zbiór', 7, 'Francja'),
+('plecy', 18, 'Francja'),
+('przynieść', 12, 'Francja'),
+('one', 15, 'Francja'),
+('republika', 15, 'Francja'),
+('6', 7, 'Malta'),
+('stawać się', 12, 'Malta'),
+('pierwiastek', 12, 'Malta'),
+('nosić', 15, 'Malta'),
+('trudno', 12, 'Malta'),
+('okrągły', 18, 'Malta'),
+('gazeta', 7, 'Malta');
 
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szef' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szef' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Australia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szef' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubranie' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubranie' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Australia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrócić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szef' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Australia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Australia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szef' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szef' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubranie' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubranie' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrócić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przeciwnik' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubranie' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrócić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gdyby' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Australia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrócić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'znosić' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'śmiać się' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trzeba' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Australia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'materiał' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wymagać' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieda' AND kraje_nazwa = 'Malta' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubranie' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecko' AND kraje_nazwa = 'Malta' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ziemniak' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrócić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwycięstwo' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziób' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płeć' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praca' AND kraje_nazwa = 'Francja' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gwiazdozbiór' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyskusja' AND kraje_nazwa = 'Australia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dyrektor' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'płynąć' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'brak' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Ziemia' AND kraje_nazwa = 'USA' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bieg' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ludowy' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zdolny' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stary' AND kraje_nazwa = 'Niemcy' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'suma' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościół' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywołać' AND kraje_nazwa = 'Kanada' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bycie' AND kraje_nazwa = 'Polska' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'możliwy' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'minister' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wewnętrzny' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'statek' AND kraje_nazwa = 'Niemcy' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ani' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'centrum' AND kraje_nazwa = 'Francja' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'sześć' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'łatwo' AND kraje_nazwa = 'Malta' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'strach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'Niemcy' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cierpienie' AND kraje_nazwa = 'Francja' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'częściowo' AND kraje_nazwa = 'Kanada' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'naprawdę' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'warstwa' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'postępować' AND kraje_nazwa = 'Malta' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przedstawiciel' AND kraje_nazwa = 'USA' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stworzyć' AND kraje_nazwa = 'Australia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'blisko' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'posiadać' AND kraje_nazwa = 'Polska' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'współczesny' AND kraje_nazwa = 'USA' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'królewski' AND kraje_nazwa = 'Niemcy' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szklanka' AND kraje_nazwa = 'Maroko' AND wiek = 12));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyprawa' AND kraje_nazwa = 'USA' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kupić' AND kraje_nazwa = 'Kanada' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obowiązek' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jedyny' AND kraje_nazwa = 'Kanada' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zwierzę' AND kraje_nazwa = 'Australia' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawiać' AND kraje_nazwa = 'Maroko' AND wiek = 18));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziecięcy' AND kraje_nazwa = 'Polska' AND wiek = 15));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obywatelka' AND kraje_nazwa = 'Niemcy' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'ubogi' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7));
-INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabić' AND kraje_nazwa = 'Francja' AND wiek = 15));
+INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'widoczny' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'widoczny' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'widoczny' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'widoczny' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'widoczny' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'widoczny' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wiatr' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dach' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'karta' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zły' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dźwięk' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dar' AND kraje_nazwa = 'USA' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'działalność' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cel' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'republika' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '6' AND kraje_nazwa = 'Malta' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'punkt' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'operacja' AND kraje_nazwa = 'Polska' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'silnik' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lata' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nosić' AND kraje_nazwa = 'Malta' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'władca' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgoda' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'drzwi' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przyjść' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kiedy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'przynieść' AND kraje_nazwa = 'Francja' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pisanie' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wielkość' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wrogość' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'stawać się' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dom' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zakończenie' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gazeta' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'struktura' AND kraje_nazwa = 'Maroko' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'pierwiastek' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'panować' AND kraje_nazwa = 'USA' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'próbować' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cmentarz' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zgadzać się' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'okrągły' AND kraje_nazwa = 'Malta' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'gra' AND kraje_nazwa = 'Niemcy' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'praktyka' AND kraje_nazwa = 'Niemcy' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'obchodzić' AND kraje_nazwa = 'Niemcy' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'jego' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'plecy' AND kraje_nazwa = 'Francja' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'bydło' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zima' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'słoń' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'tysiąc' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zabawa' AND kraje_nazwa = 'Wielka Brytania' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'rodzina' AND kraje_nazwa = 'USA' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odczuwać' AND kraje_nazwa = 'Australia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nieprzyjemny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'odważny' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'trudno' AND kraje_nazwa = 'Malta' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wytwarzać' AND kraje_nazwa = 'Maroko' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'intensywny' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'nad' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'one' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'wywodzić się' AND kraje_nazwa = 'Australia' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zbiór' AND kraje_nazwa = 'Francja' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'chrześcijański' AND kraje_nazwa = 'Maroko' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czas' AND kraje_nazwa = 'Francja' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'zajęcie' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'kościelny' AND kraje_nazwa = 'USA' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'cichy' AND kraje_nazwa = 'Maroko' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dwudziesty' AND kraje_nazwa = 'Polska' AND wiek = 12)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czwartek' AND kraje_nazwa = 'Niemcy' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'czapka' AND kraje_nazwa = 'Kanada' AND wiek = 15)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'lis' AND kraje_nazwa = 'Nowa Zelandia' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'dziwny' AND kraje_nazwa = 'Polska' AND wiek = 18)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = 'szpital' AND kraje_nazwa = 'Kanada' AND wiek = 7)),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '60' AND kraje_nazwa = 'Kanada' AND wiek = 7));
 
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tom', 'Hanks', '1956-07-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Morse', '1953-10-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bonnie', 'Hunt', '1961-09-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Duncan', '1957-12-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Cromwell', '1940-01-27', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Jeter', '1952-08-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Graham', 'Greene', '1952-06-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Doug', 'Hutchison', '1960-05-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sam', 'Rockwell', '1968-11-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Frank', 'Darabont', '1959-01-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tim', 'Robbins', '1958-10-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Morgan', 'Freeman', '1937-06-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bob', 'Gunton', '1945-11-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('William', 'Sadler', '1950-04-13', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Clancy', 'Brown', '1959-01-05', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gil', 'Bellows', '1967-06-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mark', 'Rolston', '1956-12-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Whitmore', '1921-10-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Larry', 'Brandenburg', '1948-05-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robin', 'Wright', '1966-04-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sally', 'Field', '1946-11-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gary', 'Sinise', '1955-03-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mykelti', 'Williamson', '1957-03-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Humphreys', '1994-02-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Hanna', 'Hall', '1984-07-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Haley', 'Osment', '1988-04-10', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Nora', 'Dunfee', '1915-12-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robert', 'Zemeckis', '1951-05-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Eric', 'Roth', '1945-03-22', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jean', 'Reno', '1948-07-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gary', 'Oldman', '1958-03-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Natalie', 'Portman', '1981-06-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Danny', 'Aiello', '1933-06-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Peter', 'Appel', '1959-10-19', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Willie', 'Blood', '2001-06-02', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Don', 'Creech', '1999-01-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Keith', 'Glascoe', '1962-12-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Randolph', 'Scott', '1932-09-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Luc', 'Besson', '1959-03-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ellen', 'Burstyn', '1932-12-07', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jared', 'Leto', '1971-12-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jennifer', 'Connelly', '1970-12-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Marlon', 'Wayans', '1972-07-23', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christopher', 'McDonald', '1955-02-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Louise', 'Lasser', '1939-04-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Keith', 'David', '1956-06-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sean', 'Gullette', '1968-06-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Denise', 'Dowse', '1958-02-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Darren', 'Aronofsky', '1969-02-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Hubert', 'Jr.', '1928-07-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Keanu', 'Reeves', '1964-09-02', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Carrie-Anne', 'Moss', '1967-08-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Laurence', 'Fishburne', '1961-07-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Hugo', 'Weaving', '1960-04-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gloria', 'Foster', '1933-11-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joe', 'Pantoliano', '1951-09-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Marcus', 'Chong', '1967-07-08', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Julian', 'Arahanga', '1972-12-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Belinda', 'McClory', '1968-11-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lilly', 'Wachowski', '1967-12-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lana', 'Wachowski', '1965-06-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anthony', 'Hopkins', '1937-12-31', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jodie', 'Foster', '1962-11-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ted', 'Levine', '1957-05-29', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kasi', 'Lemmons', '1961-02-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lawrence', 'Bonney', '2016-12-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lawrence', 'Wrentz', '1954-02-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Scott', 'Glenn', '1939-01-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anthony', 'Heald', '1944-08-25', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Frankie', 'Faison', '1949-06-10', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Demme', '1944-02-22', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ted', 'Tally', '1952-04-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Russell', 'Crowe', '1964-04-07', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joaquin', 'Phoenix', '1974-10-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Connie', 'Nielsen', '1965-07-03', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Oliver', 'Reed', '1938-02-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Derek', 'Jacobi', '1938-10-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Djimon', 'Hounsou', '1964-04-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Richard', 'Harris', '1930-10-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Schofield', '2018-05-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Shrapnel', '1942-04-27', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ridley', 'Scott', '1937-11-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Franzoni', '1947-03-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Logan', '1961-09-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sam', 'Worthington', '1976-08-02', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Zoe', 'Saldaña', '1978-06-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sigourney', 'Weaver', '1949-10-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Stephen', 'Lang', '1952-07-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michelle', 'Rodriguez', '1978-07-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Giovanni', 'Ribisi', '1974-12-17', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joel', 'Moore', '1977-09-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('CCH', 'Pounder', '1952-12-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Wes', 'Studi', '1947-12-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Cameron', '1954-08-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mike', 'Myers', '1963-05-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Eddie', 'Murphy', '1961-04-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Cameron', 'Diaz', '1972-08-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Lithgow', '1945-10-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Vincent', 'Cassel', '1966-11-23', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bobby', 'Block', '1980-04-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jim', 'Cummings', '1952-11-03', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Simon', 'Smith', '1955-08-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Guillaume', 'Aretos', '1963-12-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Andrew', 'Adamson', '1966-12-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Vicky', 'Jenson', '2001-09-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joe', 'Stillman', '1911-12-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Roger', 'Schulman', '1986-02-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tom', 'Sizemore', '1961-11-29', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Edward', 'Burns', '1968-01-29', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Barry', 'Pepper', '1970-04-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Adam', 'Goldberg', '1970-10-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Vin', 'Diesel', '1967-07-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jeremy', 'Davies', '1969-10-08', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Matt', 'Damon', '1970-10-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Steven', 'Spielberg', '1946-12-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robert', 'Rodat', '1962-04-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Edward', 'Norton', '1969-08-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Brad', 'Pitt', '1963-12-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Helena', 'Carter', '1966-05-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Meat', 'Loaf', '1947-09-27', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Zach', 'Grenier', '1954-02-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Holt', 'McCallany', '1964-09-03', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Eion', 'Bailey', '1976-06-08', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ezra', 'Buzzington', '1957-04-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Fincher', '1962-08-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jim', 'Uhls', '1957-03-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Travolta', '1954-02-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Samuel', 'Jackson', '1948-12-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Uma', 'Thurman', '1970-04-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bruce', 'Willis', '1955-03-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Harvey', 'Keitel', '1939-05-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ving', 'Rhames', '1959-05-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tim', 'Roth', '1961-05-14', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Amanda', 'Plummer', '1957-03-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Quentin', 'Tarantino', '1963-03-27', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Leonardo', 'DiCaprio', '1974-11-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kate', 'Winslet', '1975-10-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Billy', 'Zane', '1966-02-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kathy', 'Bates', '1948-06-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Frances', 'Fisher', '1952-05-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gloria', 'Stuart', '1910-07-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bill', 'Paxton', '1955-05-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bernard', 'Hill', '1944-12-17', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Warner', '1941-07-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('François', 'Cluzet', '1955-09-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Omar', 'Sy', '1978-01-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anne', 'Ny', '1962-12-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Audrey', 'Fleurot', '1977-07-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Clotilde', 'Mollet', '2019-02-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Alba', 'Bellugi', '1995-03-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Cyril', 'Mendy', '1995-10-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christian', 'Ameri', '1951-10-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Grégoire', 'Oestermann', '1982-03-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Olivier', 'Nakache', '1973-04-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Éric', 'Toledano', '1971-07-03', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Marlon', 'Brando', '1924-04-03', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Al', 'Pacino', '1940-04-25', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Caan', '1940-03-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Richard', 'Castellano', '1933-09-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robert', 'Duvall', '1931-01-05', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sterling', 'Hayden', '1916-03-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Marley', '1907-10-17', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Richard', 'Conte', '1910-03-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Al', 'Lettieri', '1928-02-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Francis', 'Coppola', '1939-04-07', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mario', 'Puzo', '1920-10-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joseph', 'Gordon-Levitt', '1981-02-17', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Elliot', 'Page', '1987-02-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tom', 'Hardy', '1977-09-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ken', 'Watanabe', '1959-10-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dileep', 'Rao', '1973-07-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Cillian', 'Murphy', '1976-05-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tom', 'Berenger', '1949-05-31', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Marion', 'Cotillard', '1975-09-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christopher', 'Nolan', '1970-07-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mark', 'Ruffalo', '1967-11-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ben', 'Kingsley', '1943-12-31', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Max', 'Sydow', '1929-04-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michelle', 'Williams', '1980-09-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Emily', 'Mortimer', '1971-12-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Patricia', 'Clarkson', '1959-12-29', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jackie', 'Haley', '1961-07-14', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Martin', 'Scorsese', '1942-11-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Laeta', 'Kalogridis', '1965-08-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gwyneth', 'Paltrow', '1972-09-27', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kevin', 'Spacey', '1959-07-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Daniel', 'Zacapa', '1959-03-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Cassini', '1988-08-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bob', 'Mack', '1976-12-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Peter', 'Crombie', '1950-09-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Reg', 'Cathey', '1958-08-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Andrew', 'Walker', '1964-08-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Toni', 'Collette', '1972-11-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Olivia', 'Williams', '1968-07-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Donnie', 'Wahlberg', '1969-08-17', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Glenn', 'Fitzgerald', '1971-11-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Trevor', 'Morgan', '1986-11-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bruce', 'Norris', '1960-05-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jodi', 'Dawson', '1993-11-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('M.', 'Shyamalan', '1970-08-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Adrien', 'Brody', '1973-04-14', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Thomas', 'Kretschmann', '1962-09-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Emilia', 'Fox', '1974-07-31', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Maureen', 'Lipman', '1946-05-10', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jessica', 'Meyer', '1928-07-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Julia', 'Rayner', '1998-08-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Valentine', 'Pelka', '1957-02-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Nina', 'Franoszek', '1963-03-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Frank', 'Finlay', '1926-08-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Roman', 'Polański', '1933-08-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ronald', 'Harwood', '1934-11-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Elijah', 'Wood', '1981-01-28', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sean', 'Astin', '1971-02-25', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Billy', 'Boyd', '1968-08-28', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dominic', 'Monaghan', '1976-12-08', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ian', 'Holm', '1931-09-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Viggo', 'Mortensen', '1958-10-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ian', 'McKellen', '1939-05-25', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Liv', 'Tyler', '1977-07-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Orlando', 'Bloom', '1977-01-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Peter', 'Jackson', '1961-10-31', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Fran', 'Walsh', '1959-01-10', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Johnny', 'Depp', '1963-06-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Geoffrey', 'Rush', '1951-07-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Keira', 'Knightley', '1985-03-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jack', 'Davenport', '1973-03-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Pryce', '1947-06-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lee', 'Arenberg', '1962-07-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mackenzie', 'Crook', '1971-09-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Damian', 'OHare', '1977-08-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gore', 'Verbinski', '1964-03-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ted', 'Elliott', '1961-07-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Terry', 'Rossio', '1960-07-02', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bradley', 'Cooper', '1975-01-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ed', 'Helms', '1974-01-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Zach', 'Galifianakis', '1969-10-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Justin', 'Bartha', '1978-07-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Heather', 'Graham', '1970-01-29', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jeffrey', 'Tambor', '1944-07-08', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ken', 'Jeong', '1969-07-13', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rachael', 'Harris', '1968-01-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sondra', 'Currie', '1952-01-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Todd', 'Phillips', '1970-12-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Scott', 'Moore', '2003-10-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jon', 'Lucas', '1951-06-22', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mélanie', 'Laurent', '1983-02-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christoph', 'Waltz', '1956-10-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Eli', 'Roth', '1972-04-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Fassbender', '1977-04-02', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Diane', 'Kruger', '1976-07-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Daniel', 'Brühl', '1978-06-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Til', 'Schweiger', '1963-12-19', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gedeon', 'Burkhard', '1969-07-03', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Will', 'Smith', '1968-09-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rosario', 'Dawson', '1979-05-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Woody', 'Harrelson', '1961-07-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Ealy', '1973-08-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Elpidia', 'Carrillo', '1961-08-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robinne', 'Lee', '1974-07-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joe', 'Nunez', '2016-03-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bill', 'Smitrovich', '1947-05-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gabriele', 'Muccino', '1967-05-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Grant', 'Nieporte', '1920-08-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Liam', 'Neeson', '1952-06-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ralph', 'Fiennes', '1962-12-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Caroline', 'Goodall', '1959-11-13', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Sagall', '1962-04-23', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Embeth', 'Davidtz', '1965-08-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Andrzej', 'Seweryn', '1946-04-25', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anna', 'Mucha', '1980-04-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jacek', 'Wójcicki', '1960-01-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Steven', 'Zaillian', '1953-01-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ed', 'Harris', '1950-11-28', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christopher', 'Plummer', '1929-12-13', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Paul', 'Bettany', '1971-05-27', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Josh', 'Lucas', '1971-06-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anthony', 'Rapp', '1971-10-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jason', 'Gray-Stanford', '1970-05-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ron', 'Howard', '1954-03-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Akiva', 'Goldsman', '1962-07-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dev', 'Patel', '1990-04-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Freida', 'Pinto', '1984-10-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Madhur', 'Mittal', '1987-01-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anil', 'Kapoor', '1956-12-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Saurabh', 'Shukla', '1963-03-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Irrfan', 'Khan', '1967-01-07', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ayush', 'Khedekar', '1954-06-05', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Azharuddin', 'Ismail', '1991-11-22', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rubina', 'Ali', '1999-01-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Danny', 'Boyle', '1956-10-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Simon', 'Beaufoy', '2016-09-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Helen', 'Hunt', '1963-06-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Yelena', 'Popovic', '1984-04-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Semion', 'Sudarikov', '1930-05-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('François', 'Duhamel', '1982-05-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jennifer', 'Choe', '1939-02-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ashley', 'Trefger', '1989-02-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lindsey', 'Trefger', '1989-02-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kaitlyn', 'Gainer', '1951-07-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('William', 'Jr.', '1944-10-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jerzy', 'Stuhr', '1947-04-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Olgierd', 'Łukaszewicz', '1946-09-07', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bożena', 'Stryjkówna', '1954-08-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bogusława', 'Pawelec', '1954-06-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Hanna', 'Stankówna', '1938-05-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Beata', 'Tyszkiewicz', '1938-08-14', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ryszarda', 'Hanin', '1919-08-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dorota', 'Stalińska', '1953-06-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Janusz', 'Michałowski', '1937-01-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Juliusz', 'Machulski', '1955-03-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Annette', 'Bening', '1958-05-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Thora', 'Birch', '1982-03-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Wes', 'Bentley', '1978-09-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mena', 'Suvari', '1979-02-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Peter', 'Gallagher', '1955-08-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Chris', 'Cooper', '1951-07-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Allison', 'Janney', '1959-11-19', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Scott', 'Bakula', '1954-10-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sam', 'Mendes', '1965-08-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Alan', 'Ball', '1957-05-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Marek', 'Kondrat', '1950-10-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Janina', 'Traczykówna', '1930-05-16', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Andrzej', 'Grabowski', '1952-03-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michał', 'Koterski', '1979-12-29', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joanna', 'Sienkiewicz', '1952-07-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Monika', 'Donner-Trelińska', '2006-03-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anna', 'Muszyńska', '1971-02-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bogusław', 'Sar', '1950-08-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Barbara', 'Poznański', '1993-07-25', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Marek', 'Koterski', '1942-06-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jack', 'Nicholson', '1937-04-22', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Louise', 'Fletcher', '1934-07-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Sydney', 'Lassick', '1922-07-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Brad', 'Dourif', '1950-03-18', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Danny', 'DeVito', '1944-11-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Will', 'Sampson', '1933-09-27', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christopher', 'Lloyd', '1938-10-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('William', 'Redfield', '1927-01-26', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Berryman', '1948-09-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Miloš', 'Forman', '1932-02-18', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bo', 'Goldman', '1932-09-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Lawrence', 'Hauben', '1931-03-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Cate', 'Blanchett', '1969-05-14', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tilda', 'Swinton', '1960-11-05', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Taraji', 'Henson', '1970-09-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Julia', 'Ormond', '1965-01-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jason', 'Flemyng', '1966-09-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mahershala', 'Ali', '1974-02-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jared', 'Harris', '1961-08-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Elias', 'Koteas', '1961-03-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robin', 'Swicord', '2020-04-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ashton', 'Kutcher', '1978-02-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Amy', 'Smart', '1976-03-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Eric', 'Stoltz', '1961-09-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('William', 'Scott', '1973-07-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Elden', 'Henson', '1977-08-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ethan', 'Suplee', '1976-05-25', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Logan', 'Lerman', '1992-01-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Amedori', '1987-04-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Cameron', 'Bright', '1993-01-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('J.', 'Gruber', '1940-08-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Eric', 'Bress', '1981-08-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Clint', 'Eastwood', '1930-05-31', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christopher', 'Carley', '1978-05-31', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bee', 'Vang', '1991-11-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ahney', 'Her', '1992-04-02', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Brian', 'Haley', '1963-02-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Geraldine', 'Hughes', '2003-11-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dreama', 'Walker', '1986-06-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Brian', 'Howe', '2013-09-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('John', 'Lynch', '1963-08-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Nick', 'Schenk', '1985-09-10', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Shelley', 'Duvall', '1949-07-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Danny', 'Lloyd', '1972-10-13', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Scatman', 'Crothers', '1910-05-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Barry', 'Nelson', '1917-04-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Philip', 'Stone', '1924-04-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joe', 'Turkel', '1927-07-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Anne', 'Jackson', '1926-09-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tony', 'Burton', '1937-03-23', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Stanley', 'Kubrick', '1928-07-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Diane', 'Johnson', '1934-04-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Audrey', 'Tautou', '1976-08-09', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Alfred', 'Molina', '1953-05-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jürgen', 'Prochnow', '1941-06-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jean-Yves', 'Berteloot', '1958-08-27', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Etienne', 'Chicot', '1949-05-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jamie', 'Foxx', '1967-12-13', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kerry', 'Washington', '1977-01-31', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Walton', 'Goggins', '1971-11-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Remar', '1953-12-31', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dennis', 'Christopher', '1955-12-02', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Steen', '1954-06-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jim', 'Carrey', '1962-01-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Laura', 'Linney', '1964-02-05', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Noah', 'Emmerich', '1965-02-27', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Natascha', 'McElhone', '1969-12-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Holland', 'Taylor', '1943-01-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Brian', 'Delate', '1949-04-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Blair', 'Slater', '1921-08-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Peter', 'Krause', '1965-08-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Peter', 'Weir', '1944-08-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Andrew', 'Niccol', '1964-06-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Christian', 'Bale', '1974-01-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Heath', 'Ledger', '1979-04-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Aaron', 'Eckhart', '1968-03-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Michael', 'Caine', '1933-03-14', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Maggie', 'Gyllenhaal', '1977-11-16', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Monique', 'Curnen', '1977-09-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ron', 'Dean', '1938-08-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Nolan', '1976-06-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Chris', 'ODonnell', '1970-06-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Rebhorn', '1948-09-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Gabrielle', 'Anwar', '1970-02-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Philip', 'Hoffman', '1967-07-23', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Richard', 'Venture', '1923-11-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Bradley', 'Whitford', '1959-10-10', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rochelle', 'Oliver', '1937-04-15', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Margaret', 'Eginton', '1935-07-11', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Martin', 'Brest', '1951-08-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Matthew', 'Broderick', '1962-03-21', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Moira', 'Kelly', '1968-03-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('James', 'Jones', '1931-01-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jeremy', 'Irons', '1948-09-19', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Nathan', 'Lane', '1956-02-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ernie', 'Sabella', '1949-09-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Thomas', '1981-09-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Niketa', 'Calame', '1980-11-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Robert', 'Guillaume', '1927-11-30', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rob', 'Minkoff', '1962-08-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Roger', 'Allers', '1965-09-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Roberts', '1987-04-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Linda', 'Woolverton', '1952-11-19', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Charlize', 'Theron', '1975-08-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jeffrey', 'Jones', '1946-09-28', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Judith', 'Ivey', '1951-09-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Craig', 'Nelson', '1944-04-04', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tamara', 'Tunie', '1959-03-14', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Ruben', 'Santiago-Hudson', '1956-11-24', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Taylor', 'Hackford', '1944-12-31', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Tony', 'Gilroy', '1956-09-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonathan', 'Lemkin', '1911-12-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Hugh', 'Jackman', '1968-10-12', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Scarlett', 'Johansson', '1984-11-22', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Piper', 'Perabo', '1976-10-31', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rebecca', 'Hall', '1982-05-03', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Samantha', 'Mahurin', '1999-06-21', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Bowie', '1947-01-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Andy', 'Serkis', '1964-04-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Asa', 'Butterfield', '1997-04-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jack', 'Scanlon', '1998-08-06', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Zac', 'OBrien', '1993-06-30', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Henry', 'Kingsmill', '1937-07-05', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Vera', 'Farmiga', '1973-08-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('David', 'Thewlis', '1963-03-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Cara', 'Horgan', '1914-02-01', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Amber', 'Beattie', '1948-05-09', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('László', 'Áron', '1945-06-10', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mark', 'Herman', '1912-07-08', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jonah', 'Hill', '1983-12-20', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Margot', 'Robbie', '1990-07-02', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Matthew', 'McConaughey', '1969-11-04', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Kyle', 'Chandler', '1965-09-17', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Rob', 'Reiner', '1947-03-06', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jon', 'Bernthal', '1976-09-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jon', 'Favreau', '1966-10-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Jean', 'Dujardin', '1972-06-19', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Terence', 'Winter', '1960-10-02', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Alice', 'Braga', '1983-04-15', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Salli', 'Richardson-Whitfield', '1967-11-23', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Charlie', 'Tahan', '1998-06-11', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Paradox', 'Pollack', '2008-03-07', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Dash', 'Mihok', '1974-05-24', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Joanna', 'Numata', '2016-10-01', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('April', 'Grace', '1962-05-12', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Steve', 'Cirbus', '1923-10-20', NULL, 'M');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Francis', 'Lawrence', '1971-03-26', NULL, 'K');
-INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('Mark', 'Protosevich', '1961-08-24', NULL, 'M');
+INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES
+('Tom', 'Hanks', '1956-07-09', NULL, 'K'),
+('David', 'Morse', '1953-10-11', NULL, 'K'),
+('Bonnie', 'Hunt', '1961-09-22', NULL, 'M'),
+('Michael', 'Duncan', '1957-12-10', NULL, 'K'),
+('James', 'Cromwell', '1940-01-27', NULL, 'M'),
+('Michael', 'Jeter', '1952-08-26', NULL, 'K'),
+('Graham', 'Greene', '1952-06-22', NULL, 'K'),
+('Doug', 'Hutchison', '1960-05-26', NULL, 'M'),
+('Sam', 'Rockwell', '1968-11-05', NULL, 'M'),
+('Frank', 'Darabont', '1959-01-28', NULL, 'M'),
+('Tim', 'Robbins', '1958-10-16', NULL, 'M'),
+('Morgan', 'Freeman', '1937-06-01', NULL, 'M'),
+('Bob', 'Gunton', '1945-11-15', NULL, 'M'),
+('William', 'Sadler', '1950-04-13', NULL, 'K'),
+('Clancy', 'Brown', '1959-01-05', NULL, 'M'),
+('Gil', 'Bellows', '1967-06-28', NULL, 'K'),
+('Mark', 'Rolston', '1956-12-07', NULL, 'M'),
+('James', 'Whitmore', '1921-10-01', NULL, 'K'),
+('Larry', 'Brandenburg', '1948-05-03', NULL, 'M'),
+('Robin', 'Wright', '1966-04-08', NULL, 'K'),
+('Sally', 'Field', '1946-11-06', NULL, 'M'),
+('Gary', 'Sinise', '1955-03-17', NULL, 'K'),
+('Mykelti', 'Williamson', '1957-03-04', NULL, 'M'),
+('Michael', 'Humphreys', '1912-08-07', NULL, 'M'),
+('Hanna', 'Hall', '1984-07-09', NULL, 'M'),
+('Haley', 'Osment', '1988-04-10', NULL, 'K'),
+('Nora', 'Dunfee', '1915-12-25', NULL, 'M'),
+('Robert', 'Zemeckis', '1951-05-14', NULL, 'K'),
+('Eric', 'Roth', '1945-03-22', NULL, 'M'),
+('Jean', 'Reno', '1948-07-30', NULL, 'K'),
+('Gary', 'Oldman', '1958-03-21', NULL, 'M'),
+('Natalie', 'Portman', '1981-06-09', NULL, 'K'),
+('Danny', 'Aiello', '1933-06-20', NULL, 'K'),
+('Peter', 'Appel', '1959-10-19', NULL, 'M'),
+('Willie', 'Blood', '1976-04-23', NULL, 'M'),
+('Don', 'Creech', '1995-08-21', NULL, 'K'),
+('Keith', 'Glascoe', '1962-12-09', NULL, 'M'),
+('Randolph', 'Scott', '1929-12-27', NULL, 'K'),
+('Luc', 'Besson', '1959-03-18', NULL, 'M'),
+('Ellen', 'Burstyn', '1932-12-07', NULL, 'M'),
+('Jared', 'Leto', '1971-12-26', NULL, 'K'),
+('Jennifer', 'Connelly', '1970-12-12', NULL, 'K'),
+('Marlon', 'Wayans', '1972-07-23', NULL, 'K'),
+('Christopher', 'McDonald', '1955-02-15', NULL, 'M'),
+('Louise', 'Lasser', '1939-04-11', NULL, 'K'),
+('Keith', 'David', '1956-06-04', NULL, 'M'),
+('Sean', 'Gullette', '1968-06-04', NULL, 'M'),
+('Denise', 'Dowse', '1958-02-21', NULL, 'M'),
+('Darren', 'Aronofsky', '1969-02-12', NULL, 'M'),
+('Hubert', 'Jr.', '1928-07-23', NULL, 'K'),
+('Keanu', 'Reeves', '1964-09-02', NULL, 'M'),
+('Carrie-Anne', 'Moss', '1967-08-21', NULL, 'M'),
+('Laurence', 'Fishburne', '1961-07-30', NULL, 'M'),
+('Hugo', 'Weaving', '1960-04-04', NULL, 'M'),
+('Gloria', 'Foster', '1933-11-15', NULL, 'M'),
+('Joe', 'Pantoliano', '1951-09-12', NULL, 'K'),
+('Marcus', 'Chong', '1967-07-08', NULL, 'M'),
+('Julian', 'Arahanga', '1972-12-18', NULL, 'K'),
+('Belinda', 'McClory', '1968-11-01', NULL, 'M'),
+('Lilly', 'Wachowski', '1967-12-29', NULL, 'M'),
+('Lana', 'Wachowski', '1965-06-21', NULL, 'M'),
+('Anthony', 'Hopkins', '1937-12-31', NULL, 'K'),
+('Jodie', 'Foster', '1962-11-19', NULL, 'M'),
+('Ted', 'Levine', '1957-05-29', NULL, 'K'),
+('Kasi', 'Lemmons', '1961-02-24', NULL, 'K'),
+('Lawrence', 'Bonney', '2008-12-12', NULL, 'M'),
+('Lawrence', 'Wrentz', '1954-02-09', NULL, 'M'),
+('Scott', 'Glenn', '1939-01-26', NULL, 'M'),
+('Anthony', 'Heald', '1944-08-25', NULL, 'M'),
+('Frankie', 'Faison', '1949-06-10', NULL, 'M'),
+('Jonathan', 'Demme', '1944-02-22', NULL, 'K'),
+('Ted', 'Tally', '1952-04-09', NULL, 'K'),
+('Russell', 'Crowe', '1964-04-07', NULL, 'M'),
+('Joaquin', 'Phoenix', '1974-10-28', NULL, 'M'),
+('Connie', 'Nielsen', '1965-07-03', NULL, 'K'),
+('Oliver', 'Reed', '1938-02-13', NULL, 'K'),
+('Derek', 'Jacobi', '1938-10-22', NULL, 'M'),
+('Djimon', 'Hounsou', '1964-04-24', NULL, 'K'),
+('Richard', 'Harris', '1930-10-01', NULL, 'K'),
+('David', 'Schofield', '1919-12-10', NULL, 'K'),
+('John', 'Shrapnel', '1942-04-27', NULL, 'M'),
+('Ridley', 'Scott', '1937-11-30', NULL, 'M'),
+('David', 'Franzoni', '1947-03-04', NULL, 'M'),
+('John', 'Logan', '1961-09-24', NULL, 'M'),
+('Sam', 'Worthington', '1976-08-02', NULL, 'M'),
+('Zoe', 'Saldaña', '1978-06-19', NULL, 'M'),
+('Sigourney', 'Weaver', '1949-10-08', NULL, 'M'),
+('Stephen', 'Lang', '1952-07-11', NULL, 'M'),
+('Michelle', 'Rodriguez', '1978-07-12', NULL, 'M'),
+('Giovanni', 'Ribisi', '1974-12-17', NULL, 'M'),
+('Joel', 'Moore', '1977-09-25', NULL, 'K'),
+('CCH', 'Pounder', '1952-12-25', NULL, 'M'),
+('Wes', 'Studi', '1947-12-17', NULL, 'K'),
+('James', 'Cameron', '1954-08-16', NULL, 'M'),
+('Mike', 'Myers', '1963-05-25', NULL, 'K'),
+('Eddie', 'Murphy', '1961-04-03', NULL, 'M'),
+('Cameron', 'Diaz', '1972-08-30', NULL, 'M'),
+('John', 'Lithgow', '1945-10-19', NULL, 'K'),
+('Vincent', 'Cassel', '1966-11-23', NULL, 'M'),
+('Bobby', 'Block', '1987-10-12', NULL, 'K'),
+('Jim', 'Cummings', '1952-11-03', NULL, 'M'),
+('Simon', 'Smith', '1975-10-15', NULL, 'M'),
+('Guillaume', 'Aretos', '1963-12-29', NULL, 'K'),
+('Andrew', 'Adamson', '1966-12-01', NULL, 'M'),
+('Vicky', 'Jenson', '1930-12-21', NULL, 'M'),
+('Joe', 'Stillman', '1915-06-03', NULL, 'M'),
+('Roger', 'Schulman', '1934-08-14', NULL, 'K'),
+('Tom', 'Sizemore', '1961-11-29', NULL, 'M'),
+('Edward', 'Burns', '1968-01-29', NULL, 'K'),
+('Barry', 'Pepper', '1970-04-04', NULL, 'K'),
+('Adam', 'Goldberg', '1970-10-25', NULL, 'K'),
+('Vin', 'Diesel', '1967-07-18', NULL, 'K'),
+('Jeremy', 'Davies', '1969-10-08', NULL, 'M'),
+('Matt', 'Damon', '1970-10-08', NULL, 'K'),
+('Steven', 'Spielberg', '1946-12-18', NULL, 'K'),
+('Robert', 'Rodat', '2001-09-05', NULL, 'M'),
+('Edward', 'Norton', '1969-08-18', NULL, 'M'),
+('Brad', 'Pitt', '1963-12-18', NULL, 'K'),
+('Helena', 'Carter', '1966-05-26', NULL, 'K'),
+('Meat', 'Loaf', '1947-09-27', NULL, 'M'),
+('Zach', 'Grenier', '1954-02-12', NULL, 'K'),
+('Holt', 'McCallany', '1964-09-03', NULL, 'M'),
+('Eion', 'Bailey', '1976-06-08', NULL, 'K'),
+('Ezra', 'Buzzington', '1957-04-07', NULL, 'K'),
+('David', 'Fincher', '1962-08-28', NULL, 'K'),
+('Jim', 'Uhls', '1957-03-25', NULL, 'M'),
+('John', 'Travolta', '1954-02-18', NULL, 'M'),
+('Samuel', 'Jackson', '1948-12-21', NULL, 'M'),
+('Uma', 'Thurman', '1970-04-29', NULL, 'M'),
+('Bruce', 'Willis', '1955-03-19', NULL, 'K'),
+('Harvey', 'Keitel', '1939-05-13', NULL, 'K'),
+('Ving', 'Rhames', '1959-05-12', NULL, 'K'),
+('Tim', 'Roth', '1961-05-14', NULL, 'K'),
+('Amanda', 'Plummer', '1957-03-23', NULL, 'K'),
+('Quentin', 'Tarantino', '1963-03-27', NULL, 'K'),
+('Leonardo', 'DiCaprio', '1974-11-11', NULL, 'K'),
+('Kate', 'Winslet', '1975-10-05', NULL, 'K'),
+('Billy', 'Zane', '1966-02-24', NULL, 'K'),
+('Kathy', 'Bates', '1948-06-28', NULL, 'K'),
+('Frances', 'Fisher', '1952-05-11', NULL, 'K'),
+('Gloria', 'Stuart', '1910-07-04', NULL, 'M'),
+('Bill', 'Paxton', '1955-05-17', NULL, 'K'),
+('Bernard', 'Hill', '1944-12-17', NULL, 'M'),
+('David', 'Warner', '1941-07-29', NULL, 'M'),
+('François', 'Cluzet', '1955-09-21', NULL, 'K'),
+('Omar', 'Sy', '1978-01-20', NULL, 'M'),
+('Anne', 'Ny', '1962-12-16', NULL, 'M'),
+('Audrey', 'Fleurot', '1977-07-06', NULL, 'M'),
+('Clotilde', 'Mollet', '1945-12-27', NULL, 'M'),
+('Alba', 'Bellugi', '1995-03-05', NULL, 'M'),
+('Cyril', 'Mendy', '1995-10-10', NULL, 'K'),
+('Christian', 'Ameri', '1951-10-26', NULL, 'K'),
+('Grégoire', 'Oestermann', '1932-11-29', NULL, 'M'),
+('Olivier', 'Nakache', '1973-04-14', NULL, 'M'),
+('Éric', 'Toledano', '1971-07-03', NULL, 'K'),
+('Marlon', 'Brando', '1924-04-03', NULL, 'M'),
+('Al', 'Pacino', '1940-04-25', NULL, 'K'),
+('James', 'Caan', '1940-03-26', NULL, 'K'),
+('Richard', 'Castellano', '1933-09-04', NULL, 'K'),
+('Robert', 'Duvall', '1931-01-05', NULL, 'K'),
+('Sterling', 'Hayden', '1916-03-26', NULL, 'M'),
+('John', 'Marley', '1907-10-17', NULL, 'M'),
+('Richard', 'Conte', '1910-03-24', NULL, 'M'),
+('Al', 'Lettieri', '1928-02-24', NULL, 'K'),
+('Francis', 'Coppola', '1939-04-07', NULL, 'K'),
+('Mario', 'Puzo', '1920-10-15', NULL, 'K'),
+('Joseph', 'Gordon-Levitt', '1981-02-17', NULL, 'K'),
+('Elliot', 'Page', '1987-02-21', NULL, 'K'),
+('Tom', 'Hardy', '1977-09-15', NULL, 'M'),
+('Ken', 'Watanabe', '1959-10-21', NULL, 'K'),
+('Dileep', 'Rao', '1973-07-29', NULL, 'M'),
+('Cillian', 'Murphy', '1976-05-25', NULL, 'K'),
+('Tom', 'Berenger', '1949-05-31', NULL, 'M'),
+('Marion', 'Cotillard', '1975-09-30', NULL, 'M'),
+('Christopher', 'Nolan', '1970-07-30', NULL, 'K'),
+('Mark', 'Ruffalo', '1967-11-22', NULL, 'M'),
+('Ben', 'Kingsley', '1943-12-31', NULL, 'M'),
+('Max', 'Sydow', '1929-04-10', NULL, 'M'),
+('Michelle', 'Williams', '1980-09-09', NULL, 'M'),
+('Emily', 'Mortimer', '1971-12-01', NULL, 'M'),
+('Patricia', 'Clarkson', '1959-12-29', NULL, 'K'),
+('Jackie', 'Haley', '1961-07-14', NULL, 'M'),
+('Martin', 'Scorsese', '1942-11-17', NULL, 'K'),
+('Laeta', 'Kalogridis', '1965-08-30', NULL, 'K'),
+('Gwyneth', 'Paltrow', '1972-09-27', NULL, 'K'),
+('Kevin', 'Spacey', '1959-07-26', NULL, 'M'),
+('Daniel', 'Zacapa', '1923-12-16', NULL, 'K'),
+('John', 'Cassini', '1923-06-26', NULL, 'K'),
+('Bob', 'Mack', '1972-02-17', NULL, 'M'),
+('Peter', 'Crombie', '1967-09-16', NULL, 'M'),
+('Reg', 'Cathey', '1958-08-18', NULL, 'M'),
+('Andrew', 'Walker', '1964-08-14', NULL, 'M'),
+('Toni', 'Collette', '1972-11-01', NULL, 'M'),
+('Olivia', 'Williams', '1968-07-26', NULL, 'K'),
+('Donnie', 'Wahlberg', '1969-08-17', NULL, 'K'),
+('Glenn', 'Fitzgerald', '1971-11-30', NULL, 'K'),
+('Trevor', 'Morgan', '1986-11-26', NULL, 'M'),
+('Bruce', 'Norris', '1960-05-16', NULL, 'K'),
+('Jodi', 'Dawson', '1983-03-22', NULL, 'M'),
+('M.', 'Shyamalan', '1970-08-06', NULL, 'K'),
+('Adrien', 'Brody', '1973-04-14', NULL, 'M'),
+('Thomas', 'Kretschmann', '1962-09-08', NULL, 'K'),
+('Emilia', 'Fox', '1974-07-31', NULL, 'M'),
+('Maureen', 'Lipman', '1946-05-10', NULL, 'K'),
+('Jessica', 'Meyer', '1930-07-22', NULL, 'M'),
+('Julia', 'Rayner', '1915-11-18', NULL, 'K'),
+('Valentine', 'Pelka', '1957-02-23', NULL, 'M'),
+('Nina', 'Franoszek', '1963-03-16', NULL, 'M'),
+('Frank', 'Finlay', '1926-08-06', NULL, 'M'),
+('Roman', 'Polański', '1933-08-18', NULL, 'K'),
+('Ronald', 'Harwood', '1934-11-09', NULL, 'M'),
+('Elijah', 'Wood', '1981-01-28', NULL, 'M'),
+('Sean', 'Astin', '1971-02-25', NULL, 'M'),
+('Billy', 'Boyd', '1968-08-28', NULL, 'M'),
+('Dominic', 'Monaghan', '1976-12-08', NULL, 'K'),
+('Ian', 'Holm', '1931-09-12', NULL, 'M'),
+('Viggo', 'Mortensen', '1958-10-20', NULL, 'K'),
+('Ian', 'McKellen', '1939-05-25', NULL, 'K'),
+('Liv', 'Tyler', '1977-07-01', NULL, 'M'),
+('Orlando', 'Bloom', '1977-01-13', NULL, 'K'),
+('Peter', 'Jackson', '1961-10-31', NULL, 'K'),
+('Fran', 'Walsh', '1959-01-10', NULL, 'M'),
+('Johnny', 'Depp', '1963-06-09', NULL, 'K'),
+('Geoffrey', 'Rush', '1951-07-06', NULL, 'M'),
+('Keira', 'Knightley', '1985-03-26', NULL, 'K'),
+('Jack', 'Davenport', '1973-03-01', NULL, 'K'),
+('Jonathan', 'Pryce', '1947-06-01', NULL, 'M'),
+('Lee', 'Arenberg', '1962-07-18', NULL, 'K'),
+('Mackenzie', 'Crook', '1971-09-29', NULL, 'K'),
+('Damian', 'OHare', '1977-08-13', NULL, 'M'),
+('Gore', 'Verbinski', '1964-03-16', NULL, 'M'),
+('Ted', 'Elliott', '1961-07-04', NULL, 'M'),
+('Terry', 'Rossio', '1960-07-02', NULL, 'M'),
+('Bradley', 'Cooper', '1975-01-05', NULL, 'M'),
+('Ed', 'Helms', '1974-01-24', NULL, 'K'),
+('Zach', 'Galifianakis', '1969-10-01', NULL, 'K'),
+('Justin', 'Bartha', '1978-07-21', NULL, 'M'),
+('Heather', 'Graham', '1970-01-29', NULL, 'M'),
+('Jeffrey', 'Tambor', '1944-07-08', NULL, 'M'),
+('Ken', 'Jeong', '1969-07-13', NULL, 'K'),
+('Rachael', 'Harris', '1968-01-12', NULL, 'M'),
+('Sondra', 'Currie', '1952-01-11', NULL, 'M'),
+('Todd', 'Phillips', '1970-12-20', NULL, 'K'),
+('Scott', 'Moore', '2023-09-09', NULL, 'K'),
+('Jon', 'Lucas', '1960-08-15', NULL, 'M'),
+('Mélanie', 'Laurent', '1983-02-21', NULL, 'M'),
+('Christoph', 'Waltz', '1956-10-04', NULL, 'M'),
+('Eli', 'Roth', '1972-04-18', NULL, 'K'),
+('Michael', 'Fassbender', '1977-04-02', NULL, 'K'),
+('Diane', 'Kruger', '1976-07-15', NULL, 'M'),
+('Daniel', 'Brühl', '1978-06-16', NULL, 'K'),
+('Til', 'Schweiger', '1963-12-19', NULL, 'K'),
+('Gedeon', 'Burkhard', '1969-07-03', NULL, 'M'),
+('Will', 'Smith', '1968-09-25', NULL, 'K'),
+('Rosario', 'Dawson', '1979-05-09', NULL, 'K'),
+('Woody', 'Harrelson', '1961-07-23', NULL, 'M'),
+('Michael', 'Ealy', '1973-08-03', NULL, 'M'),
+('Elpidia', 'Carrillo', '1961-08-16', NULL, 'K'),
+('Robinne', 'Lee', '1974-07-16', NULL, 'M'),
+('Joe', 'Nunez', '1922-10-13', NULL, 'K'),
+('Bill', 'Smitrovich', '1947-05-16', NULL, 'M'),
+('Gabriele', 'Muccino', '1967-05-20', NULL, 'M'),
+('Grant', 'Nieporte', '1984-02-04', NULL, 'M'),
+('Liam', 'Neeson', '1952-06-07', NULL, 'M'),
+('Ralph', 'Fiennes', '1962-12-22', NULL, 'K'),
+('Caroline', 'Goodall', '1959-11-13', NULL, 'M'),
+('Jonathan', 'Sagall', '1962-04-23', NULL, 'K'),
+('Embeth', 'Davidtz', '1965-08-11', NULL, 'K'),
+('Andrzej', 'Seweryn', '1946-04-25', NULL, 'K'),
+('Anna', 'Mucha', '1980-04-26', NULL, 'K'),
+('Jacek', 'Wójcicki', '1960-01-21', NULL, 'M'),
+('Steven', 'Zaillian', '1953-01-30', NULL, 'M'),
+('Ed', 'Harris', '1950-11-28', NULL, 'K'),
+('Christopher', 'Plummer', '1929-12-13', NULL, 'M'),
+('Paul', 'Bettany', '1971-05-27', NULL, 'M'),
+('Josh', 'Lucas', '1971-06-20', NULL, 'K'),
+('Anthony', 'Rapp', '1971-10-26', NULL, 'K'),
+('Jason', 'Gray-Stanford', '1970-05-19', NULL, 'M'),
+('Ron', 'Howard', '1954-03-01', NULL, 'M'),
+('Akiva', 'Goldsman', '1962-07-07', NULL, 'K'),
+('Dev', 'Patel', '1990-04-23', NULL, 'K'),
+('Freida', 'Pinto', '1984-10-18', NULL, 'M'),
+('Madhur', 'Mittal', '1987-01-20', NULL, 'M'),
+('Anil', 'Kapoor', '1956-12-24', NULL, 'K'),
+('Saurabh', 'Shukla', '1963-03-05', NULL, 'K'),
+('Irrfan', 'Khan', '1967-01-07', NULL, 'K'),
+('Ayush', 'Khedekar', '1911-09-29', NULL, 'M'),
+('Azharuddin', 'Ismail', '1994-01-28', NULL, 'M'),
+('Rubina', 'Ali', '1999-01-21', NULL, 'M'),
+('Danny', 'Boyle', '1956-10-20', NULL, 'M'),
+('Simon', 'Beaufoy', '1934-05-14', NULL, 'M'),
+('Helen', 'Hunt', '1963-06-15', NULL, 'M'),
+('Yelena', 'Popovic', '1963-04-22', NULL, 'M'),
+('Semion', 'Sudarikov', '1970-04-16', NULL, 'M'),
+('François', 'Duhamel', '1967-10-11', NULL, 'K'),
+('Jennifer', 'Choe', '1988-05-01', NULL, 'K'),
+('Ashley', 'Trefger', '1989-02-17', NULL, 'M'),
+('Lindsey', 'Trefger', '1989-02-17', NULL, 'K'),
+('Kaitlyn', 'Gainer', '1932-11-22', NULL, 'K'),
+('William', 'Jr.', '1944-10-08', NULL, 'M'),
+('Jerzy', 'Stuhr', '1947-04-18', NULL, 'M'),
+('Olgierd', 'Łukaszewicz', '1946-09-07', NULL, 'M'),
+('Bożena', 'Stryjkówna', '1954-08-09', NULL, 'M'),
+('Bogusława', 'Pawelec', '1954-06-22', NULL, 'K'),
+('Hanna', 'Stankówna', '1938-05-04', NULL, 'M'),
+('Beata', 'Tyszkiewicz', '1938-08-14', NULL, 'M'),
+('Ryszarda', 'Hanin', '1919-08-30', NULL, 'K'),
+('Dorota', 'Stalińska', '1953-06-01', NULL, 'K'),
+('Janusz', 'Michałowski', '1937-01-01', NULL, 'K'),
+('Juliusz', 'Machulski', '1955-03-10', NULL, 'M'),
+('Annette', 'Bening', '1958-05-29', NULL, 'M'),
+('Thora', 'Birch', '1982-03-11', NULL, 'M'),
+('Wes', 'Bentley', '1978-09-04', NULL, 'K'),
+('Mena', 'Suvari', '1979-02-13', NULL, 'M'),
+('Peter', 'Gallagher', '1955-08-19', NULL, 'K'),
+('Chris', 'Cooper', '1951-07-09', NULL, 'K'),
+('Allison', 'Janney', '1959-11-19', NULL, 'M'),
+('Scott', 'Bakula', '1954-10-09', NULL, 'K'),
+('Sam', 'Mendes', '1965-08-01', NULL, 'M'),
+('Alan', 'Ball', '1957-05-13', NULL, 'M'),
+('Marek', 'Kondrat', '1950-10-18', NULL, 'M'),
+('Janina', 'Traczykówna', '1930-05-16', NULL, 'K'),
+('Andrzej', 'Grabowski', '1952-03-15', NULL, 'K'),
+('Michał', 'Koterski', '1979-12-29', NULL, 'K'),
+('Joanna', 'Sienkiewicz', '1952-07-17', NULL, 'K'),
+('Monika', 'Donner-Trelińska', '1919-11-22', NULL, 'M'),
+('Anna', 'Muszyńska', '2018-12-19', NULL, 'M'),
+('Bogusław', 'Sar', '1950-08-19', NULL, 'M'),
+('Barbara', 'Poznański', '1991-05-07', NULL, 'M'),
+('Marek', 'Koterski', '1942-06-03', NULL, 'M'),
+('Jack', 'Nicholson', '1937-04-22', NULL, 'M'),
+('Louise', 'Fletcher', '1934-07-22', NULL, 'M'),
+('Sydney', 'Lassick', '1922-07-23', NULL, 'M'),
+('Brad', 'Dourif', '1950-03-18', NULL, 'M'),
+('Danny', 'DeVito', '1944-11-17', NULL, 'M'),
+('Will', 'Sampson', '1933-09-27', NULL, 'K'),
+('Christopher', 'Lloyd', '1938-10-22', NULL, 'K'),
+('William', 'Redfield', '1927-01-26', NULL, 'M'),
+('Michael', 'Berryman', '1948-09-04', NULL, 'M'),
+('Miloš', 'Forman', '1932-02-18', NULL, 'K'),
+('Bo', 'Goldman', '1932-09-10', NULL, 'K'),
+('Lawrence', 'Hauben', '1931-03-03', NULL, 'K'),
+('Cate', 'Blanchett', '1969-05-14', NULL, 'M'),
+('Tilda', 'Swinton', '1960-11-05', NULL, 'M'),
+('Taraji', 'Henson', '1970-09-11', NULL, 'M'),
+('Julia', 'Ormond', '1965-01-04', NULL, 'K'),
+('Jason', 'Flemyng', '1966-09-25', NULL, 'M'),
+('Mahershala', 'Ali', '1974-02-16', NULL, 'K'),
+('Jared', 'Harris', '1961-08-24', NULL, 'K'),
+('Elias', 'Koteas', '1961-03-11', NULL, 'M'),
+('Robin', 'Swicord', '1936-02-11', NULL, 'M'),
+('Ashton', 'Kutcher', '1978-02-07', NULL, 'M'),
+('Amy', 'Smart', '1976-03-26', NULL, 'K'),
+('Eric', 'Stoltz', '1961-09-30', NULL, 'M'),
+('William', 'Scott', '1973-07-06', NULL, 'M'),
+('Elden', 'Henson', '1977-08-30', NULL, 'M'),
+('Ethan', 'Suplee', '1976-05-25', NULL, 'M'),
+('Logan', 'Lerman', '1992-01-19', NULL, 'M'),
+('John', 'Amedori', '1987-04-20', NULL, 'K'),
+('Cameron', 'Bright', '1993-01-26', NULL, 'M'),
+('J.', 'Gruber', '2018-04-17', NULL, 'M'),
+('Eric', 'Bress', '1916-08-07', NULL, 'K'),
+('Clint', 'Eastwood', '1930-05-31', NULL, 'M'),
+('Christopher', 'Carley', '1978-05-31', NULL, 'K'),
+('Bee', 'Vang', '1991-11-04', NULL, 'M'),
+('Ahney', 'Her', '1992-04-02', NULL, 'M'),
+('Brian', 'Haley', '1963-02-12', NULL, 'M'),
+('Geraldine', 'Hughes', '1957-03-02', NULL, 'M'),
+('Dreama', 'Walker', '1986-06-20', NULL, 'M'),
+('Brian', 'Howe', '1957-12-09', NULL, 'M'),
+('John', 'Lynch', '1963-08-01', NULL, 'M'),
+('Nick', 'Schenk', '1952-11-30', NULL, 'M'),
+('Shelley', 'Duvall', '1949-07-07', NULL, 'K'),
+('Danny', 'Lloyd', '1972-10-13', NULL, 'M'),
+('Scatman', 'Crothers', '1910-05-23', NULL, 'K'),
+('Barry', 'Nelson', '1917-04-16', NULL, 'M'),
+('Philip', 'Stone', '1924-04-14', NULL, 'K'),
+('Joe', 'Turkel', '1927-07-15', NULL, 'M'),
+('Anne', 'Jackson', '1926-09-03', NULL, 'K'),
+('Tony', 'Burton', '1937-03-23', NULL, 'M'),
+('Stanley', 'Kubrick', '1928-07-26', NULL, 'K'),
+('Diane', 'Johnson', '1934-04-28', NULL, 'K'),
+('Audrey', 'Tautou', '1976-08-09', NULL, 'M'),
+('Alfred', 'Molina', '1953-05-24', NULL, 'K'),
+('Jürgen', 'Prochnow', '1941-06-10', NULL, 'K'),
+('Jean-Yves', 'Berteloot', '1958-08-27', NULL, 'M'),
+('Etienne', 'Chicot', '1949-05-05', NULL, 'K'),
+('Jamie', 'Foxx', '1967-12-13', NULL, 'M'),
+('Kerry', 'Washington', '1977-01-31', NULL, 'M'),
+('Walton', 'Goggins', '1971-11-10', NULL, 'K'),
+('James', 'Remar', '1953-12-31', NULL, 'M'),
+('Dennis', 'Christopher', '1955-12-02', NULL, 'K'),
+('David', 'Steen', '1954-06-26', NULL, 'M'),
+('Jim', 'Carrey', '1962-01-17', NULL, 'K'),
+('Laura', 'Linney', '1964-02-05', NULL, 'K'),
+('Noah', 'Emmerich', '1965-02-27', NULL, 'M'),
+('Natascha', 'McElhone', '1969-12-14', NULL, 'K'),
+('Holland', 'Taylor', '1943-01-14', NULL, 'M'),
+('Brian', 'Delate', '1949-04-08', NULL, 'K'),
+('Blair', 'Slater', '1908-07-27', NULL, 'K'),
+('Peter', 'Krause', '1965-08-12', NULL, 'K'),
+('Peter', 'Weir', '1944-08-21', NULL, 'K'),
+('Andrew', 'Niccol', '1964-06-10', NULL, 'M'),
+('Christian', 'Bale', '1974-01-30', NULL, 'K'),
+('Heath', 'Ledger', '1979-04-04', NULL, 'M'),
+('Aaron', 'Eckhart', '1968-03-12', NULL, 'M'),
+('Michael', 'Caine', '1933-03-14', NULL, 'M'),
+('Maggie', 'Gyllenhaal', '1977-11-16', NULL, 'M'),
+('Monique', 'Curnen', '1977-09-07', NULL, 'M'),
+('Ron', 'Dean', '1938-08-15', NULL, 'K'),
+('Jonathan', 'Nolan', '1976-06-06', NULL, 'K'),
+('Chris', 'ODonnell', '1970-06-26', NULL, 'M'),
+('James', 'Rebhorn', '1948-09-01', NULL, 'M'),
+('Gabrielle', 'Anwar', '1970-02-04', NULL, 'M'),
+('Philip', 'Hoffman', '1967-07-23', NULL, 'K'),
+('Richard', 'Venture', '1923-11-12', NULL, 'M'),
+('Bradley', 'Whitford', '1959-10-10', NULL, 'M'),
+('Rochelle', 'Oliver', '1937-04-15', NULL, 'K'),
+('Margaret', 'Eginton', '1971-03-18', NULL, 'M'),
+('Martin', 'Brest', '1951-08-08', NULL, 'M'),
+('Matthew', 'Broderick', '1962-03-21', NULL, 'M'),
+('Moira', 'Kelly', '1968-03-06', NULL, 'M'),
+('James', 'Jones', '1931-01-17', NULL, 'M'),
+('Jeremy', 'Irons', '1948-09-19', NULL, 'K'),
+('Nathan', 'Lane', '1956-02-03', NULL, 'K'),
+('Ernie', 'Sabella', '1949-09-19', NULL, 'M'),
+('Jonathan', 'Thomas', '1981-09-08', NULL, 'K'),
+('Niketa', 'Calame', '1980-11-10', NULL, 'K'),
+('Robert', 'Guillaume', '1927-11-30', NULL, 'M'),
+('Rob', 'Minkoff', '1962-08-11', NULL, 'K'),
+('Roger', 'Allers', '2019-10-02', NULL, 'K'),
+('Jonathan', 'Roberts', '2014-02-04', NULL, 'K'),
+('Linda', 'Woolverton', '1952-11-19', NULL, 'K'),
+('Charlize', 'Theron', '1975-08-07', NULL, 'K'),
+('Jeffrey', 'Jones', '1946-09-28', NULL, 'M'),
+('Judith', 'Ivey', '1951-09-04', NULL, 'K'),
+('Craig', 'Nelson', '1944-04-04', NULL, 'M'),
+('Tamara', 'Tunie', '1959-03-14', NULL, 'M'),
+('Ruben', 'Santiago-Hudson', '1956-11-24', NULL, 'M'),
+('Taylor', 'Hackford', '1944-12-31', NULL, 'K'),
+('Tony', 'Gilroy', '1956-09-11', NULL, 'K'),
+('Jonathan', 'Lemkin', '1969-06-03', NULL, 'K'),
+('Hugh', 'Jackman', '1968-10-12', NULL, 'M'),
+('Scarlett', 'Johansson', '1984-11-22', NULL, 'K'),
+('Piper', 'Perabo', '1976-10-31', NULL, 'M'),
+('Rebecca', 'Hall', '1982-05-03', NULL, 'K'),
+('Samantha', 'Mahurin', '1999-06-21', NULL, 'M'),
+('David', 'Bowie', '1947-01-08', NULL, 'M'),
+('Andy', 'Serkis', '1964-04-20', NULL, 'M'),
+('Asa', 'Butterfield', '1997-04-01', NULL, 'M'),
+('Jack', 'Scanlon', '1998-08-06', NULL, 'M'),
+('Zac', 'OBrien', '1942-05-25', NULL, 'K'),
+('Henry', 'Kingsmill', '1923-02-13', NULL, 'K'),
+('Vera', 'Farmiga', '1973-08-06', NULL, 'M'),
+('David', 'Thewlis', '1963-03-20', NULL, 'K'),
+('Cara', 'Horgan', '1976-05-30', NULL, 'M'),
+('Amber', 'Beattie', '1972-05-26', NULL, 'M'),
+('László', 'Áron', '1945-06-10', NULL, 'M'),
+('Mark', 'Herman', '1930-05-25', NULL, 'K'),
+('Jonah', 'Hill', '1983-12-20', NULL, 'M'),
+('Margot', 'Robbie', '1990-07-02', NULL, 'K'),
+('Matthew', 'McConaughey', '1969-11-04', NULL, 'M'),
+('Kyle', 'Chandler', '1965-09-17', NULL, 'K'),
+('Rob', 'Reiner', '1947-03-06', NULL, 'K'),
+('Jon', 'Bernthal', '1976-09-20', NULL, 'M'),
+('Jon', 'Favreau', '1966-10-19', NULL, 'M'),
+('Jean', 'Dujardin', '1972-06-19', NULL, 'K'),
+('Terence', 'Winter', '1960-10-02', NULL, 'K'),
+('Alice', 'Braga', '1983-04-15', NULL, 'K'),
+('Salli', 'Richardson-Whitfield', '1967-11-23', NULL, 'K'),
+('Charlie', 'Tahan', '1998-06-11', NULL, 'M'),
+('Paradox', 'Pollack', '1947-05-30', NULL, 'M'),
+('Dash', 'Mihok', '1974-05-24', NULL, 'M'),
+('Joanna', 'Numata', '1960-10-02', NULL, 'M'),
+('April', 'Grace', '1962-05-12', NULL, 'M'),
+('Steve', 'Cirbus', '2016-02-09', NULL, 'M'),
+('Francis', 'Lawrence', '1971-03-26', NULL, 'M'),
+('Mark', 'Protosevich', '1961-08-24', NULL, 'K');
 
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hanks'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Morse'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bonnie' AND nazwisko = 'Hunt'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Duncan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cromwell'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Jeter'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Graham' AND nazwisko = 'Greene'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Doug' AND nazwisko = 'Hutchison'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Rockwell'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Darabont'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Robbins'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Morgan' AND nazwisko = 'Freeman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Gunton'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Sadler'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Clancy' AND nazwisko = 'Brown'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gil' AND nazwisko = 'Bellows'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Rolston'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Whitmore'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Larry' AND nazwisko = 'Brandenburg'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robin' AND nazwisko = 'Wright'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sally' AND nazwisko = 'Field'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Sinise'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mykelti' AND nazwisko = 'Williamson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Humphreys'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hanna' AND nazwisko = 'Hall'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Haley' AND nazwisko = 'Osment'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nora' AND nazwisko = 'Dunfee'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Zemeckis'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Roth'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Reno'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Oldman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Natalie' AND nazwisko = 'Portman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Aiello'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Appel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Willie' AND nazwisko = 'Blood'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Don' AND nazwisko = 'Creech'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'Glascoe'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Randolph' AND nazwisko = 'Scott'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Luc' AND nazwisko = 'Besson'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ellen' AND nazwisko = 'Burstyn'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Leto'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Connelly'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Wayans'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'McDonald'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Louise' AND nazwisko = 'Lasser'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'David'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Gullette'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Denise' AND nazwisko = 'Dowse'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Darren' AND nazwisko = 'Aronofsky'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hubert' AND nazwisko = 'Jr.'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keanu' AND nazwisko = 'Reeves'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Carrie-Anne' AND nazwisko = 'Moss'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Laurence' AND nazwisko = 'Fishburne'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hugo' AND nazwisko = 'Weaving'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Foster'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Pantoliano'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marcus' AND nazwisko = 'Chong'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Julian' AND nazwisko = 'Arahanga'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Belinda' AND nazwisko = 'McClory'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lilly' AND nazwisko = 'Wachowski'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lana' AND nazwisko = 'Wachowski'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Hopkins'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodie' AND nazwisko = 'Foster'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Levine'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kasi' AND nazwisko = 'Lemmons'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Bonney'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Wrentz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Glenn'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Heald'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frankie' AND nazwisko = 'Faison'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Demme'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Tally'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Russell' AND nazwisko = 'Crowe'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joaquin' AND nazwisko = 'Phoenix'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Connie' AND nazwisko = 'Nielsen'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Oliver' AND nazwisko = 'Reed'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Derek' AND nazwisko = 'Jacobi'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Djimon' AND nazwisko = 'Hounsou'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Harris'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Schofield'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Shrapnel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ridley' AND nazwisko = 'Scott'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Franzoni'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Logan'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Worthington'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zoe' AND nazwisko = 'Saldaña'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sigourney' AND nazwisko = 'Weaver'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Stephen' AND nazwisko = 'Lang'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Rodriguez'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Giovanni' AND nazwisko = 'Ribisi'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joel' AND nazwisko = 'Moore'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'CCH' AND nazwisko = 'Pounder'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Studi'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cameron'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mike' AND nazwisko = 'Myers'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eddie' AND nazwisko = 'Murphy'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cameron' AND nazwisko = 'Diaz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lithgow'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vincent' AND nazwisko = 'Cassel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bobby' AND nazwisko = 'Block'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Cummings'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Smith'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Guillaume' AND nazwisko = 'Aretos'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Adamson'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vicky' AND nazwisko = 'Jenson'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Stillman'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Schulman'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Sizemore'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Burns'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Barry' AND nazwisko = 'Pepper'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Adam' AND nazwisko = 'Goldberg'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vin' AND nazwisko = 'Diesel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeremy' AND nazwisko = 'Davies'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Matt' AND nazwisko = 'Damon'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Spielberg'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Rodat'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Norton'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Pitt'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Helena' AND nazwisko = 'Carter'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Meat' AND nazwisko = 'Loaf'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zach' AND nazwisko = 'Grenier'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Holt' AND nazwisko = 'McCallany'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eion' AND nazwisko = 'Bailey'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ezra' AND nazwisko = 'Buzzington'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Fincher'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Uhls'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Travolta'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Samuel' AND nazwisko = 'Jackson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Uma' AND nazwisko = 'Thurman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bruce' AND nazwisko = 'Willis'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Harvey' AND nazwisko = 'Keitel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ving' AND nazwisko = 'Rhames'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Roth'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Amanda' AND nazwisko = 'Plummer'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Quentin' AND nazwisko = 'Tarantino'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Leonardo' AND nazwisko = 'DiCaprio'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kate' AND nazwisko = 'Winslet'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Zane'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kathy' AND nazwisko = 'Bates'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frances' AND nazwisko = 'Fisher'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Stuart'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Paxton'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bernard' AND nazwisko = 'Hill'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Warner'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Cluzet'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Omar' AND nazwisko = 'Sy'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Ny'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Fleurot'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Clotilde' AND nazwisko = 'Mollet'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alba' AND nazwisko = 'Bellugi'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cyril' AND nazwisko = 'Mendy'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christian' AND nazwisko = 'Ameri'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Grégoire' AND nazwisko = 'Oestermann'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivier' AND nazwisko = 'Nakache'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Éric' AND nazwisko = 'Toledano'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Brando'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Pacino'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Caan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Castellano'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Duvall'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sterling' AND nazwisko = 'Hayden'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Marley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Conte'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Lettieri'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Coppola'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mario' AND nazwisko = 'Puzo'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joseph' AND nazwisko = 'Gordon-Levitt'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elliot' AND nazwisko = 'Page'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hardy'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Watanabe'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dileep' AND nazwisko = 'Rao'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cillian' AND nazwisko = 'Murphy'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Berenger'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marion' AND nazwisko = 'Cotillard'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Nolan'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Ruffalo'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ben' AND nazwisko = 'Kingsley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Max' AND nazwisko = 'Sydow'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Williams'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Emily' AND nazwisko = 'Mortimer'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Patricia' AND nazwisko = 'Clarkson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jackie' AND nazwisko = 'Haley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Scorsese'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Laeta' AND nazwisko = 'Kalogridis'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gwyneth' AND nazwisko = 'Paltrow'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kevin' AND nazwisko = 'Spacey'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Zacapa'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Cassini'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Mack'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Crombie'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Reg' AND nazwisko = 'Cathey'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Walker'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Toni' AND nazwisko = 'Collette'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivia' AND nazwisko = 'Williams'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Donnie' AND nazwisko = 'Wahlberg'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Glenn' AND nazwisko = 'Fitzgerald'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Trevor' AND nazwisko = 'Morgan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bruce' AND nazwisko = 'Norris'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodi' AND nazwisko = 'Dawson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'M.' AND nazwisko = 'Shyamalan'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Adrien' AND nazwisko = 'Brody'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Thomas' AND nazwisko = 'Kretschmann'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Emilia' AND nazwisko = 'Fox'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Maureen' AND nazwisko = 'Lipman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jessica' AND nazwisko = 'Meyer'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Rayner'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Valentine' AND nazwisko = 'Pelka'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nina' AND nazwisko = 'Franoszek'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Finlay'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Roman' AND nazwisko = 'Polański'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ronald' AND nazwisko = 'Harwood'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elijah' AND nazwisko = 'Wood'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Astin'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Boyd'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dominic' AND nazwisko = 'Monaghan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'Holm'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Viggo' AND nazwisko = 'Mortensen'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'McKellen'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Liv' AND nazwisko = 'Tyler'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Orlando' AND nazwisko = 'Bloom'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Jackson'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Fran' AND nazwisko = 'Walsh'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Johnny' AND nazwisko = 'Depp'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Geoffrey' AND nazwisko = 'Rush'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keira' AND nazwisko = 'Knightley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Davenport'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Pryce'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lee' AND nazwisko = 'Arenberg'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mackenzie' AND nazwisko = 'Crook'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Damian' AND nazwisko = 'OHare'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gore' AND nazwisko = 'Verbinski'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Elliott'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Terry' AND nazwisko = 'Rossio'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Cooper'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ed' AND nazwisko = 'Helms'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zach' AND nazwisko = 'Galifianakis'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Justin' AND nazwisko = 'Bartha'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Heather' AND nazwisko = 'Graham'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Tambor'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Jeong'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rachael' AND nazwisko = 'Harris'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sondra' AND nazwisko = 'Currie'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Todd' AND nazwisko = 'Phillips'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Moore'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Lucas'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mélanie' AND nazwisko = 'Laurent'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christoph' AND nazwisko = 'Waltz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eli' AND nazwisko = 'Roth'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Fassbender'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Kruger'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Brühl'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Til' AND nazwisko = 'Schweiger'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gedeon' AND nazwisko = 'Burkhard'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Will' AND nazwisko = 'Smith'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rosario' AND nazwisko = 'Dawson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Woody' AND nazwisko = 'Harrelson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Ealy'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elpidia' AND nazwisko = 'Carrillo'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robinne' AND nazwisko = 'Lee'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Nunez'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Smitrovich'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gabriele' AND nazwisko = 'Muccino'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Grant' AND nazwisko = 'Nieporte'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Liam' AND nazwisko = 'Neeson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ralph' AND nazwisko = 'Fiennes'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Caroline' AND nazwisko = 'Goodall'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Sagall'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Embeth' AND nazwisko = 'Davidtz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Seweryn'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Mucha'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jacek' AND nazwisko = 'Wójcicki'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Zaillian'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ed' AND nazwisko = 'Harris'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Plummer'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Paul' AND nazwisko = 'Bettany'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Josh' AND nazwisko = 'Lucas'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Rapp'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Gray-Stanford'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ron' AND nazwisko = 'Howard'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Akiva' AND nazwisko = 'Goldsman'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dev' AND nazwisko = 'Patel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Freida' AND nazwisko = 'Pinto'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Madhur' AND nazwisko = 'Mittal'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anil' AND nazwisko = 'Kapoor'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Saurabh' AND nazwisko = 'Shukla'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Irrfan' AND nazwisko = 'Khan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ayush' AND nazwisko = 'Khedekar'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Azharuddin' AND nazwisko = 'Ismail'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rubina' AND nazwisko = 'Ali'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Boyle'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Beaufoy'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Helen' AND nazwisko = 'Hunt'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Yelena' AND nazwisko = 'Popovic'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Semion' AND nazwisko = 'Sudarikov'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Duhamel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Choe'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashley' AND nazwisko = 'Trefger'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lindsey' AND nazwisko = 'Trefger'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kaitlyn' AND nazwisko = 'Gainer'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Jr.'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jerzy' AND nazwisko = 'Stuhr'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Olgierd' AND nazwisko = 'Łukaszewicz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bożena' AND nazwisko = 'Stryjkówna'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusława' AND nazwisko = 'Pawelec'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hanna' AND nazwisko = 'Stankówna'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Beata' AND nazwisko = 'Tyszkiewicz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ryszarda' AND nazwisko = 'Hanin'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dorota' AND nazwisko = 'Stalińska'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Janusz' AND nazwisko = 'Michałowski'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Juliusz' AND nazwisko = 'Machulski'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Annette' AND nazwisko = 'Bening'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Thora' AND nazwisko = 'Birch'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Bentley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mena' AND nazwisko = 'Suvari'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Gallagher'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'Cooper'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Allison' AND nazwisko = 'Janney'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Bakula'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Mendes'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alan' AND nazwisko = 'Ball'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Kondrat'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Janina' AND nazwisko = 'Traczykówna'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Grabowski'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michał' AND nazwisko = 'Koterski'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joanna' AND nazwisko = 'Sienkiewicz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Monika' AND nazwisko = 'Donner-Trelińska'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Muszyńska'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusław' AND nazwisko = 'Sar'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Barbara' AND nazwisko = 'Poznański'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Koterski'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Nicholson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Louise' AND nazwisko = 'Fletcher'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sydney' AND nazwisko = 'Lassick'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Dourif'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'DeVito'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Will' AND nazwisko = 'Sampson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Lloyd'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Redfield'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Berryman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Miloš' AND nazwisko = 'Forman'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bo' AND nazwisko = 'Goldman'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Hauben'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cate' AND nazwisko = 'Blanchett'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tilda' AND nazwisko = 'Swinton'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Taraji' AND nazwisko = 'Henson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Ormond'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Flemyng'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mahershala' AND nazwisko = 'Ali'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Harris'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elias' AND nazwisko = 'Koteas'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robin' AND nazwisko = 'Swicord'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashton' AND nazwisko = 'Kutcher'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Amy' AND nazwisko = 'Smart'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Stoltz'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Scott'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elden' AND nazwisko = 'Henson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ethan' AND nazwisko = 'Suplee'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Logan' AND nazwisko = 'Lerman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Amedori'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cameron' AND nazwisko = 'Bright'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'J.' AND nazwisko = 'Gruber'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Bress'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Clint' AND nazwisko = 'Eastwood'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Carley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bee' AND nazwisko = 'Vang'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ahney' AND nazwisko = 'Her'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Haley'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Geraldine' AND nazwisko = 'Hughes'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dreama' AND nazwisko = 'Walker'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Howe'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lynch'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nick' AND nazwisko = 'Schenk'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Shelley' AND nazwisko = 'Duvall'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Lloyd'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scatman' AND nazwisko = 'Crothers'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Barry' AND nazwisko = 'Nelson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Philip' AND nazwisko = 'Stone'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Turkel'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Jackson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Burton'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Stanley' AND nazwisko = 'Kubrick'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Johnson'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Tautou'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alfred' AND nazwisko = 'Molina'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jürgen' AND nazwisko = 'Prochnow'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean-Yves' AND nazwisko = 'Berteloot'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Etienne' AND nazwisko = 'Chicot'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jamie' AND nazwisko = 'Foxx'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kerry' AND nazwisko = 'Washington'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Walton' AND nazwisko = 'Goggins'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Remar'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dennis' AND nazwisko = 'Christopher'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Steen'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Carrey'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Laura' AND nazwisko = 'Linney'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Noah' AND nazwisko = 'Emmerich'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Natascha' AND nazwisko = 'McElhone'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Holland' AND nazwisko = 'Taylor'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Delate'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Blair' AND nazwisko = 'Slater'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Krause'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Weir'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Niccol'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christian' AND nazwisko = 'Bale'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Heath' AND nazwisko = 'Ledger'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Aaron' AND nazwisko = 'Eckhart'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Caine'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Maggie' AND nazwisko = 'Gyllenhaal'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Monique' AND nazwisko = 'Curnen'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ron' AND nazwisko = 'Dean'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Nolan'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'ODonnell'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Rebhorn'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gabrielle' AND nazwisko = 'Anwar'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Philip' AND nazwisko = 'Hoffman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Venture'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Whitford'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rochelle' AND nazwisko = 'Oliver'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Margaret' AND nazwisko = 'Eginton'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Brest'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Matthew' AND nazwisko = 'Broderick'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Moira' AND nazwisko = 'Kelly'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Jones'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeremy' AND nazwisko = 'Irons'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nathan' AND nazwisko = 'Lane'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ernie' AND nazwisko = 'Sabella'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Thomas'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Niketa' AND nazwisko = 'Calame'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Guillaume'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Minkoff'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Allers'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Roberts'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Linda' AND nazwisko = 'Woolverton'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlize' AND nazwisko = 'Theron'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Jones'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Judith' AND nazwisko = 'Ivey'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Craig' AND nazwisko = 'Nelson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tamara' AND nazwisko = 'Tunie'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ruben' AND nazwisko = 'Santiago-Hudson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Taylor' AND nazwisko = 'Hackford'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Gilroy'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Lemkin'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hugh' AND nazwisko = 'Jackman'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scarlett' AND nazwisko = 'Johansson'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Piper' AND nazwisko = 'Perabo'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rebecca' AND nazwisko = 'Hall'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Samantha' AND nazwisko = 'Mahurin'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Bowie'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andy' AND nazwisko = 'Serkis'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Asa' AND nazwisko = 'Butterfield'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Scanlon'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zac' AND nazwisko = 'OBrien'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Henry' AND nazwisko = 'Kingsmill'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vera' AND nazwisko = 'Farmiga'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Thewlis'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cara' AND nazwisko = 'Horgan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Amber' AND nazwisko = 'Beattie'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'László' AND nazwisko = 'Áron'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Herman'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonah' AND nazwisko = 'Hill'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Margot' AND nazwisko = 'Robbie'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Matthew' AND nazwisko = 'McConaughey'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kyle' AND nazwisko = 'Chandler'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Reiner'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Bernthal'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Favreau'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Dujardin'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Terence' AND nazwisko = 'Winter'), 'scenarzysta');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alice' AND nazwisko = 'Braga'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Salli' AND nazwisko = 'Richardson-Whitfield'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlie' AND nazwisko = 'Tahan'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Paradox' AND nazwisko = 'Pollack'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dash' AND nazwisko = 'Mihok'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joanna' AND nazwisko = 'Numata'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'April' AND nazwisko = 'Grace'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Steve' AND nazwisko = 'Cirbus'), 'aktor');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Lawrence'), 'reżyser');
-INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Protosevich'), 'scenarzysta');
+INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hanks'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Morse'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bonnie' AND nazwisko = 'Hunt'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Duncan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cromwell'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Jeter'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Graham' AND nazwisko = 'Greene'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Doug' AND nazwisko = 'Hutchison'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Rockwell'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Darabont'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Robbins'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Morgan' AND nazwisko = 'Freeman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Gunton'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Sadler'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Clancy' AND nazwisko = 'Brown'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gil' AND nazwisko = 'Bellows'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Rolston'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Whitmore'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Larry' AND nazwisko = 'Brandenburg'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robin' AND nazwisko = 'Wright'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sally' AND nazwisko = 'Field'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Sinise'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mykelti' AND nazwisko = 'Williamson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Humphreys'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hanna' AND nazwisko = 'Hall'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Haley' AND nazwisko = 'Osment'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nora' AND nazwisko = 'Dunfee'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Zemeckis'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Roth'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Reno'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Oldman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Natalie' AND nazwisko = 'Portman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Aiello'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Appel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Willie' AND nazwisko = 'Blood'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Don' AND nazwisko = 'Creech'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'Glascoe'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Randolph' AND nazwisko = 'Scott'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Luc' AND nazwisko = 'Besson'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ellen' AND nazwisko = 'Burstyn'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Leto'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Connelly'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Wayans'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'McDonald'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Louise' AND nazwisko = 'Lasser'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'David'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Gullette'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Denise' AND nazwisko = 'Dowse'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Darren' AND nazwisko = 'Aronofsky'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hubert' AND nazwisko = 'Jr.'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keanu' AND nazwisko = 'Reeves'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Carrie-Anne' AND nazwisko = 'Moss'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Laurence' AND nazwisko = 'Fishburne'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hugo' AND nazwisko = 'Weaving'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Foster'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Pantoliano'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marcus' AND nazwisko = 'Chong'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Julian' AND nazwisko = 'Arahanga'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Belinda' AND nazwisko = 'McClory'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lilly' AND nazwisko = 'Wachowski'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lana' AND nazwisko = 'Wachowski'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Hopkins'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodie' AND nazwisko = 'Foster'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Levine'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kasi' AND nazwisko = 'Lemmons'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Bonney'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Wrentz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Glenn'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Heald'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frankie' AND nazwisko = 'Faison'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Demme'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Tally'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Russell' AND nazwisko = 'Crowe'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joaquin' AND nazwisko = 'Phoenix'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Connie' AND nazwisko = 'Nielsen'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Oliver' AND nazwisko = 'Reed'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Derek' AND nazwisko = 'Jacobi'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Djimon' AND nazwisko = 'Hounsou'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Harris'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Schofield'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Shrapnel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ridley' AND nazwisko = 'Scott'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Franzoni'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Logan'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Worthington'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zoe' AND nazwisko = 'Saldaña'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sigourney' AND nazwisko = 'Weaver'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Stephen' AND nazwisko = 'Lang'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Rodriguez'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Giovanni' AND nazwisko = 'Ribisi'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joel' AND nazwisko = 'Moore'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'CCH' AND nazwisko = 'Pounder'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Studi'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cameron'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mike' AND nazwisko = 'Myers'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eddie' AND nazwisko = 'Murphy'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cameron' AND nazwisko = 'Diaz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lithgow'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vincent' AND nazwisko = 'Cassel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bobby' AND nazwisko = 'Block'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Cummings'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Smith'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Guillaume' AND nazwisko = 'Aretos'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Adamson'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vicky' AND nazwisko = 'Jenson'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Stillman'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Schulman'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Sizemore'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Burns'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Barry' AND nazwisko = 'Pepper'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Adam' AND nazwisko = 'Goldberg'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vin' AND nazwisko = 'Diesel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeremy' AND nazwisko = 'Davies'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Matt' AND nazwisko = 'Damon'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Spielberg'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Rodat'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Norton'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Pitt'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Helena' AND nazwisko = 'Carter'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Meat' AND nazwisko = 'Loaf'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zach' AND nazwisko = 'Grenier'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Holt' AND nazwisko = 'McCallany'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eion' AND nazwisko = 'Bailey'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ezra' AND nazwisko = 'Buzzington'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Fincher'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Uhls'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Travolta'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Samuel' AND nazwisko = 'Jackson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Uma' AND nazwisko = 'Thurman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bruce' AND nazwisko = 'Willis'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Harvey' AND nazwisko = 'Keitel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ving' AND nazwisko = 'Rhames'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Roth'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Amanda' AND nazwisko = 'Plummer'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Quentin' AND nazwisko = 'Tarantino'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Leonardo' AND nazwisko = 'DiCaprio'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kate' AND nazwisko = 'Winslet'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Zane'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kathy' AND nazwisko = 'Bates'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frances' AND nazwisko = 'Fisher'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Stuart'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Paxton'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bernard' AND nazwisko = 'Hill'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Warner'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Cluzet'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Omar' AND nazwisko = 'Sy'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Ny'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Fleurot'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Clotilde' AND nazwisko = 'Mollet'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alba' AND nazwisko = 'Bellugi'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cyril' AND nazwisko = 'Mendy'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christian' AND nazwisko = 'Ameri'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Grégoire' AND nazwisko = 'Oestermann'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivier' AND nazwisko = 'Nakache'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Éric' AND nazwisko = 'Toledano'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Brando'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Pacino'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Caan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Castellano'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Duvall'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sterling' AND nazwisko = 'Hayden'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Marley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Conte'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Lettieri'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Coppola'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mario' AND nazwisko = 'Puzo'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joseph' AND nazwisko = 'Gordon-Levitt'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elliot' AND nazwisko = 'Page'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hardy'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Watanabe'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dileep' AND nazwisko = 'Rao'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cillian' AND nazwisko = 'Murphy'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Berenger'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marion' AND nazwisko = 'Cotillard'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Nolan'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Ruffalo'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ben' AND nazwisko = 'Kingsley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Max' AND nazwisko = 'Sydow'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Williams'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Emily' AND nazwisko = 'Mortimer'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Patricia' AND nazwisko = 'Clarkson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jackie' AND nazwisko = 'Haley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Scorsese'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Laeta' AND nazwisko = 'Kalogridis'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gwyneth' AND nazwisko = 'Paltrow'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kevin' AND nazwisko = 'Spacey'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Zacapa'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Cassini'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Mack'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Crombie'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Reg' AND nazwisko = 'Cathey'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Walker'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Toni' AND nazwisko = 'Collette'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivia' AND nazwisko = 'Williams'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Donnie' AND nazwisko = 'Wahlberg'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Glenn' AND nazwisko = 'Fitzgerald'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Trevor' AND nazwisko = 'Morgan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bruce' AND nazwisko = 'Norris'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodi' AND nazwisko = 'Dawson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'M.' AND nazwisko = 'Shyamalan'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Adrien' AND nazwisko = 'Brody'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Thomas' AND nazwisko = 'Kretschmann'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Emilia' AND nazwisko = 'Fox'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Maureen' AND nazwisko = 'Lipman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jessica' AND nazwisko = 'Meyer'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Rayner'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Valentine' AND nazwisko = 'Pelka'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nina' AND nazwisko = 'Franoszek'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Finlay'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Roman' AND nazwisko = 'Polański'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ronald' AND nazwisko = 'Harwood'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elijah' AND nazwisko = 'Wood'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Astin'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Boyd'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dominic' AND nazwisko = 'Monaghan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'Holm'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Viggo' AND nazwisko = 'Mortensen'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'McKellen'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Liv' AND nazwisko = 'Tyler'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Orlando' AND nazwisko = 'Bloom'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Jackson'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Fran' AND nazwisko = 'Walsh'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Johnny' AND nazwisko = 'Depp'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Geoffrey' AND nazwisko = 'Rush'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Keira' AND nazwisko = 'Knightley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Davenport'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Pryce'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lee' AND nazwisko = 'Arenberg'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mackenzie' AND nazwisko = 'Crook'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Damian' AND nazwisko = 'OHare'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gore' AND nazwisko = 'Verbinski'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Elliott'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Terry' AND nazwisko = 'Rossio'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Cooper'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ed' AND nazwisko = 'Helms'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zach' AND nazwisko = 'Galifianakis'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Justin' AND nazwisko = 'Bartha'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Heather' AND nazwisko = 'Graham'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Tambor'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Jeong'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rachael' AND nazwisko = 'Harris'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sondra' AND nazwisko = 'Currie'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Todd' AND nazwisko = 'Phillips'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Moore'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Lucas'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mélanie' AND nazwisko = 'Laurent'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christoph' AND nazwisko = 'Waltz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eli' AND nazwisko = 'Roth'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Fassbender'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Kruger'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Brühl'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Til' AND nazwisko = 'Schweiger'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gedeon' AND nazwisko = 'Burkhard'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Will' AND nazwisko = 'Smith'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rosario' AND nazwisko = 'Dawson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Woody' AND nazwisko = 'Harrelson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Ealy'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elpidia' AND nazwisko = 'Carrillo'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robinne' AND nazwisko = 'Lee'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Nunez'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Smitrovich'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gabriele' AND nazwisko = 'Muccino'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Grant' AND nazwisko = 'Nieporte'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Liam' AND nazwisko = 'Neeson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ralph' AND nazwisko = 'Fiennes'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Caroline' AND nazwisko = 'Goodall'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Sagall'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Embeth' AND nazwisko = 'Davidtz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Seweryn'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Mucha'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jacek' AND nazwisko = 'Wójcicki'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Zaillian'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ed' AND nazwisko = 'Harris'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Plummer'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Paul' AND nazwisko = 'Bettany'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Josh' AND nazwisko = 'Lucas'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Rapp'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Gray-Stanford'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ron' AND nazwisko = 'Howard'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Akiva' AND nazwisko = 'Goldsman'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dev' AND nazwisko = 'Patel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Freida' AND nazwisko = 'Pinto'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Madhur' AND nazwisko = 'Mittal'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anil' AND nazwisko = 'Kapoor'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Saurabh' AND nazwisko = 'Shukla'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Irrfan' AND nazwisko = 'Khan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ayush' AND nazwisko = 'Khedekar'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Azharuddin' AND nazwisko = 'Ismail'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rubina' AND nazwisko = 'Ali'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Boyle'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Beaufoy'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Helen' AND nazwisko = 'Hunt'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Yelena' AND nazwisko = 'Popovic'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Semion' AND nazwisko = 'Sudarikov'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Duhamel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Choe'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashley' AND nazwisko = 'Trefger'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lindsey' AND nazwisko = 'Trefger'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kaitlyn' AND nazwisko = 'Gainer'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Jr.'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jerzy' AND nazwisko = 'Stuhr'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Olgierd' AND nazwisko = 'Łukaszewicz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bożena' AND nazwisko = 'Stryjkówna'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusława' AND nazwisko = 'Pawelec'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hanna' AND nazwisko = 'Stankówna'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Beata' AND nazwisko = 'Tyszkiewicz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ryszarda' AND nazwisko = 'Hanin'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dorota' AND nazwisko = 'Stalińska'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Janusz' AND nazwisko = 'Michałowski'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Juliusz' AND nazwisko = 'Machulski'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Annette' AND nazwisko = 'Bening'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Thora' AND nazwisko = 'Birch'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Bentley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mena' AND nazwisko = 'Suvari'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Gallagher'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'Cooper'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Allison' AND nazwisko = 'Janney'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Bakula'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Mendes'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alan' AND nazwisko = 'Ball'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Kondrat'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Janina' AND nazwisko = 'Traczykówna'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Grabowski'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michał' AND nazwisko = 'Koterski'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joanna' AND nazwisko = 'Sienkiewicz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Monika' AND nazwisko = 'Donner-Trelińska'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Muszyńska'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusław' AND nazwisko = 'Sar'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Barbara' AND nazwisko = 'Poznański'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Koterski'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Nicholson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Louise' AND nazwisko = 'Fletcher'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Sydney' AND nazwisko = 'Lassick'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Dourif'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'DeVito'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Will' AND nazwisko = 'Sampson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Lloyd'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Redfield'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Berryman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Miloš' AND nazwisko = 'Forman'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bo' AND nazwisko = 'Goldman'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Hauben'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cate' AND nazwisko = 'Blanchett'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tilda' AND nazwisko = 'Swinton'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Taraji' AND nazwisko = 'Henson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Ormond'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Flemyng'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mahershala' AND nazwisko = 'Ali'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Harris'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elias' AND nazwisko = 'Koteas'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robin' AND nazwisko = 'Swicord'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashton' AND nazwisko = 'Kutcher'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Amy' AND nazwisko = 'Smart'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Stoltz'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Scott'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Elden' AND nazwisko = 'Henson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ethan' AND nazwisko = 'Suplee'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Logan' AND nazwisko = 'Lerman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Amedori'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cameron' AND nazwisko = 'Bright'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'J.' AND nazwisko = 'Gruber'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Bress'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Clint' AND nazwisko = 'Eastwood'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Carley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bee' AND nazwisko = 'Vang'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ahney' AND nazwisko = 'Her'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Haley'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Geraldine' AND nazwisko = 'Hughes'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dreama' AND nazwisko = 'Walker'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Howe'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lynch'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nick' AND nazwisko = 'Schenk'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Shelley' AND nazwisko = 'Duvall'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Lloyd'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scatman' AND nazwisko = 'Crothers'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Barry' AND nazwisko = 'Nelson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Philip' AND nazwisko = 'Stone'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Turkel'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Jackson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Burton'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Stanley' AND nazwisko = 'Kubrick'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Johnson'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Tautou'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alfred' AND nazwisko = 'Molina'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jürgen' AND nazwisko = 'Prochnow'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean-Yves' AND nazwisko = 'Berteloot'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Etienne' AND nazwisko = 'Chicot'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jamie' AND nazwisko = 'Foxx'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kerry' AND nazwisko = 'Washington'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Walton' AND nazwisko = 'Goggins'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Remar'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dennis' AND nazwisko = 'Christopher'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Steen'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Carrey'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Laura' AND nazwisko = 'Linney'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Noah' AND nazwisko = 'Emmerich'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Natascha' AND nazwisko = 'McElhone'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Holland' AND nazwisko = 'Taylor'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Delate'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Blair' AND nazwisko = 'Slater'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Krause'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Weir'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Niccol'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Christian' AND nazwisko = 'Bale'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Heath' AND nazwisko = 'Ledger'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Aaron' AND nazwisko = 'Eckhart'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Caine'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Maggie' AND nazwisko = 'Gyllenhaal'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Monique' AND nazwisko = 'Curnen'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ron' AND nazwisko = 'Dean'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Nolan'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'ODonnell'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Rebhorn'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Gabrielle' AND nazwisko = 'Anwar'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Philip' AND nazwisko = 'Hoffman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Venture'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Whitford'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rochelle' AND nazwisko = 'Oliver'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Margaret' AND nazwisko = 'Eginton'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Brest'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Matthew' AND nazwisko = 'Broderick'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Moira' AND nazwisko = 'Kelly'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Jones'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeremy' AND nazwisko = 'Irons'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Nathan' AND nazwisko = 'Lane'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ernie' AND nazwisko = 'Sabella'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Thomas'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Niketa' AND nazwisko = 'Calame'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Guillaume'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Minkoff'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Allers'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Roberts'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Linda' AND nazwisko = 'Woolverton'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlize' AND nazwisko = 'Theron'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Jones'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Judith' AND nazwisko = 'Ivey'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Craig' AND nazwisko = 'Nelson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tamara' AND nazwisko = 'Tunie'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Ruben' AND nazwisko = 'Santiago-Hudson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Taylor' AND nazwisko = 'Hackford'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Gilroy'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Lemkin'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Hugh' AND nazwisko = 'Jackman'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Scarlett' AND nazwisko = 'Johansson'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Piper' AND nazwisko = 'Perabo'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rebecca' AND nazwisko = 'Hall'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Samantha' AND nazwisko = 'Mahurin'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Bowie'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Andy' AND nazwisko = 'Serkis'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Asa' AND nazwisko = 'Butterfield'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Scanlon'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Zac' AND nazwisko = 'OBrien'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Henry' AND nazwisko = 'Kingsmill'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Vera' AND nazwisko = 'Farmiga'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Thewlis'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Cara' AND nazwisko = 'Horgan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Amber' AND nazwisko = 'Beattie'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'László' AND nazwisko = 'Áron'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Herman'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonah' AND nazwisko = 'Hill'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Margot' AND nazwisko = 'Robbie'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Matthew' AND nazwisko = 'McConaughey'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Kyle' AND nazwisko = 'Chandler'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Reiner'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Bernthal'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Favreau'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Dujardin'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Terence' AND nazwisko = 'Winter'), 'scenarzysta'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Alice' AND nazwisko = 'Braga'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Salli' AND nazwisko = 'Richardson-Whitfield'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlie' AND nazwisko = 'Tahan'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Paradox' AND nazwisko = 'Pollack'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Dash' AND nazwisko = 'Mihok'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Joanna' AND nazwisko = 'Numata'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'April' AND nazwisko = 'Grace'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Steve' AND nazwisko = 'Cirbus'), 'aktor'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Lawrence'), 'reżyser'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), (SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Protosevich'), 'scenarzysta');
 
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hanks'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hanks'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bonnie' AND nazwisko = 'Hunt'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bonnie' AND nazwisko = 'Hunt'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Duncan'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Duncan'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cromwell'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cromwell'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Jeter'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Graham' AND nazwisko = 'Greene'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Doug' AND nazwisko = 'Hutchison'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Doug' AND nazwisko = 'Hutchison'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Rockwell'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Gunton'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Clancy' AND nazwisko = 'Brown'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Clancy' AND nazwisko = 'Brown'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Larry' AND nazwisko = 'Brandenburg'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robin' AND nazwisko = 'Wright'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sally' AND nazwisko = 'Field'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Sinise'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mykelti' AND nazwisko = 'Williamson'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mykelti' AND nazwisko = 'Williamson'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Humphreys'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Humphreys'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Hanna' AND nazwisko = 'Hall'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Haley' AND nazwisko = 'Osment'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Zemeckis'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Zemeckis'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Reno'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Reno'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Natalie' AND nazwisko = 'Portman'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Aiello'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Willie' AND nazwisko = 'Blood'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Willie' AND nazwisko = 'Blood'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Don' AND nazwisko = 'Creech'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Don' AND nazwisko = 'Creech'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'Glascoe'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'Glascoe'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Randolph' AND nazwisko = 'Scott'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Luc' AND nazwisko = 'Besson'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Luc' AND nazwisko = 'Besson'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Wayans'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'McDonald'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'McDonald'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Gullette'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Gullette'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Denise' AND nazwisko = 'Dowse'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Darren' AND nazwisko = 'Aronofsky'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Darren' AND nazwisko = 'Aronofsky'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Keanu' AND nazwisko = 'Reeves'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Carrie-Anne' AND nazwisko = 'Moss'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Foster'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Pantoliano'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julian' AND nazwisko = 'Arahanga'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julian' AND nazwisko = 'Arahanga'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lana' AND nazwisko = 'Wachowski'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lana' AND nazwisko = 'Wachowski'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Hopkins'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Hopkins'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodie' AND nazwisko = 'Foster'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kasi' AND nazwisko = 'Lemmons'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Bonney'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Wrentz'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Heald'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Tally'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Tally'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joaquin' AND nazwisko = 'Phoenix'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Connie' AND nazwisko = 'Nielsen'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Oliver' AND nazwisko = 'Reed'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Djimon' AND nazwisko = 'Hounsou'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Shrapnel'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Shrapnel'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ridley' AND nazwisko = 'Scott'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ridley' AND nazwisko = 'Scott'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Franzoni'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Franzoni'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Worthington'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sigourney' AND nazwisko = 'Weaver'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Stephen' AND nazwisko = 'Lang'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Stephen' AND nazwisko = 'Lang'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joel' AND nazwisko = 'Moore'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'CCH' AND nazwisko = 'Pounder'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Studi'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Studi'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cameron'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eddie' AND nazwisko = 'Murphy'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lithgow'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lithgow'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bobby' AND nazwisko = 'Block'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bobby' AND nazwisko = 'Block'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Smith'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Adamson'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Vicky' AND nazwisko = 'Jenson'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Stillman'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Stillman'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Schulman'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Schulman'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Sizemore'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Sizemore'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Burns'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Adam' AND nazwisko = 'Goldberg'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Adam' AND nazwisko = 'Goldberg'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeremy' AND nazwisko = 'Davies'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Matt' AND nazwisko = 'Damon'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Matt' AND nazwisko = 'Damon'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Spielberg'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Rodat'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Rodat'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Holt' AND nazwisko = 'McCallany'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Holt' AND nazwisko = 'McCallany'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eion' AND nazwisko = 'Bailey'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eion' AND nazwisko = 'Bailey'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Fincher'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Uhls'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Samuel' AND nazwisko = 'Jackson'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Samuel' AND nazwisko = 'Jackson'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Uma' AND nazwisko = 'Thurman'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Uma' AND nazwisko = 'Thurman'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Harvey' AND nazwisko = 'Keitel'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Harvey' AND nazwisko = 'Keitel'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ving' AND nazwisko = 'Rhames'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ving' AND nazwisko = 'Rhames'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Roth'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Amanda' AND nazwisko = 'Plummer'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Amanda' AND nazwisko = 'Plummer'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Leonardo' AND nazwisko = 'DiCaprio'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Leonardo' AND nazwisko = 'DiCaprio'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kate' AND nazwisko = 'Winslet'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Zane'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kathy' AND nazwisko = 'Bates'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kathy' AND nazwisko = 'Bates'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Stuart'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Stuart'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Paxton'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Paxton'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bernard' AND nazwisko = 'Hill'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Cluzet'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Omar' AND nazwisko = 'Sy'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Omar' AND nazwisko = 'Sy'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Ny'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Ny'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Fleurot'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Clotilde' AND nazwisko = 'Mollet'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alba' AND nazwisko = 'Bellugi'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alba' AND nazwisko = 'Bellugi'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Grégoire' AND nazwisko = 'Oestermann'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivier' AND nazwisko = 'Nakache'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Éric' AND nazwisko = 'Toledano'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Éric' AND nazwisko = 'Toledano'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Brando'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Brando'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Caan'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Caan'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Castellano'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Castellano'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Duvall'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sterling' AND nazwisko = 'Hayden'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Marley'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Lettieri'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Coppola'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Coppola'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hardy'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hardy'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Watanabe'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cillian' AND nazwisko = 'Murphy'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Berenger'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marion' AND nazwisko = 'Cotillard'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Ruffalo'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Ruffalo'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Max' AND nazwisko = 'Sydow'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Williams'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Emily' AND nazwisko = 'Mortimer'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Emily' AND nazwisko = 'Mortimer'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Patricia' AND nazwisko = 'Clarkson'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jackie' AND nazwisko = 'Haley'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jackie' AND nazwisko = 'Haley'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Laeta' AND nazwisko = 'Kalogridis'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gwyneth' AND nazwisko = 'Paltrow'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gwyneth' AND nazwisko = 'Paltrow'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kevin' AND nazwisko = 'Spacey'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Zacapa'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Mack'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Mack'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Crombie'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Toni' AND nazwisko = 'Collette'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivia' AND nazwisko = 'Williams'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivia' AND nazwisko = 'Williams'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Donnie' AND nazwisko = 'Wahlberg'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Glenn' AND nazwisko = 'Fitzgerald'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bruce' AND nazwisko = 'Norris'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodi' AND nazwisko = 'Dawson'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Adrien' AND nazwisko = 'Brody'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Thomas' AND nazwisko = 'Kretschmann'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Maureen' AND nazwisko = 'Lipman'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Maureen' AND nazwisko = 'Lipman'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jessica' AND nazwisko = 'Meyer'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jessica' AND nazwisko = 'Meyer'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Rayner'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Rayner'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Valentine' AND nazwisko = 'Pelka'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Valentine' AND nazwisko = 'Pelka'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Nina' AND nazwisko = 'Franoszek'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Finlay'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Finlay'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ronald' AND nazwisko = 'Harwood'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ronald' AND nazwisko = 'Harwood'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elijah' AND nazwisko = 'Wood'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Astin'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Boyd'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dominic' AND nazwisko = 'Monaghan'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dominic' AND nazwisko = 'Monaghan'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'Holm'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Viggo' AND nazwisko = 'Mortensen'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Viggo' AND nazwisko = 'Mortensen'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Orlando' AND nazwisko = 'Bloom'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Jackson'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Fran' AND nazwisko = 'Walsh'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Geoffrey' AND nazwisko = 'Rush'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Keira' AND nazwisko = 'Knightley'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Keira' AND nazwisko = 'Knightley'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Davenport'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Davenport'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lee' AND nazwisko = 'Arenberg'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mackenzie' AND nazwisko = 'Crook'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Damian' AND nazwisko = 'OHare'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Damian' AND nazwisko = 'OHare'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gore' AND nazwisko = 'Verbinski'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gore' AND nazwisko = 'Verbinski'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Terry' AND nazwisko = 'Rossio'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Cooper'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Cooper'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Justin' AND nazwisko = 'Bartha'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Justin' AND nazwisko = 'Bartha'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Heather' AND nazwisko = 'Graham'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Heather' AND nazwisko = 'Graham'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Tambor'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Tambor'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rachael' AND nazwisko = 'Harris'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rachael' AND nazwisko = 'Harris'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Todd' AND nazwisko = 'Phillips'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Lucas'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Lucas'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mélanie' AND nazwisko = 'Laurent'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christoph' AND nazwisko = 'Waltz'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christoph' AND nazwisko = 'Waltz'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eli' AND nazwisko = 'Roth'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Fassbender'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Kruger'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Kruger'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Brühl'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Brühl'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Til' AND nazwisko = 'Schweiger'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Will' AND nazwisko = 'Smith'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rosario' AND nazwisko = 'Dawson'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elpidia' AND nazwisko = 'Carrillo'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robinne' AND nazwisko = 'Lee'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Nunez'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Smitrovich'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Smitrovich'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Grant' AND nazwisko = 'Nieporte'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Grant' AND nazwisko = 'Nieporte'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Liam' AND nazwisko = 'Neeson'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Caroline' AND nazwisko = 'Goodall'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Caroline' AND nazwisko = 'Goodall'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Sagall'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Sagall'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Seweryn'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Seweryn'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Mucha'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Mucha'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jacek' AND nazwisko = 'Wójcicki'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jacek' AND nazwisko = 'Wójcicki'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Zaillian'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Zaillian'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ed' AND nazwisko = 'Harris'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Josh' AND nazwisko = 'Lucas'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Rapp'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anthony' AND nazwisko = 'Rapp'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Gray-Stanford'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anil' AND nazwisko = 'Kapoor'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Saurabh' AND nazwisko = 'Shukla'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Irrfan' AND nazwisko = 'Khan'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ayush' AND nazwisko = 'Khedekar'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Azharuddin' AND nazwisko = 'Ismail'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Boyle'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Boyle'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Beaufoy'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Beaufoy'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Helen' AND nazwisko = 'Hunt'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Yelena' AND nazwisko = 'Popovic'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Yelena' AND nazwisko = 'Popovic'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Semion' AND nazwisko = 'Sudarikov'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Duhamel'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Duhamel'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Choe'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Choe'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashley' AND nazwisko = 'Trefger'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lindsey' AND nazwisko = 'Trefger'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lindsey' AND nazwisko = 'Trefger'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Jr.'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Jr.'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jerzy' AND nazwisko = 'Stuhr'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jerzy' AND nazwisko = 'Stuhr'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olgierd' AND nazwisko = 'Łukaszewicz'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bożena' AND nazwisko = 'Stryjkówna'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusława' AND nazwisko = 'Pawelec'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusława' AND nazwisko = 'Pawelec'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Hanna' AND nazwisko = 'Stankówna'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dorota' AND nazwisko = 'Stalińska'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Juliusz' AND nazwisko = 'Machulski'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Juliusz' AND nazwisko = 'Machulski'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Annette' AND nazwisko = 'Bening'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Thora' AND nazwisko = 'Birch'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Thora' AND nazwisko = 'Birch'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Bentley'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Gallagher'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Gallagher'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Allison' AND nazwisko = 'Janney'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Allison' AND nazwisko = 'Janney'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Bakula'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Kondrat'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Kondrat'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Janina' AND nazwisko = 'Traczykówna'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrzej' AND nazwisko = 'Grabowski'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michał' AND nazwisko = 'Koterski'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joanna' AND nazwisko = 'Sienkiewicz'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joanna' AND nazwisko = 'Sienkiewicz'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Monika' AND nazwisko = 'Donner-Trelińska'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Muszyńska'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Barbara' AND nazwisko = 'Poznański'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Barbara' AND nazwisko = 'Poznański'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Koterski'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Koterski'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Nicholson'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sydney' AND nazwisko = 'Lassick'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'DeVito'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'DeVito'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Lloyd'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Berryman'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Berryman'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Miloš' AND nazwisko = 'Forman'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Miloš' AND nazwisko = 'Forman'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bo' AND nazwisko = 'Goldman'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bo' AND nazwisko = 'Goldman'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Hauben'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Hauben'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cate' AND nazwisko = 'Blanchett'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cate' AND nazwisko = 'Blanchett'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tilda' AND nazwisko = 'Swinton'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tilda' AND nazwisko = 'Swinton'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Ormond'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Ormond'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mahershala' AND nazwisko = 'Ali'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mahershala' AND nazwisko = 'Ali'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Harris'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elias' AND nazwisko = 'Koteas'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robin' AND nazwisko = 'Swicord'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashton' AND nazwisko = 'Kutcher'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Amy' AND nazwisko = 'Smart'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Stoltz'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Stoltz'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elden' AND nazwisko = 'Henson'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ethan' AND nazwisko = 'Suplee'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ethan' AND nazwisko = 'Suplee'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cameron' AND nazwisko = 'Bright'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cameron' AND nazwisko = 'Bright'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'J.' AND nazwisko = 'Gruber'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'J.' AND nazwisko = 'Gruber'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Bress'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Carley'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bee' AND nazwisko = 'Vang'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bee' AND nazwisko = 'Vang'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Haley'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dreama' AND nazwisko = 'Walker'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lynch'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lynch'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Shelley' AND nazwisko = 'Duvall'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Lloyd'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Turkel'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Turkel'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Johnson'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Tautou'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jürgen' AND nazwisko = 'Prochnow'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Etienne' AND nazwisko = 'Chicot'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jamie' AND nazwisko = 'Foxx'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jamie' AND nazwisko = 'Foxx'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kerry' AND nazwisko = 'Washington'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Walton' AND nazwisko = 'Goggins'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Walton' AND nazwisko = 'Goggins'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dennis' AND nazwisko = 'Christopher'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dennis' AND nazwisko = 'Christopher'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Steen'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Carrey'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Laura' AND nazwisko = 'Linney'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Noah' AND nazwisko = 'Emmerich'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Natascha' AND nazwisko = 'McElhone'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Blair' AND nazwisko = 'Slater'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Krause'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Niccol'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christian' AND nazwisko = 'Bale'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Heath' AND nazwisko = 'Ledger'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Heath' AND nazwisko = 'Ledger'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Caine'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Caine'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Maggie' AND nazwisko = 'Gyllenhaal'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Maggie' AND nazwisko = 'Gyllenhaal'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Monique' AND nazwisko = 'Curnen'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Monique' AND nazwisko = 'Curnen'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Nolan'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'ODonnell'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'ODonnell'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Rebhorn'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Rebhorn'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gabrielle' AND nazwisko = 'Anwar'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Venture'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Venture'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Whitford'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rochelle' AND nazwisko = 'Oliver'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Brest'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Matthew' AND nazwisko = 'Broderick'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Moira' AND nazwisko = 'Kelly'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Nathan' AND nazwisko = 'Lane'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ernie' AND nazwisko = 'Sabella'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ernie' AND nazwisko = 'Sabella'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Minkoff'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Linda' AND nazwisko = 'Woolverton'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlize' AND nazwisko = 'Theron'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Jones'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Jones'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Judith' AND nazwisko = 'Ivey'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Craig' AND nazwisko = 'Nelson'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Craig' AND nazwisko = 'Nelson'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tamara' AND nazwisko = 'Tunie'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Taylor' AND nazwisko = 'Hackford'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Gilroy'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Hugh' AND nazwisko = 'Jackman'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rebecca' AND nazwisko = 'Hall'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rebecca' AND nazwisko = 'Hall'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Samantha' AND nazwisko = 'Mahurin'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Samantha' AND nazwisko = 'Mahurin'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andy' AND nazwisko = 'Serkis'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andy' AND nazwisko = 'Serkis'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Asa' AND nazwisko = 'Butterfield'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zac' AND nazwisko = 'OBrien'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zac' AND nazwisko = 'OBrien'), 'Polska');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Vera' AND nazwisko = 'Farmiga'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Thewlis'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Thewlis'), 'Nowa Zelandia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cara' AND nazwisko = 'Horgan'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'László' AND nazwisko = 'Áron'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'László' AND nazwisko = 'Áron'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Herman'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Herman'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonah' AND nazwisko = 'Hill'), 'Kanada');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Margot' AND nazwisko = 'Robbie'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Margot' AND nazwisko = 'Robbie'), 'Maroko');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kyle' AND nazwisko = 'Chandler'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kyle' AND nazwisko = 'Chandler'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Reiner'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Favreau'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Dujardin'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Dujardin'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alice' AND nazwisko = 'Braga'), 'Malta');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alice' AND nazwisko = 'Braga'), 'Australia');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Salli' AND nazwisko = 'Richardson-Whitfield'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Paradox' AND nazwisko = 'Pollack'), 'Niemcy');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'April' AND nazwisko = 'Grace'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Steve' AND nazwisko = 'Cirbus'), 'Francja');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Lawrence'), 'USA');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Protosevich'), 'Wielka Brytania');
-INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Protosevich'), 'Australia');
+INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hanks'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Hanks'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Jeter'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Jeter'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Graham' AND nazwisko = 'Greene'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Graham' AND nazwisko = 'Greene'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Doug' AND nazwisko = 'Hutchison'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Doug' AND nazwisko = 'Hutchison'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Darabont'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Darabont'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Robbins'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Robbins'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Gunton'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Sadler'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Sadler'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gil' AND nazwisko = 'Bellows'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gil' AND nazwisko = 'Bellows'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Whitmore'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Whitmore'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Larry' AND nazwisko = 'Brandenburg'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Larry' AND nazwisko = 'Brandenburg'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Sinise'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Humphreys'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Zemeckis'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Zemeckis'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Roth'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Reno'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Reno'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gary' AND nazwisko = 'Oldman'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Natalie' AND nazwisko = 'Portman'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Natalie' AND nazwisko = 'Portman'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Aiello'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Appel'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Appel'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Don' AND nazwisko = 'Creech'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Luc' AND nazwisko = 'Besson'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Luc' AND nazwisko = 'Besson'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ellen' AND nazwisko = 'Burstyn'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ellen' AND nazwisko = 'Burstyn'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Leto'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'McDonald'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'McDonald'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Louise' AND nazwisko = 'Lasser'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Louise' AND nazwisko = 'Lasser'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Keith' AND nazwisko = 'David'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Gullette'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Gullette'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Foster'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Pantoliano'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marcus' AND nazwisko = 'Chong'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julian' AND nazwisko = 'Arahanga'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lilly' AND nazwisko = 'Wachowski'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodie' AND nazwisko = 'Foster'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Levine'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kasi' AND nazwisko = 'Lemmons'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Wrentz'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Wrentz'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Glenn'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Glenn'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frankie' AND nazwisko = 'Faison'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frankie' AND nazwisko = 'Faison'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Demme'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Russell' AND nazwisko = 'Crowe'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joaquin' AND nazwisko = 'Phoenix'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Connie' AND nazwisko = 'Nielsen'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Connie' AND nazwisko = 'Nielsen'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Oliver' AND nazwisko = 'Reed'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Oliver' AND nazwisko = 'Reed'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Djimon' AND nazwisko = 'Hounsou'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Harris'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Harris'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Schofield'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Shrapnel'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ridley' AND nazwisko = 'Scott'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Franzoni'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Logan'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Logan'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Worthington'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Worthington'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zoe' AND nazwisko = 'Saldaña'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zoe' AND nazwisko = 'Saldaña'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Stephen' AND nazwisko = 'Lang'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Stephen' AND nazwisko = 'Lang'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Giovanni' AND nazwisko = 'Ribisi'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Giovanni' AND nazwisko = 'Ribisi'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joel' AND nazwisko = 'Moore'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Studi'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Studi'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Cameron'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eddie' AND nazwisko = 'Murphy'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lithgow'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lithgow'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bobby' AND nazwisko = 'Block'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Cummings'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Cummings'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Guillaume' AND nazwisko = 'Aretos'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Adamson'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Adamson'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Vicky' AND nazwisko = 'Jenson'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Burns'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Burns'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Barry' AND nazwisko = 'Pepper'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Vin' AND nazwisko = 'Diesel'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Vin' AND nazwisko = 'Diesel'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Steven' AND nazwisko = 'Spielberg'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Norton'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Edward' AND nazwisko = 'Norton'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Pitt'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Pitt'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Meat' AND nazwisko = 'Loaf'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Fincher'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jim' AND nazwisko = 'Uhls'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Travolta'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Travolta'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Uma' AND nazwisko = 'Thurman'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Harvey' AND nazwisko = 'Keitel'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Harvey' AND nazwisko = 'Keitel'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ving' AND nazwisko = 'Rhames'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tim' AND nazwisko = 'Roth'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Amanda' AND nazwisko = 'Plummer'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Quentin' AND nazwisko = 'Tarantino'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Quentin' AND nazwisko = 'Tarantino'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Leonardo' AND nazwisko = 'DiCaprio'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Leonardo' AND nazwisko = 'DiCaprio'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Zane'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kathy' AND nazwisko = 'Bates'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kathy' AND nazwisko = 'Bates'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frances' AND nazwisko = 'Fisher'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Stuart'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gloria' AND nazwisko = 'Stuart'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Paxton'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bernard' AND nazwisko = 'Hill'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bernard' AND nazwisko = 'Hill'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Warner'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Cluzet'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Cluzet'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Fleurot'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Fleurot'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Clotilde' AND nazwisko = 'Mollet'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alba' AND nazwisko = 'Bellugi'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alba' AND nazwisko = 'Bellugi'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cyril' AND nazwisko = 'Mendy'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivier' AND nazwisko = 'Nakache'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivier' AND nazwisko = 'Nakache'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Éric' AND nazwisko = 'Toledano'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Éric' AND nazwisko = 'Toledano'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Brando'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marlon' AND nazwisko = 'Brando'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Pacino'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Caan'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Duvall'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Duvall'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sterling' AND nazwisko = 'Hayden'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Conte'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Al' AND nazwisko = 'Lettieri'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joseph' AND nazwisko = 'Gordon-Levitt'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joseph' AND nazwisko = 'Gordon-Levitt'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elliot' AND nazwisko = 'Page'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elliot' AND nazwisko = 'Page'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Watanabe'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Watanabe'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dileep' AND nazwisko = 'Rao'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dileep' AND nazwisko = 'Rao'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Berenger'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tom' AND nazwisko = 'Berenger'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Ruffalo'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Ruffalo'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ben' AND nazwisko = 'Kingsley'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ben' AND nazwisko = 'Kingsley'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Max' AND nazwisko = 'Sydow'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Williams'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michelle' AND nazwisko = 'Williams'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jackie' AND nazwisko = 'Haley'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jackie' AND nazwisko = 'Haley'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Scorsese'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Martin' AND nazwisko = 'Scorsese'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Laeta' AND nazwisko = 'Kalogridis'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Laeta' AND nazwisko = 'Kalogridis'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gwyneth' AND nazwisko = 'Paltrow'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kevin' AND nazwisko = 'Spacey'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kevin' AND nazwisko = 'Spacey'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Zacapa'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Zacapa'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Cassini'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Mack'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bob' AND nazwisko = 'Mack'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Crombie'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Walker'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Walker'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Toni' AND nazwisko = 'Collette'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olivia' AND nazwisko = 'Williams'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Donnie' AND nazwisko = 'Wahlberg'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Glenn' AND nazwisko = 'Fitzgerald'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Glenn' AND nazwisko = 'Fitzgerald'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Trevor' AND nazwisko = 'Morgan'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Trevor' AND nazwisko = 'Morgan'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jodi' AND nazwisko = 'Dawson'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'M.' AND nazwisko = 'Shyamalan'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Adrien' AND nazwisko = 'Brody'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Emilia' AND nazwisko = 'Fox'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Maureen' AND nazwisko = 'Lipman'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Julia' AND nazwisko = 'Rayner'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Valentine' AND nazwisko = 'Pelka'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Valentine' AND nazwisko = 'Pelka'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Finlay'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Frank' AND nazwisko = 'Finlay'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Roman' AND nazwisko = 'Polański'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Roman' AND nazwisko = 'Polański'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ronald' AND nazwisko = 'Harwood'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sean' AND nazwisko = 'Astin'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Billy' AND nazwisko = 'Boyd'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dominic' AND nazwisko = 'Monaghan'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dominic' AND nazwisko = 'Monaghan'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'Holm'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Viggo' AND nazwisko = 'Mortensen'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Viggo' AND nazwisko = 'Mortensen'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'McKellen'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ian' AND nazwisko = 'McKellen'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Liv' AND nazwisko = 'Tyler'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Orlando' AND nazwisko = 'Bloom'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Fran' AND nazwisko = 'Walsh'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Fran' AND nazwisko = 'Walsh'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Johnny' AND nazwisko = 'Depp'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Geoffrey' AND nazwisko = 'Rush'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Geoffrey' AND nazwisko = 'Rush'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jack' AND nazwisko = 'Davenport'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Pryce'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Pryce'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lee' AND nazwisko = 'Arenberg'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lee' AND nazwisko = 'Arenberg'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mackenzie' AND nazwisko = 'Crook'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gore' AND nazwisko = 'Verbinski'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Gore' AND nazwisko = 'Verbinski'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Elliott'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ted' AND nazwisko = 'Elliott'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Terry' AND nazwisko = 'Rossio'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Cooper'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zach' AND nazwisko = 'Galifianakis'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zach' AND nazwisko = 'Galifianakis'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Justin' AND nazwisko = 'Bartha'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Tambor'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Tambor'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Jeong'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ken' AND nazwisko = 'Jeong'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sondra' AND nazwisko = 'Currie'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sondra' AND nazwisko = 'Currie'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Todd' AND nazwisko = 'Phillips'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Lucas'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eli' AND nazwisko = 'Roth'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Fassbender'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Fassbender'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Diane' AND nazwisko = 'Kruger'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Daniel' AND nazwisko = 'Brühl'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Til' AND nazwisko = 'Schweiger'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Will' AND nazwisko = 'Smith'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rosario' AND nazwisko = 'Dawson'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rosario' AND nazwisko = 'Dawson'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Ealy'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Ealy'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robinne' AND nazwisko = 'Lee'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Nunez'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Nunez'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bill' AND nazwisko = 'Smitrovich'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Grant' AND nazwisko = 'Nieporte'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Liam' AND nazwisko = 'Neeson'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Sagall'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Mucha'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jacek' AND nazwisko = 'Wójcicki'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jacek' AND nazwisko = 'Wójcicki'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ed' AND nazwisko = 'Harris'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Josh' AND nazwisko = 'Lucas'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Gray-Stanford'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jason' AND nazwisko = 'Gray-Stanford'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Akiva' AND nazwisko = 'Goldsman'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dev' AND nazwisko = 'Patel'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dev' AND nazwisko = 'Patel'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Freida' AND nazwisko = 'Pinto'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Freida' AND nazwisko = 'Pinto'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Madhur' AND nazwisko = 'Mittal'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Madhur' AND nazwisko = 'Mittal'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anil' AND nazwisko = 'Kapoor'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Irrfan' AND nazwisko = 'Khan'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ayush' AND nazwisko = 'Khedekar'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rubina' AND nazwisko = 'Ali'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rubina' AND nazwisko = 'Ali'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Simon' AND nazwisko = 'Beaufoy'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Yelena' AND nazwisko = 'Popovic'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Duhamel'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'François' AND nazwisko = 'Duhamel'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jennifer' AND nazwisko = 'Choe'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashley' AND nazwisko = 'Trefger'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ashley' AND nazwisko = 'Trefger'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kaitlyn' AND nazwisko = 'Gainer'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Jr.'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Jr.'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jerzy' AND nazwisko = 'Stuhr'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olgierd' AND nazwisko = 'Łukaszewicz'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Olgierd' AND nazwisko = 'Łukaszewicz'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Beata' AND nazwisko = 'Tyszkiewicz'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ryszarda' AND nazwisko = 'Hanin'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ryszarda' AND nazwisko = 'Hanin'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Annette' AND nazwisko = 'Bening'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Thora' AND nazwisko = 'Birch'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Bentley'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Wes' AND nazwisko = 'Bentley'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'Cooper'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'Cooper'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Allison' AND nazwisko = 'Janney'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Bakula'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Scott' AND nazwisko = 'Bakula'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Mendes'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Sam' AND nazwisko = 'Mendes'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alan' AND nazwisko = 'Ball'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Kondrat'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Janina' AND nazwisko = 'Traczykówna'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anna' AND nazwisko = 'Muszyńska'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bogusław' AND nazwisko = 'Sar'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Barbara' AND nazwisko = 'Poznański'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Barbara' AND nazwisko = 'Poznański'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Marek' AND nazwisko = 'Koterski'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brad' AND nazwisko = 'Dourif'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'DeVito'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'DeVito'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Lloyd'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Lloyd'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Redfield'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Miloš' AND nazwisko = 'Forman'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Miloš' AND nazwisko = 'Forman'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bo' AND nazwisko = 'Goldman'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Hauben'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Lawrence' AND nazwisko = 'Hauben'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jared' AND nazwisko = 'Harris'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Stoltz'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Stoltz'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'William' AND nazwisko = 'Scott'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elden' AND nazwisko = 'Henson'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Elden' AND nazwisko = 'Henson'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ethan' AND nazwisko = 'Suplee'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ethan' AND nazwisko = 'Suplee'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Logan' AND nazwisko = 'Lerman'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Amedori'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Eric' AND nazwisko = 'Bress'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Carley'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Christopher' AND nazwisko = 'Carley'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bee' AND nazwisko = 'Vang'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Haley'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Geraldine' AND nazwisko = 'Hughes'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Geraldine' AND nazwisko = 'Hughes'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dreama' AND nazwisko = 'Walker'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'John' AND nazwisko = 'Lynch'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Nick' AND nazwisko = 'Schenk'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Shelley' AND nazwisko = 'Duvall'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Shelley' AND nazwisko = 'Duvall'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Danny' AND nazwisko = 'Lloyd'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Barry' AND nazwisko = 'Nelson'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Joe' AND nazwisko = 'Turkel'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Jackson'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Anne' AND nazwisko = 'Jackson'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Burton'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Burton'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Tautou'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Audrey' AND nazwisko = 'Tautou'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alfred' AND nazwisko = 'Molina'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alfred' AND nazwisko = 'Molina'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kerry' AND nazwisko = 'Washington'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kerry' AND nazwisko = 'Washington'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Walton' AND nazwisko = 'Goggins'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Remar'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Remar'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Dennis' AND nazwisko = 'Christopher'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Steen'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Laura' AND nazwisko = 'Linney'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Noah' AND nazwisko = 'Emmerich'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Noah' AND nazwisko = 'Emmerich'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Natascha' AND nazwisko = 'McElhone'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Natascha' AND nazwisko = 'McElhone'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Holland' AND nazwisko = 'Taylor'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Delate'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Brian' AND nazwisko = 'Delate'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Blair' AND nazwisko = 'Slater'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Krause'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Peter' AND nazwisko = 'Weir'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Niccol'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Andrew' AND nazwisko = 'Niccol'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Heath' AND nazwisko = 'Ledger'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Michael' AND nazwisko = 'Caine'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Monique' AND nazwisko = 'Curnen'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Nolan'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Nolan'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'ODonnell'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Chris' AND nazwisko = 'ODonnell'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Rebhorn'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Philip' AND nazwisko = 'Hoffman'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Philip' AND nazwisko = 'Hoffman'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Richard' AND nazwisko = 'Venture'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Whitford'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Bradley' AND nazwisko = 'Whitford'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Moira' AND nazwisko = 'Kelly'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Jones'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'James' AND nazwisko = 'Jones'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeremy' AND nazwisko = 'Irons'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Nathan' AND nazwisko = 'Lane'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Nathan' AND nazwisko = 'Lane'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Ernie' AND nazwisko = 'Sabella'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Niketa' AND nazwisko = 'Calame'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Guillaume'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Robert' AND nazwisko = 'Guillaume'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Allers'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Roger' AND nazwisko = 'Allers'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Linda' AND nazwisko = 'Woolverton'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Linda' AND nazwisko = 'Woolverton'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlize' AND nazwisko = 'Theron'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlize' AND nazwisko = 'Theron'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Jones'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jeffrey' AND nazwisko = 'Jones'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Judith' AND nazwisko = 'Ivey'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Craig' AND nazwisko = 'Nelson'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Craig' AND nazwisko = 'Nelson'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Taylor' AND nazwisko = 'Hackford'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Gilroy'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Tony' AND nazwisko = 'Gilroy'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jonathan' AND nazwisko = 'Lemkin'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Scarlett' AND nazwisko = 'Johansson'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rebecca' AND nazwisko = 'Hall'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rebecca' AND nazwisko = 'Hall'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Samantha' AND nazwisko = 'Mahurin'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Samantha' AND nazwisko = 'Mahurin'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Asa' AND nazwisko = 'Butterfield'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Zac' AND nazwisko = 'OBrien'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Henry' AND nazwisko = 'Kingsmill'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Henry' AND nazwisko = 'Kingsmill'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Thewlis'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'David' AND nazwisko = 'Thewlis'), 'Wielka Brytania'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cara' AND nazwisko = 'Horgan'), 'Kanada'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Cara' AND nazwisko = 'Horgan'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Amber' AND nazwisko = 'Beattie'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Amber' AND nazwisko = 'Beattie'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'László' AND nazwisko = 'Áron'), 'Francja'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Mark' AND nazwisko = 'Herman'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Margot' AND nazwisko = 'Robbie'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Margot' AND nazwisko = 'Robbie'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Matthew' AND nazwisko = 'McConaughey'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kyle' AND nazwisko = 'Chandler'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Kyle' AND nazwisko = 'Chandler'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Rob' AND nazwisko = 'Reiner'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Bernthal'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jon' AND nazwisko = 'Favreau'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Dujardin'), 'Niemcy'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Jean' AND nazwisko = 'Dujardin'), 'Australia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Terence' AND nazwisko = 'Winter'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Alice' AND nazwisko = 'Braga'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Salli' AND nazwisko = 'Richardson-Whitfield'), 'Polska'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Salli' AND nazwisko = 'Richardson-Whitfield'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlie' AND nazwisko = 'Tahan'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Charlie' AND nazwisko = 'Tahan'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Paradox' AND nazwisko = 'Pollack'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Paradox' AND nazwisko = 'Pollack'), 'Malta'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'April' AND nazwisko = 'Grace'), 'USA'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'April' AND nazwisko = 'Grace'), 'Nowa Zelandia'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Steve' AND nazwisko = 'Cirbus'), 'Maroko'),
+((SELECT id FROM pracownicy_filmowi WHERE imie = 'Francis' AND nazwisko = 'Lawrence'), 'Wielka Brytania');
 
-INSERT INTO gatunki (nazwa) VALUES ('Kryminał');
-INSERT INTO gatunki (nazwa) VALUES ('Dramat');
-INSERT INTO gatunki (nazwa) VALUES ('Komedia');
-INSERT INTO gatunki (nazwa) VALUES ('Thriller');
-INSERT INTO gatunki (nazwa) VALUES ('Psychologiczny');
-INSERT INTO gatunki (nazwa) VALUES ('Komedia kryminalna');
-INSERT INTO gatunki (nazwa) VALUES ('Melodramat');
-INSERT INTO gatunki (nazwa) VALUES ('Animacja');
-INSERT INTO gatunki (nazwa) VALUES ('Dramat historyczny');
-INSERT INTO gatunki (nazwa) VALUES ('Akcja');
-INSERT INTO gatunki (nazwa) VALUES ('Sci-Fi');
-INSERT INTO gatunki (nazwa) VALUES ('Horror');
-INSERT INTO gatunki (nazwa) VALUES ('Western');
-INSERT INTO gatunki (nazwa) VALUES ('Fantasy');
-INSERT INTO gatunki (nazwa) VALUES ('Wojenny');
-INSERT INTO gatunki (nazwa) VALUES ('Gangsterski');
-INSERT INTO gatunki (nazwa) VALUES ('Biograficzny');
-INSERT INTO gatunki (nazwa) VALUES ('Przygodowy');
-INSERT INTO gatunki (nazwa) VALUES ('Familijny');
-INSERT INTO gatunki (nazwa) VALUES ('Katastroficzny');
-INSERT INTO gatunki (nazwa) VALUES ('Surrealistyczny');
+INSERT INTO gatunki (nazwa) VALUES
+('Wojenny'),
+('Psychologiczny'),
+('Horror'),
+('Fantasy'),
+('Dramat historyczny'),
+('Thriller'),
+('Katastroficzny'),
+('Sci-Fi'),
+('Biograficzny'),
+('Surrealistyczny'),
+('Komedia'),
+('Dramat'),
+('Komedia kryminalna'),
+('Western'),
+('Kryminał'),
+('Akcja'),
+('Gangsterski'),
+('Przygodowy'),
+('Animacja'),
+('Melodramat'),
+('Familijny');
 
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'Kryminał');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'Akcja');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'Dramat historyczny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'Animacja');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'Familijny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'Wojenny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'Psychologiczny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'Gangsterski');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'Melodramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'Katastroficzny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Biograficzny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'Gangsterski');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Surrealistyczny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'Kryminał');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Biograficzny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Wojenny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'Fantasy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'Przygodowy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'Przygodowy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'Fantasy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'Wojenny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'Wojenny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'Biograficzny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Psychologiczny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'Psychologiczny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'Fantasy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'Melodramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'Horror');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Django'), 'Western');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'Komedia');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'Akcja');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'Sci-Fi');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'Animacja');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'Familijny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'Thriller');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'Dramat');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'Wojenny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'Biograficzny');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'Komedia kryminalna');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'Fantasy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'Przygodowy');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'Horror');
-INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'Sci-Fi');
+INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES
+((SELECT id FROM filmy WHERE tytul = 'Zielona mila'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Skazani na Shawshank'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Forrest Gump'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Leon zawodowiec'), 'Kryminał'),
+((SELECT id FROM filmy WHERE tytul = 'Requiem dla snu'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'Akcja'),
+((SELECT id FROM filmy WHERE tytul = 'Matrix'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Milczenie owiec'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Gladiator'), 'Dramat historyczny'),
+((SELECT id FROM filmy WHERE tytul = 'Avatar'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'Animacja'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'Familijny'),
+((SELECT id FROM filmy WHERE tytul = 'Shrek'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Szeregowiec Ryan'), 'Wojenny'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Podziemny krąg'), 'Psychologiczny'),
+((SELECT id FROM filmy WHERE tytul = 'Pulp Fiction'), 'Gangsterski'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'Melodramat'),
+((SELECT id FROM filmy WHERE tytul = 'Titanic'), 'Katastroficzny'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Biograficzny'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Nietykalni'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Ojciec chrzestny'), 'Gangsterski'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Surrealistyczny'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Incepcja'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Wyspa tajemnic'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'Kryminał'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Szósty zmysł'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Biograficzny'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Pianista'), 'Wojenny'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'Fantasy'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Drużyna Pierścienia'), 'Przygodowy'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'Przygodowy'),
+((SELECT id FROM filmy WHERE tytul = 'Piraci z Karaibów: Klątwa Czarnej Perły'), 'Fantasy'),
+((SELECT id FROM filmy WHERE tytul = 'Kac Vegas'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Bękarty wojny'), 'Wojenny'),
+((SELECT id FROM filmy WHERE tytul = 'Siedem dusz'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Lista Schindlera'), 'Wojenny'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'Biograficzny'),
+((SELECT id FROM filmy WHERE tytul = 'Piękny umysł'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Slumdog. Milioner z ulicy'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Cast Away - poza światem'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Seksmisja'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'American Beauty'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Dzień świra'), 'Psychologiczny'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Lot nad kukułczym gniazdem'), 'Psychologiczny'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'Fantasy'),
+((SELECT id FROM filmy WHERE tytul = 'Ciekawy przypadek Benjamina Buttona'), 'Melodramat'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Efekt motyla'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Gran Torino'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Lśnienie'), 'Horror'),
+((SELECT id FROM filmy WHERE tytul = 'Kod da Vinci'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Django'), 'Western'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'Komedia'),
+((SELECT id FROM filmy WHERE tytul = 'Truman Show'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'Akcja'),
+((SELECT id FROM filmy WHERE tytul = 'Mroczny Rycerz'), 'Sci-Fi'),
+((SELECT id FROM filmy WHERE tytul = 'Zapach kobiety'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'Animacja'),
+((SELECT id FROM filmy WHERE tytul = 'Król Lew'), 'Familijny'),
+((SELECT id FROM filmy WHERE tytul = 'Adwokat diabła'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Prestiż'), 'Thriller'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'Dramat'),
+((SELECT id FROM filmy WHERE tytul = 'Chłopiec w pasiastej piżamie'), 'Wojenny'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'Biograficzny'),
+((SELECT id FROM filmy WHERE tytul = 'Wilk z Wall Street'), 'Komedia kryminalna'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'Fantasy'),
+((SELECT id FROM filmy WHERE tytul = 'Władca Pierścieni: Powrót króla'), 'Przygodowy'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'Horror'),
+((SELECT id FROM filmy WHERE tytul = 'Jestem legendą'), 'Sci-Fi');
 
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('wolochkacper@example.com', 'Nowa Zelandia');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('kamykolgierd@example.org', 'Maroko');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('pudelekmalwina@example.com', 'Niemcy');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('milosz08@example.com', 'Australia');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('kkrokosz@example.org', 'Maroko');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('kamilakomperda@example.org', 'Polska');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('paweljuras@example.com', 'Wielka Brytania');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('julita50@example.com', 'Niemcy');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('durczoktola@example.org', 'Nowa Zelandia');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('nieradzikmikolaj@example.com', 'USA');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('ggaudyn@example.org', 'USA');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('dirzyk@example.com', 'Kanada');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('dominiknoculak@example.org', 'Malta');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('tobiasz41@example.org', 'Niemcy');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('fbanek@example.net', 'Niemcy');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('lrogula@example.org', 'Kanada');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('aleks51@example.net', 'Wielka Brytania');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('gszumny@example.com', 'Francja');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('dorobamelania@example.net', 'USA');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('suszkoanita@example.com', 'Wielka Brytania');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('hajderaleks@example.net', 'Australia');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('bartek62@example.net', 'Polska');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('hrebis@example.org', 'Malta');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('xmecik@example.org', 'Wielka Brytania');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('juliannapuc@example.org', 'Malta');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('alandaniec@example.org', 'Kanada');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('sebastiankups@example.org', 'Francja');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('palegaantoni@example.org', 'Nowa Zelandia');
-INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('ssterna@example.net', 'Kanada');
-
+INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES
+('kornel89@example.net', 'Nowa Zelandia'),
+('idziduch@example.net', 'Maroko'),
+('jpreuss@example.net', 'Francja'),
+('prokurateryk@example.org', 'Polska'),
+('isibiga@example.org', 'Malta'),
+('alex16@example.net', 'Niemcy'),
+('zbogusiewicz@example.org', 'USA'),
+('ckapinos@example.com', 'Australia'),
+('oliwierborak@example.com', 'Kanada'),
+('kostorzangelika@example.net', 'Wielka Brytania'),
+('jedrzejsporek@example.com', 'Kanada'),
+('kornel12@example.org', 'Wielka Brytania'),
+('buczmakornel@example.net', 'Polska'),
+('machonaniela@example.com', 'Niemcy'),
+('ikolaczek@example.org', 'Niemcy'),
+('dorotacalik@example.com', 'Maroko'),
+('krystiansiwczak@example.net', 'Polska'),
+('engelangelika@example.net', 'Malta'),
+('anitaimiolczyk@example.com', 'Niemcy'),
+('egwara@example.com', 'Polska'),
+('vtowarek@example.org', 'Nowa Zelandia'),
+('tomalikrozalia@example.org', 'Wielka Brytania'),
+('sebastianrej@example.org', 'Australia'),
+('gieronpawel@example.com', 'Australia'),
+('gabriel36@example.org', 'Wielka Brytania'),
+('konstantyfolga@example.net', 'Francja'),
+('leonardjarmuzek@example.com', 'Malta'),
+('robertduzy@example.org', 'Nowa Zelandia'),
+('marikabugla@example.org', 'Francja');

@@ -329,86 +329,109 @@ with open("insert_scraper.sql", "w+", encoding="utf-8") as f:
   f.truncate()
   f.write(";\n\n")
   
-
-  template = """INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) SELECT id, '{}' FROM filmy WHERE tytul = '{}'"""
+  f.write("INSERT INTO wyprodukowano_film_w (filmy_id, kraje_nazwa) VALUES \n")
+  template = """((SELECT id FROM filmy WHERE tytul = '{}'), '{}')"""
   for movie in movies:
     for kraj in movie['kraje']:
-      f.write(template.format(kraj, movie['tytul']))
-      f.write(";\n")
-      
-  f.write("\n")
-      
-  template = """INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) SELECT id, '{}', {}, {} FROM filmy WHERE tytul = '{}'"""
-  for rating in ratings:
-    f.write(template.format(rating['uzytkownicy_platformy_email'], rating['ocena'], (rating['recenzja'] or 'NULL').replace("\n", ""), rating['filmy_tytul']))
-    f.write(";\n")
-
-  f.write("\n")
+      f.write(template.format(movie['tytul'], kraj))
+      f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES ('{}', '{}', {})"""
+  f.write("INSERT INTO oceny (filmy_id, uzytkownicy_platformy_email, ocena, recenzja) VALUES\n")
+  template = """((SELECT id FROM filmy WHERE tytul = '{}'), '{}', {}, {})"""
+  for rating in ratings:
+    f.write(template.format(rating['filmy_tytul'], rating['uzytkownicy_platformy_email'], rating['ocena'], (rating['recenzja'] or 'NULL').replace("\n", "")))
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
+  
+  f.write("INSERT INTO krytycy_filmowi (uzytkownicy_platformy_email, data_przyznania_statusu_krytyka, data_odebrania_statusu_krytyka) VALUES\n")
+  template = """('{}', '{}', {})"""
   for critic in critics:
     f.write(template.format(critic['email'], critic['start_date'], (f"'{critic['end_date']}'" if critic['end_date'] is not None else 'NULL')))
-    f.write(";\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  f.write("\n")
-  
-  template = """INSERT INTO obejrzane_tytuly (uzytkownicy_platformy_email, filmy_id, czas) SELECT '{}', id, {} FROM filmy WHERE tytul = '{}'"""
+  f.write("INSERT INTO obejrzane_tytuly (filmy_id, uzytkownicy_platformy_email, czas) VALUES\n")
+  template = """((SELECT id FROM filmy WHERE tytul = '{}'), '{}', {})"""
   for watched_movie in watched_movies:
-    f.write(template.format(watched_movie['uzytkownicy_platformy_email'], watched_movie['czas'], watched_movie['filmy_tytul']))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(template.format(watched_movie['filmy_tytul'], watched_movie['uzytkownicy_platformy_email'], watched_movie['czas']))
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES ('{}', {}, '{}')"""
+  f.write("INSERT INTO certyfikaty_wiekowe (nazwa, wiek, kraje_nazwa) VALUES\n")
+  template = """('{}', {}, '{}')"""
   for certificate in age_certificates:
     f.write(template.format(certificate['nazwa'], certificate['wiek'], certificate['kraje_nazwa']))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES ((SELECT id FROM filmy WHERE tytul = '{}'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '{}' AND kraje_nazwa = '{}' AND wiek = {}))"""
+  f.write("INSERT INTO posiadane_certyfikaty_wiekowe (filmy_id, certyfikaty_wiekowe_id) VALUES\n")
+  template = """((SELECT id FROM filmy WHERE tytul = '{}'), (SELECT id FROM certyfikaty_wiekowe WHERE nazwa = '{}' AND kraje_nazwa = '{}' AND wiek = {}))"""
   for owned_certificate in owned_certificates:
     f.write(template.format(owned_certificate['filmy_tytul'], owned_certificate['certyfikaty_nazwa'], owned_certificate['certyfikaty_kraje_nazwa'], owned_certificate['certyfikaty_wiek']))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES ('{}', '{}', '{}', {}, '{}')"""
+  f.write("INSERT INTO pracownicy_filmowi (imie, nazwisko, data_urodzenia, data_smierci, plec) VALUES\n")
+  template = """('{}', '{}', '{}', {}, '{}')"""
   for pracownik in pracownicy_filmowi:
     f.write(template.format(pracownik['imie'], pracownik['nazwisko'], pracownik['data_urodzenia'], (f"'{pracownik['data_smierci']}'" if pracownik['data_smierci'] is not None else 'NULL'), pracownik['plec']))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES ((SELECT id FROM filmy WHERE tytul = '{}'), (SELECT id FROM pracownicy_filmowi WHERE imie = '{}' AND nazwisko = '{}'), '{}')"""
+  f.write("INSERT INTO funkcje_w_filmie (filmy_id, pracownicy_filmowi_id, nazwa_funkcji) VALUES\n")
+  template = """((SELECT id FROM filmy WHERE tytul = '{}'), (SELECT id FROM pracownicy_filmowi WHERE imie = '{}' AND nazwisko = '{}'), '{}')"""
   for funkcja in funkcje_w_filmie:
     f.write(template.format(funkcja['filmy_tytul'], funkcja['pracownicy_imie'], funkcja['pracownicy_nazwisko'], funkcja['funkcja']))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES ((SELECT id FROM pracownicy_filmowi WHERE imie = '{}' AND nazwisko = '{}'), '{}')"""
+  f.write("INSERT INTO narodowosc (pracownicy_filmowi_id, kraje_nazwa) VALUES\n")
+  template = """((SELECT id FROM pracownicy_filmowi WHERE imie = '{}' AND nazwisko = '{}'), '{}')"""
   for narodowosc in narodowosci:
     for kraj in narodowosc['kraje_nazwa']:
       f.write(template.format(narodowosc['pracownicy_imie'], narodowosc['pracownicy_nazwisko'], kraj))
-      f.write(";\n")
-  f.write("\n")
+      f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO gatunki (nazwa) VALUES ('{}')"""
+  f.write("INSERT INTO gatunki (nazwa) VALUES\n")
+  template = """('{}')"""
   for gatunek in gatunki:
     f.write(template.format(gatunek))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
   
-  template = """INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES ((SELECT id FROM filmy WHERE tytul = '{}'), '{}')"""
+  f.write("INSERT INTO nalezace_gatunki (filmy_id, gatunki_nazwa) VALUES\n")
+  template = """((SELECT id FROM filmy WHERE tytul = '{}'), '{}')"""
   for nalezy_do_gatunku in nalezy_do_gatunku:
     f.write(template.format(nalezy_do_gatunku['filmy_tytul'], nalezy_do_gatunku['gatunki_nazwa']))
-    f.write(";\n")
-
-  f.write("\n")
-    
-  template = """INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES ('{}', '{}')"""
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n\n")
+  
+  f.write("INSERT INTO zalozono_w (uzytkownicy_platformy_email, kraje_nazwa) VALUES\n")
+  template = """('{}', '{}')"""
   for user in users:
     kraj = random.choice(kraje)
     if len(uzytkownicy_z_kraju) == 0:
@@ -416,9 +439,10 @@ with open("insert_scraper.sql", "w+", encoding="utf-8") as f:
     if kraj == kraj_zerowy:
       uzytkownicy_z_kraju.append(user)
     f.write(template.format(user['email'], kraj))
-    f.write(";\n")
-    
-  f.write("\n")
+    f.write(",\n")
+  f.seek(f.tell() - 3, 0)
+  f.truncate()
+  f.write(";\n")
   
 
 with open('update_scraper.sql', 'w+') as f:
