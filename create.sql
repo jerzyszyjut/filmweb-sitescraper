@@ -21,7 +21,7 @@ CREATE TABLE pracownicy_filmowi (
     nazwisko VARCHAR(255) NOT NULL,
     data_urodzenia DATE CHECK (data_urodzenia < GETDATE()) NOT NULL,
     data_smierci DATE CHECK (data_smierci < GETDATE()) NULL,
-    plec CHAR(1) NOT NULL,
+    plec CHAR(1) CHECK (plec like 'M' OR plec like 'K') NOT NULL,
     PRIMARY KEY (id)
 );
 CREATE TABLE kraje (
